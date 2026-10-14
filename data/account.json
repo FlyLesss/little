@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "capitalUsd": 1000,
+  "dailyProfitTargetUsd": 30,
+  "dailyTargetNote": "30 美元是本金的 3%。这是记账目标，不是每天都能做到的价格。常态波动下，基准结果经常是不成交或小赚。",
+  "accountType": "cash",
+  "settlement": "T+1",
+  "maxNewPositionsPerDay": 1,
+  "allowLeverageEtf": false,
+  "allowMargin": false,
+  "flatByEt": "15:40",
+  "preferWholeShares": true,
+  "universe": "高流动性美股科技股与纳指 ETF"
+}
