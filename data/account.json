@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "capitalUsd": 1000,
+  "cashUsd": 1000,
+  "openPosition": null,
+  "dailyProfitTargetUsd": 30,
+  "dailyTargetNote": "30 美元是本金的 3%。这是记账目标，不是每天都能做到的价格。常态波动下，基准结果经常是不成交或小赚。",
+  "accountType": "cash",
+  "settlement": "T+1",
+  "maxNewPositionsPerDay": 1,
+  "allowLeverageEtf": false,
+  "allowMargin": false,
+  "flatByEt": "15:40",
+  "preferWholeShares": true,
+  "universe": "高流动性美股科技股与纳指 ETF",
+  "asOf": "2026-10-15T03:52:00Z",
+  "asOfNote": "2026-10-14 的计划没有成交，现金仍按 1000 美元、空仓记录。2026-10-15 的有效计划改成收复 219.64 才买，不再使用 216.80 抄底单。"
+}

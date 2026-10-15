@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T10:22:43Z",
+  "sessionPhase": "premarket",
+  "regularSessionOpenEt": "09:30",
+  "status": "plan_only",
+  "filled": false,
+  "disclaimer": "这是按公开报价写出的条件计划，不是已成交记录，也不是收益承诺。盘后复核只补充已经公布的行情和 CPI，不把未下出的限价改写成成交。",
+  "account": {
+    "capitalUsd": 1000,
+    "dailyProfitTargetUsd": 30,
+    "buyingPowerForThisPlanUsd": 1000,
+    "cashLeftIfPrimaryFillsUsd": 100,
+    "cashLeftIfAlternateFillsUsd": 83.6
+  },
+  "quotes": {
+    "asOfNote": "常规交易尚未开始。以下为盘前或上一交易日收盘。",
+    "nvda": {
+      "symbol": "NVDA",
+      "previousClose": 228.52,
+      "previousCloseDate": "2026-10-13",
+      "previousChangeUsd": 2.2,
+      "previousChangePct": 0.97,
+      "priorClose": 226.32,
+      "session20261013": {
+        "open": 224.34,
+        "high": 228.64,
+        "low": 223.06,
+        "close": 228.52,
+        "volume": 84040000
+      },
+      "premarket": [
+        {
+          "price": 228.99,
+          "changeUsd": 0.47,
+          "changePct": 0.21,
+          "asOf": "2026-10-14T06:24:01-04:00",
+          "source": "Yahoo Finance"
+        },
+        {
+          "price": 228.9,
+          "changeUsd": 0.38,
+          "changePct": 0.17,
+          "asOf": "2026-10-14T06:22:00-04:00",
+          "source": "CNBC"
+        }
+      ],
+      "referencePremarket": 228.99,
+      "week52High": 243.37,
+      "week52HighDate": "2026-10-06"
+    },
+    "qqq": {
+      "symbol": "QQQ",
+      "previousClose": 743.57,
+      "previousCloseDate": "2026-10-13",
+      "previousChangeUsd": -2.47,
+      "previousChangePct": -0.33,
+      "session20261013": {
+        "open": 739.52,
+        "high": 744.2,
+        "low": 738.83,
+        "close": 743.57
+      },
+      "premarket": {
+        "price": 743.78,
+        "changeUsd": 0.21,
+        "changePct": 0.03,
+        "asOf": "2026-10-14T06:23:32-04:00",
+        "source": "Yahoo Finance"
+      }
+    },
+    "nqFutures": {
+      "contract": "Nasdaq-100 E-mini Dec 2026",
+      "tuesdaySettle": 30791.5,
+      "overnightHigh": 30891.5,
+      "overnightLow": 30705.25,
+      "snapshot": "截至美东约 6:00，纳指期货较周二结算略高于平盘。更早的盘面：CNBC 美东 3:30 报 30792.75，WSJ 美东约 3:07 报 30822。",
+      "sources": ["CNBC", "WSJ", "Yahoo Finance"]
+    }
+  },
+  "screen": [
+    {
+      "symbol": "NVDA",
+      "priceUsed": 228.99,
+      "priceBasis": "2026-10-14 盘前",
+      "maxWholeShares": 4,
+      "notionalUsd": 915.96,
+      "moveUsdNeededFor30": 7.5,
+      "movePctNeededFor30": 3.28,
+      "selected": true
+    },
+    {
+      "symbol": "AAPL",
+      "priceUsed": 341.27,
+      "priceBasis": "2026-10-13 收盘",
+      "maxWholeShares": 2,
+      "notionalUsd": 682.54,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 4.4,
+      "selected": false
+    },
+    {
+      "symbol": "MSFT",
+      "priceUsed": 543.45,
+      "priceBasis": "2026-10-13 收盘",
+      "maxWholeShares": 1,
+      "notionalUsd": 543.45,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 5.52,
+      "selected": false
+    },
+    {
+      "symbol": "AMD",
+      "priceUsed": 605.53,
+      "priceBasis": "2026-10-13 收盘",
+      "maxWholeShares": 1,
+      "notionalUsd": 605.53,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 4.95,
+      "selected": false
+    },
+    {
+      "symbol": "QQQ",
+      "priceUsed": 743.78,
+      "priceBasis": "2026-10-14 盘前",
+      "maxWholeShares": 1,
+      "notionalUsd": 743.78,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 4.03,
+      "selected": false
+    },
+    {
+      "symbol": "MU",
+      "priceUsed": 953.19,
+      "priceBasis": "2026-10-13 收盘",
+      "maxWholeShares": 0,
+      "notionalUsd": 0,
+      "moveUsdNeededFor30": null,
+      "movePctNeededFor30": null,
+      "selected": false,
+      "reason": "1 股已超过 1000 美元"
+    }
+  ],
+  "recommendation": {
+    "action": "conditional_limit_buy_or_flat",
+    "symbol": "NVDA",
+    "shares": 4,
+    "stance": "只做一笔多头，不成交就空仓。不追当前 229 附近的盘前价。",
+    "summary": "1000 美元里只有 NVDA 能买 4 股，仍是今天唯一算得过仓位的高流动性科技股。盘前约 228.99，只比周二收盘高 0.47 美元，纳指期货基本平盘。主计划是 CPI 落地并消化后，在 10:00–11:30 美东用 225.00 限价等回撤；第一卖出价 228.60，延伸卖出价 236.20。热 CPI 或 QQQ 失守 740.20 则撤单。"
+  },
+  "orders": {
+    "primary": {
+      "id": "2026-10-14-NVDA-pullback",
+      "role": "primary",
+      "symbol": "NVDA",
+      "side": "buy",
+      "orderType": "limit",
+      "shares": 4,
+      "buyLimit": 225.0,
+      "windowEt": {
+        "start": "10:00",
+        "end": "11:30"
+      },
+      "entryConditions": [
+        "9 月 CPI 已经公布，且 headline 同比不高于 3.7%、headline 环比不高于 0.7%、核心 CPI 环比不高于 0.3%",
+        "10:00 美东之后，价格先进入 224.50–225.50，并且没有跌破 223.10",
+        "QQQ 常规交易仍在 740.20 之上"
+      ],
+      "stop": 222.3,
+      "timeStopEt": "15:40",
+      "sells": [
+        {
+          "shares": 2,
+          "sellLimit": 228.6,
+          "role": "first_scale",
+          "note": "接近周二高点 228.64"
+        },
+        {
+          "shares": 2,
+          "sellLimit": 236.2,
+          "role": "stretch",
+          "note": "用来凑近 30 美元的延伸目标，不是基准预期"
+        }
+      ]
+    },
+    "alternate": {
+      "id": "2026-10-14-NVDA-hold-high",
+      "role": "alternate",
+      "enabledOnlyIf": "主计划到 11:30 仍未成交，且 CPI 不热",
+      "symbol": "NVDA",
+      "side": "buy",
+      "orderType": "limit",
+      "shares": 4,
+      "buyLimit": 229.1,
+      "entryConditions": [
+        "headline 同比不高于 3.6%，核心 CPI 环比不高于 0.2%",
+        "10:00 美东之后，价格在周二高点 228.64 之上连续守住 15 分钟",
+        "QQQ 仍在 740.20 之上"
+      ],
+      "stop": 226.8,
+      "timeStopEt": "15:40",
+      "sells": [
+        {
+          "shares": 2,
+          "sellLimit": 232.5,
+          "role": "first_scale"
+        },
+        {
+          "shares": 2,
+          "sellLimit": 236.6,
+          "role": "stretch"
+        }
+      ]
+    },
+    "doNot": [
+      "不在 9:30–10:00 美东追 CPI 公布后的第一段波动",
+      "不把盘前 228.90–228.99 当成买入价",
+      "不补仓，不在卖出后用同一笔资金再开第二笔",
+      "不用杠杆 ETF"
+    ]
+  },
+  "cancelConditions": [
+    "headline CPI 同比高于 3.7%，或环比高于 0.7%",
+    "核心 CPI 环比高于 0.3%",
+    "QQQ 常规交易跌破 740.20",
+    "NVDA 先跌破 223.10，主计划限价不再挂出",
+    "美东 11:30 主计划未成交，且备选的 15 分钟站稳条件也不成立"
+  ],
+  "predictedProfitUsd": {
+    "dailyTarget": 30,
+    "baseCase": 0,
+    "baseCaseReason": "盘前价格在 229 附近，主限价 225 需要大约 1.7% 的回撤。回撤不出现、或 CPI 过热，今天就是空仓。",
+    "primaryFirstScaleOnly": 7.2,
+    "primaryBothTargets": 29.6,
+    "primaryStop": -10.8,
+    "alternateFirstScaleOnly": 6.8,
+    "alternateBothTargets": 21.8,
+    "alternateAllSharesAt236_60": 30,
+    "math": {
+      "primaryCost": 900,
+      "primaryScale1": "2 股 × (228.60 - 225.00) = 7.20",
+      "primaryScale2": "2 股 × (236.20 - 225.00) = 22.40",
+      "primaryStopLoss": "4 股 × (225.00 - 222.30) = 10.80",
+      "alternateCost": 916.4,
+      "alternateScale1": "2 股 × (232.50 - 229.10) = 6.80",
+      "alternateScale2": "2 股 × (236.60 - 229.10) = 15.00",
+      "alternateStopLoss": "4 股 × (229.10 - 226.80) = 9.20"
+    },
+    "expectation": "基准预测盈利 0 美元。若主计划成交且只完成第一卖出目标，约 7.20 美元。29.60 美元要第二档 236.20 也成交，这是延伸情形。周二全天振幅只有 5.58 美元，单日走到 236 的概率低。"
+  },
+  "events": [
+    {
+      "timeEt": "08:30",
+      "name": "美国 9 月 CPI",
+      "status": "未公布",
+      "consensus": {
+        "headlineMom": 0.6,
+        "headlineYoy": 3.6,
+        "coreMom": 0.2,
+        "coreYoy": 2.5,
+        "priorHeadlineMom": 0.4,
+        "priorHeadlineYoy": 3.4,
+        "priorCoreMom": 0.3,
+        "priorCoreYoy": 2.4
+      },
+      "source": "Reuters、Investing.com、Yahoo Finance，均为公布前的共识，不是实际值"
+    },
+    {
+      "timeEt": "盘前",
+      "name": "ASML 2026 年三季报",
+      "status": "已公布",
+      "detail": "官方数据：销售额 117 亿欧元，净利润 50 亿欧元，毛利率 57.5%。四季度销售额指引 142–152 亿欧元，全年销售额指引 440–450 亿欧元，全年毛利率约 56%。Quartr 摘录的精确数为销售额 116.62 亿欧元、净利润 49.60 亿欧元。公司表示按现有计划，2027 和 2028 年的供应盖不住客户需求。Euronews 称阿姆斯特丹股价在欧洲时间约 10:00 上涨超过 3%。投资者电话会在美东 09:00。"
+    },
+    {
+      "timeEt": "盘前至盘中",
+      "name": "银行业绩",
+      "status": "进行中",
+      "detail": "周二银行股偏弱。周三仍有美国银行、摩根士丹利、贝莱德的业绩。Yahoo 盘前报道把这几家列为当天日历。"
+    },
+    {
+      "timeEt": "隔夜",
+      "name": "韩国股市反弹",
+      "status": "已发生",
+      "detail": "Yahoo 称韩国综合指数在此前五个交易日下跌约 12% 之后回升，芯片抛售有所缓和。"
+    },
+    {
+      "timeEt": "隔夜",
+      "name": "原油",
+      "status": "仍高",
+      "detail": "Yahoo 盘前报道称布伦特原油期货仍在每桶 105 美元之上。"
+    }
+  ],
+  "followUp": [
+    "下一笔记录先核对：225.00 有没有成交，224.50–225.50 有没有出现，223.10 和 222.30 有没有被打到",
+    "核对备选条件：10:00 之后有没有在 228.64 之上连续 15 分钟，229.10 有没有成交",
+    "写入 CPI 实际的 headline 与核心环比、同比；未公布前不要把共识写成实际值",
+    "写入 NVDA 与 QQQ 的常规交易开高低收，以及 228.60、232.50、236.20、236.60 有没有碰到",
+    "ASML 美东 09:00 电话会若改变需求表述，只记录原话要点，不据此在盘中加仓",
+    "周四关注台积电业绩；今天不交易 TSM",
+    "没有成交就保持空仓记录，不要把计划价写成买入价"
+  ],
+  "fills": [],
+  "postCloseReview": {
+    "reviewedAt": "2026-10-15T01:04:00Z",
+    "outcome": "no_fill_cancel_conditions_met",
+    "realizedProfitUsd": 0,
+    "positionAfterClose": null,
+    "note": "这是纸面计划的盘后核对，不是券商成交回报。账户仍记空仓，实现盈亏记 0。01:04 UTC 的复核只有日线。03:52 UTC 补了 Yahoo 5 分钟线，结论写在 intradayVerdict。",
+    "session": {
+      "source": "Yahoo Finance chart 日线，常规交易 2026-10-14",
+      "nvda": {
+        "open": 225.53,
+        "high": 226.0,
+        "low": 219.64,
+        "close": 221.3,
+        "volume": 117249000,
+        "priorClose": 228.52,
+        "changeUsd": -7.22,
+        "changePct": -3.16
+      },
+      "qqq": {
+        "open": 737.98,
+        "high": 740.53,
+        "low": 726.39,
+        "close": 728.95,
+        "volume": 51067700,
+        "priorClose": 743.57,
+        "changeUsd": -14.62,
+        "changePct": -1.97
+      },
+      "indexes": {
+        "spx": { "close": 7718.94, "changePct": -1.11 },
+        "nasdaqComposite": { "close": 26692.87, "changePct": -1.88 },
+        "dow": { "close": 51621.48, "changePct": -0.09 },
+        "vix": { "close": 16.87, "changePct": 10.48 }
+      }
+    },
+    "cpiActual": {
+      "status": "已公布",
+      "source": "CNBC、AP 对劳工统计局 9 月 CPI 的报道，2026-10-14",
+      "headlineMom": 0.6,
+      "headlineYoy": 3.7,
+      "coreMom": 0.3,
+      "coreYoy": 2.6,
+      "consensusHeadlineMom": 0.6,
+      "consensusHeadlineYoy": 3.6,
+      "consensusCoreMom": 0.2,
+      "consensusCoreYoy": 2.5,
+      "unroundedNote": "参议院联合经济委员会当月材料给出的未四舍五入读数是 headline 环比 0.65%、同比 3.74%，核心环比 0.33%、同比 2.56%。计划阈值按十分位书写，核对时用 CNBC/AP 的 3.7%、0.6%、0.3%、2.6%。"
+    },
+    "conditionCheck": [
+      {
+        "rule": "headline 同比高于 3.7% 或环比高于 0.7% 则撤销",
+        "result": "未触发。四舍五入后的 headline 为同比 3.7%、环比 0.6%，停在阈值上，没有高于阈值。"
+      },
+      {
+        "rule": "核心 CPI 环比高于 0.3% 则撤销",
+        "result": "未触发。核心环比 0.3%，高于共识 0.2%，但没有高于 0.3% 这条撤销线。"
+      },
+      {
+        "rule": "备选要求 headline 同比不高于 3.6%、核心环比不高于 0.2%",
+        "result": "备选失效。同比 3.7% 高于 3.6%，核心环比 0.3% 高于 0.2%。"
+      },
+      {
+        "rule": "QQQ 常规交易跌破 740.20 则撤销",
+        "result": "触发。QQQ 开盘 737.98，已经在 740.20 之下。全天高点 740.53，说明该价位盘中被碰到过，但开盘条件已经不成立。"
+      },
+      {
+        "rule": "NVDA 先跌破 223.10，主计划不再挂出",
+        "result": "触发。全日低点 219.64，同时低于止损 222.30。全日高点只有 226.00，第一卖出价 228.60 没有碰到。"
+      },
+      {
+        "rule": "10:00 之后在 228.64 之上守住 15 分钟才允许备选 229.10",
+        "result": "不成立。全日高点 226.00，低于 228.64。"
+      }
+    ],
+    "levelsTouched": {
+      "buyZone224_50_to_225_50": "10:00–10:20 的 5 分钟线就在 224.00–224.98。见 intradayVerdict。纸面计划没有成交。",
+      "sell228_60": false,
+      "sell232_50": false,
+      "sell236_20": false,
+      "sell236_60": false,
+      "stop222_30": true,
+      "break223_10": true
+    },
+    "otherCloses": {
+      "source": "Yahoo Finance 2026-10-14 常规交易收盘",
+      "AAPL": { "close": 342.96, "changePct": 0.5 },
+      "MSFT": { "close": 533.69, "changePct": -1.8 },
+      "AMD": { "close": 570.82, "changePct": -5.73 },
+      "MU": { "close": 914.13, "changePct": -4.08 },
+      "TSM": { "close": 430.0, "changePct": -3.4 },
+      "AVGO": { "close": 346.25, "changePct": -3.1 },
+      "SMH": { "close": 564.74, "changePct": -3.98 },
+      "ASML": { "close": 1650.0, "changePct": -3.94 }
+    },
+    "intradayVerdict": {
+      "reviewedAt": "2026-10-15T03:52:00Z",
+      "source": "Yahoo Finance 5 分钟线，2026-10-14",
+      "judgment": "结果对，思路只对了一半。空仓避开了大约 8.80 美元的止损亏损。真正拦住买单的是 QQQ 跌破 740.20，不是 CPI 阈值。",
+      "whatHeld": [
+        "不追盘前 229。常规交易高点 226.00 出现在 9:40，早于 10:00 的买入窗口，228.60 和 236.20 都没有碰到。",
+        "QQQ 过滤有效。8:30 的 CPI 5 分钟线最低 739.44，开盘 738.00。9:45 最高 740.53，只摸了一下 740.20 就失败。10:00 买入窗口里 QQQ 在 733–737。",
+        "备选 229.10 正确作废。全日没有站上 228.64。",
+        "基准预测 0 美元和最终空仓一致。止损如果被打到，也确实会在 11:40 附近成交，之后价格还到过 219.64。"
+      ],
+      "whatFailed": [
+        "CPI 撤销线用了“高于 3.7% / 高于 0.3%”。公布值正好落在线上，但已经热过共识（同比 3.6%、核心环比 0.2%）。市场从 8:30 就开始跌，这条规则没有撤单。",
+        "10:00–11:20，NVDA 价格条件是成立的：5 分钟线在 224–224.98，223.10 直到 11:20 才破（低点 223.02）。这不是稳住的回撤，而是跌破前的横盘。若没有 QQQ 过滤，225 的限价会在 10:00 立刻成交。",
+        "10:00 那根线开盘 224.43、最高 224.96；整个 10:00–11:30 最高 224.98。限价 225 是可以按约 224.50 成交的买单，不是一个还需要价格涨上去才成交的价。按 224.50 进、222.30 止损，4 股亏损约 8.80 美元。",
+        "第一卖出价 228.60 高于全天高点。30 美元目标把第二卖出价推到 236.20，和当天可能走到的价格无关。"
+      ],
+      "path": {
+        "cpiBar0830Nvda": { "open": 228.33, "high": 228.36, "low": 226.3, "close": 226.37 },
+        "cpiBar0830Qqq": { "open": 744.87, "high": 745.89, "low": 739.44, "close": 739.51 },
+        "regularHighBar0940Nvda": { "high": 226.0 },
+        "qqqOnlyTouchOf740_20": "09:45 高点 740.53，收盘 740.18",
+        "buyWindow1000Nvda": { "open": 224.43, "high": 224.96, "low": 224.38, "close": 224.75 },
+        "buyWindowHigh": 224.98,
+        "break223_10": "11:20 低点 223.02",
+        "stop222_30": "11:40 低点 222.21",
+        "sessionLow": "15:05 低点 219.64",
+        "counterfactualIfQqqFilterIgnored": "约 224.50 买入 4 股，11:40 止损 222.30，亏损约 8.80 美元。228.60 没有机会卖出。"
+      }
+    }
+  }
+}
