@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T01:04:00Z",
+  "sessionPhase": "after_prior_close",
+  "regularSessionOpenEt": "09:30",
+  "status": "plan_only",
+  "filled": false,
+  "disclaimer": "这是 2026-10-15 常规交易开盘前的条件计划，不是成交，也不是收益承诺。30 美元是记账目标。基准预测是 0 美元：条件不满足就空仓。",
+  "priorDay": {
+    "date": "2026-10-14",
+    "outcome": "no_fill_cancel_conditions_met",
+    "realizedProfitUsd": 0,
+    "cashUsd": 1000
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "dailyProfitTargetUsd": 30,
+    "buyingPowerForThisPlanUsd": 1000,
+    "cashLeftIfPrimaryFillsUsd": 132.8,
+    "cashLeftIfAlternateFillsUsd": 118.4
+  },
+  "quotes": {
+    "asOfNote": "美东 10 月 14 日 16:00 已经收盘。股票延伸价取 Yahoo Finance fulldayPrice，拉取时间约 2026-10-15T01:04Z。纳指期货时间戳是交易所报价 2026-10-14T20:53:11-04:00，比股票延伸价早约 10 分钟。",
+    "nvda": {
+      "symbol": "NVDA",
+      "regularSessionDate": "2026-10-14",
+      "open": 225.53,
+      "high": 226.0,
+      "low": 219.64,
+      "close": 221.3,
+      "volume": 117249000,
+      "priorClose": 228.52,
+      "changeUsd": -7.22,
+      "changePct": -3.16,
+      "extendedPrice": 219.51,
+      "extendedChangeFromCloseUsd": -1.79,
+      "extendedChangeFromClosePct": -0.81,
+      "source": "Yahoo Finance"
+    },
+    "qqq": {
+      "symbol": "QQQ",
+      "regularSessionDate": "2026-10-14",
+      "open": 737.98,
+      "high": 740.53,
+      "low": 726.39,
+      "close": 728.95,
+      "volume": 51067700,
+      "priorClose": 743.57,
+      "changeUsd": -14.62,
+      "changePct": -1.97,
+      "extendedPrice": 723.26,
+      "extendedChangeFromCloseUsd": -5.69,
+      "extendedChangeFromClosePct": -0.78,
+      "source": "Yahoo Finance"
+    },
+    "nqFutures": {
+      "symbol": "NQ=F",
+      "asOf": "2026-10-14T20:53:11-04:00",
+      "last": 29948.5,
+      "sessionHigh": 30158.5,
+      "sessionLow": 29879.5,
+      "priorClose": 30791.5,
+      "changeFromPriorClosePct": -2.74,
+      "source": "Yahoo Finance",
+      "note": "相对 10 月 13 日期货收盘 30791.50 的跌幅，包含 10 月 14 日日盘跌势和收盘后的延伸，不是相对 QQQ 现金收盘的隔夜跌幅。QQQ 延伸价相对现金收盘大约低 0.78%。"
+    },
+    "indexesClose20261014": {
+      "source": "Yahoo Finance",
+      "spx": { "close": 7718.94, "changePct": -1.11 },
+      "nasdaqComposite": { "close": 26692.87, "changePct": -1.88 },
+      "dow": { "close": 51621.48, "changePct": -0.09 },
+      "vix": { "close": 16.87, "changePct": 10.48 }
+    }
+  },
+  "screen": [
+    {
+      "symbol": "NVDA",
+      "priceUsed": 219.51,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "maxWholeShares": 4,
+      "notionalUsd": 878.04,
+      "moveUsdNeededFor30": 7.5,
+      "movePctNeededFor30": 3.42,
+      "selected": true
+    },
+    {
+      "symbol": "AAPL",
+      "priceUsed": 343.75,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "regularClose": 342.96,
+      "regularChangePct": 0.5,
+      "maxWholeShares": 2,
+      "notionalUsd": 687.5,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 4.36,
+      "selected": false
+    },
+    {
+      "symbol": "MSFT",
+      "priceUsed": 529.9,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "regularClose": 533.69,
+      "regularChangePct": -1.8,
+      "maxWholeShares": 1,
+      "notionalUsd": 529.9,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 5.66,
+      "selected": false
+    },
+    {
+      "symbol": "AMD",
+      "priceUsed": 561.3,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "regularClose": 570.82,
+      "regularChangePct": -5.73,
+      "maxWholeShares": 1,
+      "notionalUsd": 561.3,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 5.34,
+      "selected": false
+    },
+    {
+      "symbol": "TSM",
+      "priceUsed": 425.74,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "regularClose": 430.0,
+      "regularChangePct": -3.4,
+      "maxWholeShares": 2,
+      "notionalUsd": 851.48,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 3.52,
+      "selected": false,
+      "reason": "周四开盘前公布业绩，1000 美元账户不做财报当日的跳空"
+    },
+    {
+      "symbol": "AVGO",
+      "priceUsed": 343.08,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "regularClose": 346.25,
+      "regularChangePct": -3.1,
+      "maxWholeShares": 2,
+      "notionalUsd": 686.16,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 4.37,
+      "selected": false
+    },
+    {
+      "symbol": "QQQ",
+      "priceUsed": 723.26,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "maxWholeShares": 1,
+      "notionalUsd": 723.26,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 4.15,
+      "selected": false
+    },
+    {
+      "symbol": "MU",
+      "priceUsed": 894.78,
+      "priceBasis": "2026-10-14 收盘后延伸价",
+      "regularClose": 914.13,
+      "regularChangePct": -4.08,
+      "maxWholeShares": 0,
+      "notionalUsd": 0,
+      "moveUsdNeededFor30": null,
+      "movePctNeededFor30": null,
+      "selected": false,
+      "reason": "1 股已超过 1000 美元"
+    }
+  ],
+  "recommendation": {
+    "action": "conditional_limit_buy_or_flat",
+    "symbol": "NVDA",
+    "shares": 4,
+    "stance": "默认空仓。只在 10:15 之后做一笔回撤多头，不追延伸价 219.51，也不做台积电财报跳空。",
+    "summary": "周三热 CPI 之后 NVDA 收 221.30，跌 7.22 美元（3.16%），低点 219.64；收盘后延伸价约 219.51，已经略低于周三低点。QQQ 收 728.95，延伸价约 723.26。周四 8:30 有 PPI、零售销售和初请失业金，台积电在开盘前发业绩。主计划等这些落地后，仅在 10:15–11:30 用 216.80 限价买 4 股，而且当日低点不能低于 215.50。第一卖出价 219.80，延伸卖出价 228.80。价格直接跌穿 215.50，或 QQQ 跌破 718.00，就撤单。"
+  },
+  "orders": {
+    "primary": {
+      "id": "2026-10-15-NVDA-washout",
+      "role": "primary",
+      "symbol": "NVDA",
+      "side": "buy",
+      "orderType": "limit",
+      "shares": 4,
+      "buyLimit": 216.8,
+      "windowEt": {
+        "start": "10:15",
+        "end": "11:30"
+      },
+      "entryConditions": [
+        "8:30 的 PPI、零售销售和初请失业金已经公布，并且 9:30 开盘后的第一段至少走到 10:15",
+        "10:15 之后价格进入 216.40–217.20",
+        "进入该区间时，当日常规交易低点还没有低于 215.50",
+        "QQQ 常规交易低点还没有低于 718.00"
+      ],
+      "stop": 214.9,
+      "timeStopEt": "15:40",
+      "timeStopNote": "15:40 仍未卖出的股数按市价离场。这个离场价现在未知，不计入下面的预测盈利。",
+      "sells": [
+        {
+          "shares": 2,
+          "sellLimit": 219.8,
+          "role": "first_scale",
+          "note": "回到周三低点 219.64 附近"
+        },
+        {
+          "shares": 2,
+          "sellLimit": 228.8,
+          "role": "stretch",
+          "note": "接近周二收盘 228.52。两档加总才到 30 美元，不是基准预期"
+        }
+      ]
+    },
+    "alternate": {
+      "id": "2026-10-15-NVDA-reclaim-low",
+      "role": "alternate",
+      "enabledOnlyIf": "主计划到 11:30 仍未成交，且主计划没有因为跌破 215.50 被撤销",
+      "symbol": "NVDA",
+      "side": "buy",
+      "orderType": "limit",
+      "shares": 4,
+      "buyLimit": 220.4,
+      "entryConditions": [
+        "10:15 之后，NVDA 在周三低点 219.64 之上连续守住 15 分钟",
+        "QQQ 重新站上周三低点 726.39",
+        "当日 NVDA 低点没有低于 215.50"
+      ],
+      "stop": 217.9,
+      "timeStopEt": "15:40",
+      "sells": [
+        {
+          "shares": 2,
+          "sellLimit": 223.4,
+          "role": "first_scale",
+          "note": "周三收盘 221.30 与周三开盘 225.53 之间"
+        },
+        {
+          "shares": 2,
+          "sellLimit": 232.4,
+          "role": "stretch",
+          "note": "高于周三高点 226.00。只在这一档也成交时，两档合计才到 30 美元"
+        }
+      ]
+    },
+    "doNot": [
+      "不在 9:30–10:15 交易开盘和 8:30 数据的第一段波动",
+      "不把延伸价 219.51 当成买入价",
+      "不交易 TSM，周四是它的业绩日",
+      "不买 AMD、MU、AVGO、QQQ 来凑 30 美元目标。AMD 和 MSFT 只能买 1 股，MU 1 股买不起",
+      "不补仓，不用同一笔资金在卖出后再开第二笔",
+      "不用杠杆 ETF，不加保证金"
+    ]
+  },
+  "cancelConditions": [
+    "常规交易低点低于 215.50，主计划限价取消，备选也不再启用",
+    "QQQ 常规交易低点低于 718.00，两笔计划都取消",
+    "11:30 主计划未成交，且备选的 15 分钟站稳与 QQQ 收复 726.39 没有同时成立",
+    "开盘已经低于 215.50 时，不把买单下移"
+  ],
+  "predictedProfitUsd": {
+    "dailyTarget": 30,
+    "baseCase": 0,
+    "baseCaseReason": "延伸价已经在周三低点下方，周四开盘前还有 PPI 和台积电业绩。主限价 216.80 比延伸价低 2.71 美元，大约 1.2%。回撤不出现，或回撤直接跌穿 215.50，今天就是空仓。",
+    "primaryFirstScaleOnly": 6.0,
+    "primaryBothTargets": 30.0,
+    "primaryStop": -7.6,
+    "alternateFirstScaleOnly": 6.0,
+    "alternateBothTargets": 30.0,
+    "alternateStop": -10.0,
+    "wednesdayRangeUsd": 6.36,
+    "math": {
+      "primaryCost": 867.2,
+      "primaryScale1": "2 股 × (219.80 - 216.80) = 6.00",
+      "primaryScale2": "2 股 × (228.80 - 216.80) = 24.00",
+      "primaryStopLoss": "4 股 × (216.80 - 214.90) = 7.60",
+      "alternateCost": 881.6,
+      "alternateScale1": "2 股 × (223.40 - 220.40) = 6.00",
+      "alternateScale2": "2 股 × (232.40 - 220.40) = 24.00",
+      "alternateStopLoss": "4 股 × (220.40 - 217.90) = 10.00"
+    },
+    "expectation": "基准预测盈利 0 美元。主计划如果成交并且只完成 219.80，大约 6 美元。30 美元要求剩下的 2 股卖在 228.80，距离买入价 12 美元，大约是周三全天振幅 6.36 美元的两倍。这是延伸情形。"
+  },
+  "events": [
+    {
+      "timeEt": "08:30",
+      "name": "美国 9 月 PPI、零售销售、初请失业金",
+      "status": "未公布",
+      "detail": "PPI 的公布时间是美东 8:30。环比共识并不统一：Investing.com 与 TradingCalendar 写的是 headline 环比 0.6%、核心环比 0.3%；Helious 写的是 headline 环比 0.5%、同比 5.3%。因为日历不一致，这份计划不用某一个 PPI 数字自动撤单，而是 10:15 之前不买，之后只看价格。Investing.com 同一篇预览还列出了零售销售、初请失业金、费城联储制造业指数和 EIA 原油库存，零售销售与初请的共识数字这次没有单独采信。",
+      "ppiPriorsSeen": {
+        "headlineMom": 0.4,
+        "headlineYoy": 5.4,
+        "coreMom": 0.2,
+        "coreYoy": 4.6,
+        "source": "Investing.com 对 10 月 15 日数据的预览；8 月实际值来自 9 月 10 日那次公布"
+      }
+    },
+    {
+      "timeEt": "开盘前",
+      "name": "台积电 2026 年三季报",
+      "status": "未公布",
+      "detail": "Nasdaq 业绩日历将 TSM 列在 10 月 15 日开盘前，并给出 6 位分析师的共识每股收益 4.45 美元。The Buildout 的预览写的是每股收益 4.42 美元、营收 453.7 亿美元。两个预览不一致，计划不把其中任何一个当成触发条件。Yahoo Finance 称投资者关注的是利润大约增长 60%，以及产能能否跟上 ASML 所说的 2027–2028 供应缺口。账户不交易 TSM。"
+    },
+    {
+      "timeEt": "2026-10-14 收盘",
+      "name": "9 月 CPI 与芯片股下跌",
+      "status": "已发生",
+      "detail": "CNBC 与 AP：9 月 CPI 环比 0.6%、同比 3.7%，核心环比 0.3%、同比 2.6%。共识是同比 3.6%、核心环比 0.2%、核心同比 2.5%。标普 500 收 7718.94，跌 1.11%；纳指综合指数收 26692.87，跌 1.88%；道指收 51621.48，跌 0.09%；VIX 收 16.87，涨 10.48%。Reuters 称这是纳指约三个月来最大单日跌幅，费半指数跌 4.2%，为近两年最长的六日连跌；CoreWeave 跌 15.5%，戴尔跌 11%，甲骨文和 Marvell 跌 9%。Yahoo 对 CoreWeave 的表述是跌超 16%。美元被 Reuters 描述为创 18 个月新高，本月加息重新进入讨论。"
+    },
+    {
+      "timeEt": "2026-10-14 美股时段",
+      "name": "ASML 财报后的美股收盘",
+      "status": "已发生",
+      "detail": "ASML 美股收 1650.00，跌 3.94%，日内高点 1734.50、低点 1648.80。欧洲早盘的上涨没有留在美股收盘价里。电话会原文这次没有单独核对，不补写管理层原话。"
+    }
+  ],
+  "followUp": [
+    "下一笔先核对 216.80 有没有在 10:15–11:30 成交；没有券商回报就继续把 fills 留空",
+    "核对 NVDA 常规交易低点是否低于 215.50，以及 216.40–217.20 是否出现",
+    "核对 QQQ 低点是否低于 718.00，以及是否重新站上 726.39",
+    "备选只在主计划未成交时核对：219.64 之上是否连续 15 分钟，220.40 是否成交",
+    "写入 219.80、223.40、228.80、232.40 有没有被碰到，以及 15:40 前的实际高低点",
+    "PPI、零售销售、初请失业金公布后只记录实际值，不回改这份计划的撤单价",
+    "台积电只记录销售额、毛利率、资本开支和下季度指引，不把跳空当成加仓理由",
+    "没有成交就继续记 1000 美元现金、空仓"
+  ],
+  "fills": []
+}
