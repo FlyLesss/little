@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-16",
+  "slot": "2100",
+  "slotLabel": "开盘前最终建议",
+  "generatedAt": "2026-10-16T13:09:44Z",
+  "generatedAtBeijing": "2026-10-16 21:09",
+  "scheduledSlotBeijing": "21:00",
+  "scheduleNote": "对应北京时间 21:00 开盘前最终确认。任务 13:02 UTC 启动，报价截取美东 09:06–09:07，邮件于约 13:09 UTC 被 Outlook 接受。现金交易 21:30 北京时间开盘，写稿时尚未开盘。",
+  "marketStatus": "premarket_before_cash_open",
+  "holiday": false,
+  "session": {
+    "dst": "EDT",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "21:30",
+    "premarketOpenEt": "04:00",
+    "premarketStarted": true,
+    "quoteTimeEt": "2026-10-16 09:06-09:07",
+    "futuresTimeEt": "2026-10-16 08:56"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。卖出价不用 30 美元目标反推。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。",
+    "settlement": "T+1",
+    "allowLeverageEtf": false,
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "空仓",
+  "confidence": "维持空仓：中高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": null,
+  "status": "no_order",
+  "quotes": {
+    "source": "Yahoo Finance chart v8",
+    "indicators": "EMA20, EMA50, RSI(14), ATR(14), MACD(12,26,9) from about six months of daily bars through 2026-10-15. Premarket VWAP not computed: Yahoo 1-minute premarket volume field was 0. Regular-session VWAP does not exist before 09:30 ET.",
+    "futures": {
+      "NQ=F": {
+        "last": 30067.75,
+        "asOfEt": "08:56",
+        "thursdayClose": 30143.75,
+        "changePctVsThursday": -0.25,
+        "sessionHigh": 30224.5,
+        "sessionLow": 29959.25
+      },
+      "ES=F": {
+        "last": 7801.25,
+        "asOfEt": "08:56",
+        "thursdayClose": 7791.0,
+        "changePctVsThursday": 0.13,
+        "sessionHigh": 7809.25,
+        "sessionLow": 7774.75
+      },
+      "YM=F": {
+        "last": 52477.0,
+        "asOfEt": "08:56",
+        "thursdayClose": 52430.0,
+        "changePctVsThursday": 0.09
+      }
+    },
+    "macroTape": {
+      "vix": {
+        "last": 15.99,
+        "asOfEt": "08:51",
+        "thursdayClose": 16.46,
+        "note": "Yahoo ^VIX before the cash open. Not the official 09:30 print."
+      },
+      "tnx": {
+        "last": 5.106,
+        "asOfEt": "08:51",
+        "thursdayClose": 5.089
+      },
+      "dxy": {
+        "last": 101.79,
+        "asOfEt": "08:56",
+        "thursdayClose": 102.055,
+        "changePct": -0.26
+      }
+    },
+    "premarketEt0906": {
+      "NVDA": {
+        "last": 216.2,
+        "open": 218.16,
+        "high": 219.45,
+        "low": 216.17,
+        "thursdayClose": 217.23,
+        "changePctVsThursdayClose": -0.47
+      },
+      "QQQ": {
+        "last": 726.21,
+        "high": 730.32,
+        "low": 726.04,
+        "thursdayClose": 728.0,
+        "changePctVsThursdayClose": -0.25
+      },
+      "AAPL": {
+        "last": 348.29,
+        "high": 350.49,
+        "low": 340.75,
+        "thursdayClose": 342.0,
+        "changePctVsThursdayClose": 1.84
+      },
+      "MSFT": {
+        "last": 540.73,
+        "high": 542.18,
+        "low": 538.12,
+        "thursdayClose": 539.44
+      },
+      "AMD": {
+        "last": 551.68,
+        "high": 566.0,
+        "low": 551.0,
+        "thursdayClose": 562.23
+      },
+      "INTC": {
+        "last": 93.75,
+        "open": 95.91,
+        "high": 97.08,
+        "low": 93.7,
+        "thursdayClose": 95.37,
+        "changePctVsThursdayClose": -1.7
+      },
+      "SOXX": {
+        "last": 506.64,
+        "thursdayClose": 514.71
+      },
+      "SMH": {
+        "last": 552.28,
+        "thursdayClose": 558.84
+      },
+      "MU": {
+        "last": 908.81,
+        "thursdayClose": 931.24
+      },
+      "AVGO": {
+        "last": 341.03,
+        "thursdayClose": 344.33
+      },
+      "TSM": {
+        "last": 419.53,
+        "thursdayClose": 422.25
+      },
+      "TSLA": {
+        "last": 373.15,
+        "high": 382.19,
+        "low": 371.88,
+        "thursdayClose": 362.44
+      }
+    },
+    "dailyThroughThursday": {
+      "NVDA": {
+        "high": 218.47,
+        "low": 212.85,
+        "close": 217.23,
+        "volume": 126789100,
+        "avgVol20": 108318545,
+        "ema20": 226.78,
+        "ema50": 222.49,
+        "rsi14": 40.2,
+        "atr14": 6.02,
+        "macdHist": -1.856
+      },
+      "QQQ": {
+        "high": 729.43,
+        "low": 715.44,
+        "close": 728.0,
+        "ema20": 738.94,
+        "ema50": 728.92,
+        "rsi14": 44.1,
+        "atr14": 9.76,
+        "macdHist": -2.991
+      },
+      "INTC": {
+        "open": 93.61,
+        "high": 96.87,
+        "low": 90.02,
+        "close": 95.37,
+        "changePct": -2.8,
+        "volume": 146642400,
+        "avgVol20": 107386335,
+        "volRatio": 1.37,
+        "ema20": 107.54,
+        "ema50": 106.07,
+        "rsi14": 35.6,
+        "atr14": 5.82,
+        "macdHist": -3.05,
+        "priorLow": 97.67
+      },
+      "AAPL": {
+        "high": 347.85,
+        "close": 342.0,
+        "atr14": 6.65
+      },
+      "MSFT": {
+        "atr14": 11.44
+      },
+      "AMD": {
+        "close": 562.23,
+        "atr14": 26.65
+      },
+      "MU": {
+        "atr14": 48.65
+      },
+      "AVGO": {
+        "high": 344.7,
+        "atr14": 11.25
+      },
+      "SOXX": {
+        "close": 514.71,
+        "ema20": 550.47,
+        "rsi14": 36.0
+      }
+    }
+  },
+  "eventsToday": [
+    "RTT News / AFX, citing the Labor Department: September import prices +1.1% MoM, economists expected +0.6%; August revised to +0.5% from +0.7%. September export prices +2.2% MoM, expected +0.9%; August revised to +1.2% from +0.6%. BLS HTML was not retrieved directly.",
+    "Both prints are hotter than the Trading Economics forecasts stored in the 09:00 note (imports +0.8%, exports +0.7%). That keeps the flat stance.",
+    "Industrial production was scheduled for 09:15 ET. Not released at 09:07 ET. It does not change the flat call either way, because reward/risk already fails.",
+    "Newsquawk notes on Fed Chair Warsh: no prejudging of the October or December meetings, and no signalling for the rest of 2026. Structural growth and an investment surge. AI hits demand before the supply shock; near-term employment impact uncertain. Reuters premarket copy summarized the economy as resilient, with AI investment supporting growth and adding to inflation. No transcript verified here.",
+    "Earnings Whispers: Friday before the open TRV, TFC, MTB, CFG, RF, LADR. No mega-cap tech. Monthly options expiration, not triple witching.",
+    "Investing.com: Tesla Roadster demonstration Thursday evening, production targeted for 2028. Premarket high 382.19, last 373.15 versus Thursday close 362.44.",
+    "Newsquawk relayed a Bloomberg report that Taiwan would add servers and high-end chips to export controls toward China. Bloomberg original not opened.",
+    "Reuters premarket copy: tech under pressure on AI-trade and infrastructure-debt concerns. No separate price used from that article."
+  ],
+  "priorSessionReview": {
+    "filled": false,
+    "realizedProfitUsd": 0,
+    "supersededPlan": "The 220.00 NVDA limit remains cancelled, as decided in the 09:00 note."
+  },
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "维持空仓：中高",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "rejectedMath": {
+        "referencePrice": 216.2,
+        "atrStop": 210.18,
+        "maxSharesUnder20Risk": 3,
+        "riskUsdAt3Shares": 18.06,
+        "profitToPremarketHigh219_45": 9.75,
+        "rewardRiskToPremarketHigh": 0.54,
+        "profitToThursdayHigh218_47": 6.81,
+        "rewardRiskToThursdayHigh": 0.38,
+        "insideNoiseStop212_50": "Distance 3.70 is below ATR 6.02, so that stop is not used. Four shares would risk 14.80 and make 13.00 to 219.45, reward/risk 0.88."
+      },
+      "notes": "Premarket spiked to 219.45 around 04:00 ET and failed back under Thursday's close. Did not hold 219.64. Not an order."
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "rejectedMath": {
+        "referencePrice": 93.75,
+        "atrStop": 87.93,
+        "maxSharesUnder20Risk": 3,
+        "riskUsdAt3Shares": 17.46,
+        "positionIfFilled": 281.25,
+        "profitToPremarketHigh97_08": 9.99,
+        "rewardRiskToPremarketHigh": 0.57,
+        "profitToThursdayHigh96_87": 9.36,
+        "rewardRiskToThursdayHigh": 0.54
+      },
+      "notes": "Thursday volume 146.6 million versus 20-day average 107.4 million. Price below EMA20 107.54 and EMA50 106.07. RSI 35.6. Premarket high 97.08 stayed under Wednesday low 97.67."
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": 0.42,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "notes": "726.21 after a 730.32 premarket high, back under 726.39. One share, ATR risk 9.76, profit to premarket high 4.11."
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": 0.33,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "notes": "348.29 is already above Thursday high 347.85. No verified company catalyst. One-share ATR risk 6.65 versus about 2.20 to the premarket high 350.49."
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": 0.81,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "notes": "373.15 after premarket high 382.19. One-share ATR risk 11.13, profit back to the high about 9.04. Do not chase the fade. Production target cited as 2028."
+    },
+    {
+      "ticker": "MSFT",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "notes": "540.73. One share only. Room to premarket high 542.18 is 1.45 versus ATR 11.44."
+    },
+    {
+      "ticker": "AMD",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_position_limits",
+      "notes": "551.68. ATR 26.65 exceeds the 20 dollar risk cap on one share."
+    },
+    {
+      "ticker": "MU",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_position_limits",
+      "notes": "908.81 fits one share under 1000 cash, but ATR 48.65 means a 20 dollar stop sits inside noise."
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": null,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "rejected_risk_reward",
+      "notes": "341.03. ATR 11.25. Room to Thursday high 344.70 is 3.67."
+    }
+  ],
+  "followUp": [
+    "09:15 ET industrial production was still unpublished at writing. Do not flip to a trade on that print.",
+    "Do not lower a bid if NVDA breaks 212.85 or INTC breaks 90.02. Do not chase prices above highs already printed.",
+    "NVDA levels: 212.85, 216.17, 218.47, 219.45, 219.64.",
+    "QQQ levels: 715.44, 726.39, 729.43, 730.32.",
+    "INTC levels: 90.02, 93.70, 96.87, 97.67.",
+    "Earnings Whispers: Oct 20 after close NFLX, ISRG. Oct 21 after close TSLA, IBM, META, LRCX, TXN.",
+    "The 09:00 note already recorded AMD's Nov 3 after-close date. No reschedule was checked today.",
+    "Monthly options expiration. No new position, so no intraday flatten is required.",
+    "No fill report. Cash stays 1000. Realized profit stays 0."
+  ],
+  "email": {
+    "email_sent_to": "omitted-public-repo",
+    "email_sent_at": "2026-10-16T13:09:44Z",
+    "email_status": "accepted_http_202",
+    "subject": "[美股Agent] 2026-10-16 21:00 开盘前最终建议 | 本金$1000 | 目标$30",
+    "note": "公开仓库不写入个人邮箱。邮件已发往自动化配置的收件人。时间是 Outlook 返回 202 之后写入日志的时刻。"
+  },
+  "disclaimer": "研究参考，不构成投资建议，不承诺收益，不执行交易。可能亏损全部本金。"
+}
