@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T01:05:00Z",
+  "sessionPhase": "after_prior_close",
+  "regularSessionOpenEt": "09:30",
+  "status": "plan_only",
+  "filled": false,
+  "disclaimer": "这是 2026-10-16 常规交易开盘前的条件计划，不是成交，也不是收益承诺。30 美元是记账目标。基准预测是 0 美元：条件不满足就空仓。",
+  "priorDay": {
+    "date": "2026-10-15",
+    "outcome": "no_fill_ppi_and_reclaim_missed",
+    "realizedProfitUsd": 0,
+    "cashUsd": 1000,
+    "note": "PPI headline 环比 1.3% 高于 0.6% 的撤单线。NVDA 常规交易高点 218.47，没有回到 219.64。详见 2026-10-15.json 的 postCloseReview。"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "dailyProfitTargetUsd": 30,
+    "buyingPowerForThisPlanUsd": 1000,
+    "cashLeftIfOrderFillsUsd": 120
+  },
+  "quotes": {
+    "asOfNote": "美东 10 月 15 日 16:00 已经收盘。股票延伸价是 Yahoo Finance 5 分钟线最后一根收盘，约 19:59 美东。纳指期货和标普期货最后一根约 20:57 美东。",
+    "nvda": {
+      "symbol": "NVDA",
+      "regularSessionDate": "2026-10-15",
+      "open": 215.3,
+      "high": 218.47,
+      "low": 212.85,
+      "close": 217.23,
+      "volume": 126789100,
+      "priorClose": 221.3,
+      "changeUsd": -4.07,
+      "changePct": -1.84,
+      "extendedPrice": 216.71,
+      "extendedAsOfEt": "19:59",
+      "extendedChangeFromCloseUsd": -0.52,
+      "extendedChangeFromClosePct": -0.24,
+      "source": "Yahoo Finance"
+    },
+    "qqq": {
+      "symbol": "QQQ",
+      "regularSessionDate": "2026-10-15",
+      "open": 718.55,
+      "high": 729.43,
+      "low": 715.44,
+      "close": 728.0,
+      "volume": 49610000,
+      "priorClose": 728.95,
+      "changeUsd": -0.95,
+      "changePct": -0.13,
+      "extendedPrice": 724.33,
+      "extendedAsOfEt": "19:59",
+      "extendedChangeFromCloseUsd": -3.67,
+      "extendedChangeFromClosePct": -0.5,
+      "source": "Yahoo Finance",
+      "note": "常规交易收盘 728.00 在周三低点 726.39 之上，19:59 延伸价 724.33 已经回到这条线下面。周五不能沿用周四尾盘的站稳。"
+    },
+    "nqFutures": {
+      "symbol": "NQ=F",
+      "asOf": "2026-10-15T20:57:13-04:00",
+      "last": 30049.0,
+      "postCashHigh": 30155.25,
+      "postCashHighTimeEt": "16:00",
+      "postCashLow": 29959.25,
+      "postCashLowTimeEt": "20:25",
+      "source": "Yahoo Finance",
+      "note": "高低点只覆盖 16:00 美东之后的 5 分钟线，不是整段期货日盘。"
+    },
+    "esFutures": {
+      "symbol": "ES=F",
+      "asOf": "2026-10-15T20:57:19-04:00",
+      "last": 7787.75,
+      "source": "Yahoo Finance"
+    },
+    "indexesClose20261015": {
+      "source": "Yahoo Finance",
+      "spx": {"close": 7744.06, "changePct": 0.33},
+      "nasdaqComposite": {"close": 26713.03, "changePct": 0.08},
+      "dow": {"close": 52177.69, "changePct": 1.08},
+      "vix": {"close": 16.46, "changePct": -2.43}
+    }
+  },
+  "screen": [
+    {
+      "symbol": "NVDA",
+      "priceUsed": 216.71,
+      "priceBasis": "2026-10-15 19:59 美东延伸价",
+      "regularClose": 217.23,
+      "regularChangePct": -1.84,
+      "maxWholeShares": 4,
+      "notionalUsd": 866.84,
+      "moveUsdNeededFor30": 7.5,
+      "movePctNeededFor30": 3.46,
+      "selected": true
+    },
+    {
+      "symbol": "AAPL",
+      "priceUsed": 340.67,
+      "priceBasis": "2026-10-15 19:58 美东延伸价",
+      "regularClose": 342.0,
+      "regularChangePct": -0.28,
+      "maxWholeShares": 2,
+      "notionalUsd": 681.34,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 4.4,
+      "selected": false
+    },
+    {
+      "symbol": "MSFT",
+      "priceUsed": 536.65,
+      "priceBasis": "2026-10-15 19:58 美东延伸价",
+      "regularClose": 539.44,
+      "regularChangePct": 1.08,
+      "maxWholeShares": 1,
+      "notionalUsd": 536.65,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 5.59,
+      "selected": false
+    },
+    {
+      "symbol": "AMD",
+      "priceUsed": 553.5,
+      "priceBasis": "2026-10-15 19:59 美东延伸价",
+      "regularClose": 562.23,
+      "regularChangePct": -1.5,
+      "regularLow": 530.09,
+      "regularHigh": 568.62,
+      "maxWholeShares": 1,
+      "notionalUsd": 553.5,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 5.42,
+      "selected": false,
+      "reason": "只能买 1 股，周四振幅已经超过 38 美元"
+    },
+    {
+      "symbol": "TSM",
+      "priceUsed": 422.83,
+      "priceBasis": "2026-10-15 19:59 美东延伸价",
+      "regularClose": 422.25,
+      "regularChangePct": -1.8,
+      "maxWholeShares": 2,
+      "notionalUsd": 845.66,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 3.55,
+      "selected": false,
+      "reason": "业绩日已经过去，但周四低点 407.13、收盘仍低于前收 430。不在业绩后的第一天交易 TSM。"
+    },
+    {
+      "symbol": "AVGO",
+      "priceUsed": 341.9,
+      "priceBasis": "2026-10-15 19:59 美东延伸价",
+      "regularClose": 344.33,
+      "regularChangePct": -0.55,
+      "maxWholeShares": 2,
+      "notionalUsd": 683.8,
+      "moveUsdNeededFor30": 15,
+      "movePctNeededFor30": 4.39,
+      "selected": false
+    },
+    {
+      "symbol": "QQQ",
+      "priceUsed": 724.33,
+      "priceBasis": "2026-10-15 19:59 美东延伸价",
+      "regularClose": 728.0,
+      "maxWholeShares": 1,
+      "notionalUsd": 724.33,
+      "moveUsdNeededFor30": 30,
+      "movePctNeededFor30": 4.14,
+      "selected": false
+    },
+    {
+      "symbol": "MU",
+      "priceUsed": 923.02,
+      "priceBasis": "2026-10-15 19:59 美东延伸价",
+      "regularClose": 931.24,
+      "regularChangePct": 1.87,
+      "maxWholeShares": 0,
+      "notionalUsd": 0,
+      "moveUsdNeededFor30": null,
+      "movePctNeededFor30": null,
+      "selected": false,
+      "reason": "1 股已超过 1000 美元"
+    }
+  ],
+  "recommendation": {
+    "action": "reclaim_or_flat",
+    "symbol": "NVDA",
+    "shares": 4,
+    "stance": "默认空仓。延伸价 216.71 仍在周三低点 219.64 下面，QQQ 延伸价 724.33 也回到了 726.39 下面。只有周五重新收复这两条线，才买。",
+    "summary": "周四该空仓。PPI 热过撤单线，NVDA 全天高点 218.47。周五唯一的买单是 10:15–11:30 美东限价 220.00 买 4 股：先要连续 15 分钟守在 219.64 之上，价格还在 219.70–220.40，并且当时 QQQ 不低于 726.39。止损 219.40。先卖 2 股 221.30，剩余 2 股卖在周三高点 226.00。两档合计约 14.60 美元。不把卖出价抬到 226 之上去凑 30 美元。"
+  },
+  "orders": {
+    "primary": {
+      "id": "2026-10-16-NVDA-reclaim",
+      "role": "only",
+      "status": "active",
+      "symbol": "NVDA",
+      "side": "buy",
+      "orderType": "limit",
+      "shares": 4,
+      "buyLimit": 220.0,
+      "windowEt": {"start": "10:15", "end": "11:30"},
+      "entryConditions": [
+        "8:30 的进出口价格和 9:15 的工业生产已经公布。9:30–10:15 不交易",
+        "10:15 之后，连续 3 根 5 分钟 K 线的低点都守在 219.64 之上。219.64 是 10 月 14 日常规交易低点，10 月 15 日全天没有被收复",
+        "这 15 分钟里价格处在 219.70–220.40，才挂 220.00。已经涨过 10 月 14 日收盘 221.30 就不再追",
+        "下单时 QQQ 不低于 726.39。周四收盘曾站上这条线，19:59 延伸价已经回到下面，所以周五要重新站上",
+        "周五 NVDA 低点还没有低于周四低点 212.85，QQQ 低点还没有低于周四低点 715.44"
+      ],
+      "stop": 219.4,
+      "timeStopEt": "15:40",
+      "timeStopNote": "15:40 仍未卖出的股数按市价离场。周五是 10 月股票和指数期权到期日，不是季度的三巫日。这个离场价现在未知，不计入预测盈利。",
+      "sells": [
+        {
+          "shares": 2,
+          "sellLimit": 221.3,
+          "role": "first_scale",
+          "note": "10 月 14 日常规交易收盘。周四高点 218.47 低于买入价，不能拿来当卖出价"
+        },
+        {
+          "shares": 2,
+          "sellLimit": 226.0,
+          "role": "prior_session_high",
+          "note": "10 月 14 日常规交易高点。不再为了凑 30 美元上移"
+        }
+      ]
+    },
+    "doNot": [
+      "不在 216 或 217 附近抄底，这两处都在 219.64 下面",
+      "不因为周四低点 212.85 被打穿就把买单下移",
+      "不交易 TSM、AMD、MU、AVGO、AAPL、MSFT、QQQ 来凑 30 美元",
+      "不补仓，不用同一笔资金在卖出后再开第二笔",
+      "不用杠杆 ETF，不加保证金",
+      "不把未触发的限价写成成交"
+    ]
+  },
+  "cancelConditions": [
+    "周五 NVDA 常规交易低点低于 212.85",
+    "周五 QQQ 常规交易低点低于 715.44",
+    "10:15 之后没有连续 15 分钟守在 219.64 之上",
+    "守住时价格已经高于 221.30，或者不在 219.70–220.40",
+    "下单时 QQQ 低于 726.39",
+    "11:30 仍未成交就取消，当天不再找第二笔"
+  ],
+  "predictedProfitUsd": {
+    "dailyTarget": 30,
+    "baseCase": 0,
+    "baseCaseReason": "延伸价 NVDA 216.71、QQQ 724.33，都在进场线下面。220.00 比延伸价高 3.29 美元。收复不发生，今天就是空仓。",
+    "firstScaleOnly": 2.6,
+    "bothTargets": 14.6,
+    "stop": -2.4,
+    "dailyTargetNotUsedAsExit": true,
+    "firstScaleDoesNotCoverStopByMuch": "第一档 2.60 美元只比止损 2.40 美元多 0.20 美元。这张单的基准仍然是不成交，不是靠 221.30 赚到 30 美元。",
+    "math": {
+      "cost": 880,
+      "scale1": "2 股 × (221.30 - 220.00) = 2.60",
+      "scale2": "2 股 × (226.00 - 220.00) = 12.00",
+      "stopLoss": "4 股 × (220.00 - 219.40) = 2.40"
+    },
+    "expectation": "基准预测盈利 0 美元。只完成 221.30 约 2.60 美元，两档都成交约 14.60 美元，止损约 2.40 美元。30 美元仍是账户目标，但不是这张单的卖出价。"
+  },
+  "events": [
+    {
+      "timeEt": "08:30",
+      "name": "美国 9 月进出口价格",
+      "status": "未公布",
+      "detail": "ALM First 的 10 月 16 日表格写进口价格环比共识 0.9%、前值 0.7%，出口价格环比共识 0.8%、前值 0.6%。for-ex.news 写进口环比共识 0.8%、出口环比共识 1.0%。MarketWatch 日历上的进口价格两列是 1.2% 和 0.7%，列序不够清楚。共识不一致，所以不用某一个进出口价格数字自动撤单。处理办法是 10:15 之前不买。"
+    },
+    {
+      "timeEt": "09:15",
+      "name": "美国 9 月工业生产和产能利用率",
+      "status": "未公布",
+      "detail": "ALM First、MarketWatch 和 for-ex.news 都把工业生产环比共识放在 0.4%、前值 0，产能利用率共识 76.5%、前值 76.3%。这组数字只说明 9:15 还有数据，不单独构成买单或撤单。"
+    },
+    {
+      "timeEt": "全天",
+      "name": "10 月股票和指数期权到期",
+      "status": "已确定",
+      "detail": "2026-10-16 是 10 月第三个周五，月度股票和指数期权到期。10 月不是 3、6、9、12 月，不是三巫日。计划仍在 15:40 美东前清仓，不把尾盘当成持仓理由。"
+    },
+    {
+      "timeEt": "时间未核对",
+      "name": "Newsquawk 周历上的周五演讲",
+      "status": "时间未核对",
+      "detail": "Newsquawk 12–16 日周历把周五演讲人写成英国央行 Bailey、美联储主席 Warsh、加拿大央行 Macklem。这篇周历没有场次时间，这次不把发言内容当成价格条件。"
+    },
+    {
+      "timeEt": "2026-10-15 08:30",
+      "name": "9 月 PPI、零售销售、初请失业金",
+      "status": "已发生",
+      "detail": "BLS：最终需求 PPI 环比 1.3%、同比 6.3%，商品 2.6%，服务 0.8%，扣除食品、能源和贸易后环比 0.5%、同比 5.0%。8 月最终需求环比修正为 0.5%。ALM First 另列扣除食品和能源的环比 0.7%，高于计划里的 0.3% 线。零售销售环比 0.8%，扣除汽车和汽油后 0.2%，控制组 0.1%。初请失业金 19.9 万。这些数字已经使周四的 NVDA 买单作废。"
+    },
+    {
+      "timeEt": "2026-10-15 开盘前",
+      "name": "台积电 2026 年三季报",
+      "status": "已发生",
+      "detail": "台积电新闻稿：美元营收 467.2 亿，高于原先指引 446–458 亿。ADR 每股收益 4.60 美元。毛利率 66.4%，营业利益率 58.7%，净利率 51.1%。2 纳米占晶圆营收 8%，3 纳米 33%，5 纳米 28%，7 纳米 10%，7 纳米及更先进合计 79%。四季指引营收 523–543 亿美元，毛利率 65%–67%，营业利益率 56.5%–58.5%。资本开支不在这份新闻稿摘要里，不补写。美股周四开 415.17，高 423.66，低 407.13，收 422.25，仍低于前收 430。账户不交易 TSM。"
+    }
+  ],
+  "followUp": [
+    "核对 220.00 有没有在 219.70–220.40、守住 219.64 的 15 分钟、且 QQQ 不低于 726.39 时成交。没有券商回报就继续把 fills 留空",
+    "核对周五低点有没有低于 NVDA 212.85 或 QQQ 715.44。有的话这张单作废，不要把买单下移",
+    "写入 221.30 和 226.00 有没有碰到。不要把 30 美元目标改写成一个更高的卖出价",
+    "记录进出口价格和工业生产的实际值，但不要用它们回头修改这份开盘前的计划价",
+    "没有成交就继续记 1000 美元现金、空仓"
+  ],
+  "fills": []
+}
