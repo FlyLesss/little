@@ -1,0 +1,7 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-10-16,0900,NVDA,观望,,,,,,0,0,空仓,维持空仓为中高；不是盈利置信度,BLS进出口价格08:30ET未公布；工业生产09:15ET未公布；IMF Warsh对谈无核对原文；月度期权到期；无科技巨头财报,21:00北京时间用盘前价重估；NVDA关注212.85/218.47/219.64；跌破212.85不把买单下移,0,,不适用,no_order,按217.23买4股、止损212.50、卖出218.47的盈亏比约0.26，放弃。预测盈利0不是收益承诺。,omitted-public-repo,2026-10-16T03:44:05Z
+2026-10-16,0900,QQQ,观望,,,,,,0,0,空仓,空仓,同上,同上,0,,不适用,rejected_position_limits,1股728美元，ATR 9.76美元，20美元风险上限不够,omitted-public-repo,2026-10-16T03:44:05Z
+2026-10-16,0900,AAPL,观望,,,,,,0,0,空仓,空仓,同上,同上,0,,0.88,rejected_risk_reward,2股用1倍ATR止损风险约13.30美元，到周四高点盈利约11.70美元,omitted-public-repo,2026-10-16T03:44:05Z
+2026-10-16,0900,MSFT,观望,,,,,,0,0,空仓,空仓,同上,同上,0,,不适用,rejected_risk_reward,只能1股，周四高点只比收盘高1.69美元,omitted-public-repo,2026-10-16T03:44:05Z
+2026-10-16,0900,AMD,观望,,,,,,0,0,空仓,空仓,同上,同上,0,,不适用,rejected_position_limits,收盘562.23，ATR 26.65，20美元止损在噪音内,omitted-public-repo,2026-10-16T03:44:05Z
+2026-10-16,0900,MU,观望,,,,,,0,0,空仓,空仓,同上,同上,0,,不适用,rejected_capital,收盘931.24，1股超过1000美元现金,omitted-public-repo,2026-10-16T03:44:05Z
