@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-17",
+  "slot": "0900",
+  "slotLabel": "今晚操作早报",
+  "generatedAt": "2026-10-17T01:06:12Z",
+  "generatedAtBeijing": "2026-10-17 09:06",
+  "scheduledSlotBeijing": "09:00",
+  "scheduleNote": "北京时间周六 09:00。对应任务是早报，但当日美股休市，按休市流程处理：不设买卖价，不预挂周一委托。",
+  "marketStatus": "closed_weekend",
+  "holiday": false,
+  "closureReason": "2026-10-17 是周六。纽交所与纳斯达克周末休市。CME 股指期货在周五收盘后停止，周日美东傍晚才重新开盘。这不是临时假日。",
+  "nextCashSession": {
+    "date": "2026-10-19",
+    "weekday": "Monday",
+    "dst": "EDT",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "21:30",
+    "note": "2026 年夏令时到 11 月 1 日结束。周一仍按 21:30 北京时间开盘。周一是否有临时停市，本次未另查交易所假日公告以外的周末规则。"
+  },
+  "session": {
+    "dst": "EDT",
+    "cashOpenToday": false,
+    "quoteSession": "2026-10-16 regular close",
+    "quoteTimeEt": "2026-10-16 16:00",
+    "note": "周六没有盘中报价。下面的价格都是周五收盘，不能当成周六或周一的可成交价。"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。休市日不为实现该目标下单。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。",
+    "settlement": "T+1",
+    "allowLeverageEtf": false,
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "空仓",
+  "confidence": "休市结论高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": 0,
+  "status": "market_closed",
+  "priorSessionReview": {
+    "sessionDate": "2026-10-16",
+    "filled": false,
+    "realizedProfitUsd": 0,
+    "brokerFill": false,
+    "note": "10 月 16 日早报和开盘前建议都是空仓，没有条件单留到周五。没有成交回报。现金仍记 1000。",
+    "nvdaLowVs212_85": "Yahoo regularMarketDayLow 213.34，没有跌破 212.85。",
+    "qqqLowVs715_44": "QQQ 低点 707.23，已经跌破 715.44。",
+    "industrialProduction": "Federal Reserve G.17 feed, October 16, 2026: September IP +0.7% MoM after August +0.1%. Manufacturing +0.3%, mining +0.2%, utilities +3.5%. Index 104.0 (2017=100), +2.2% YoY. Capacity utilization 76.9%, 2.5 percentage points below the 1972-2025 average."
+  },
+  "quotes": {
+    "source": "Yahoo Finance chart v8",
+    "asOf": "Friday 2026-10-16 cash close. Not a Saturday quote.",
+    "priceMethod": "Equity daily close field was null at retrieval. Close uses regularMarketPrice timestamped 2026-10-16 16:00 ET, matching the 16:00 1-minute bar. High and low use regularMarketDayHigh and regularMarketDayLow. VIX and futures daily close fields were populated.",
+    "indicators": "EMA20, EMA50, RSI(14), ATR(14), MACD histogram(12,26,9) from about one year of Yahoo daily bars, with Friday's regular-session OHLC appended because the historical close was null.",
+    "futuresFridayClose": {
+      "NQ=F": {
+        "close": 29391.25,
+        "thursdayClose": 30143.75,
+        "changePct": -2.5
+      },
+      "ES=F": {
+        "close": 7703.0,
+        "thursdayClose": 7791.0,
+        "changePct": -1.13
+      },
+      "YM=F": {
+        "close": 52200.0,
+        "thursdayClose": 52430.0,
+        "changePct": -0.44
+      }
+    },
+    "macroTapeFriday": {
+      "vix": {
+        "close": 19.99,
+        "thursdayClose": 16.46,
+        "changePct": 21.4,
+        "high": 22.31,
+        "low": 15.72,
+        "source": "Yahoo ^VIX daily bar"
+      },
+      "tnx": {
+        "last": 5.098,
+        "asOfEt": "14:59",
+        "thursdayClose": 5.089,
+        "source": "Yahoo ^TNX"
+      },
+      "dxy": {
+        "close": 101.78,
+        "source": "Yahoo DX-Y.NYB daily close 101.779"
+      }
+    },
+    "fridayRegular": {
+      "NVDA": {
+        "close": 214.13,
+        "open": 216.56,
+        "high": 218.68,
+        "low": 213.34,
+        "thursdayClose": 217.23,
+        "changePct": -1.43,
+        "volume": 120302335,
+        "volRatio20": 1.11,
+        "ema20": 225.57,
+        "ema50": 222.07,
+        "rsi14": 37.5,
+        "atr14": 5.97,
+        "macdHist": -2.357
+      },
+      "QQQ": {
+        "close": 709.8,
+        "high": 725.94,
+        "low": 707.23,
+        "thursdayClose": 728.0,
+        "changePct": -2.5,
+        "volume": 66250770,
+        "volRatio20": 1.89,
+        "ema20": 736.16,
+        "ema50": 727.94,
+        "rsi14": 35.0,
+        "atr14": 10.55,
+        "macdHist": -4.642
+      },
+      "INTC": {
+        "close": 89.85,
+        "open": 93.46,
+        "high": 94.22,
+        "low": 89.19,
+        "thursdayClose": 95.37,
+        "changePct": -5.79,
+        "volume": 121443751,
+        "volRatio20": 1.13,
+        "ema20": 105.86,
+        "ema50": 105.32,
+        "rsi14": 31.4,
+        "atr14": 5.85,
+        "macdHist": -3.385
+      },
+      "SOXX": {
+        "close": 493.39,
+        "high": 509.6,
+        "low": 492.88,
+        "thursdayClose": 514.71,
+        "changePct": -4.14,
+        "volRatio20": 2.05,
+        "ema20": 545.03,
+        "ema50": 541.96,
+        "rsi14": 30.6,
+        "atr14": 17.76,
+        "macdHist": -9.897
+      },
+      "AAPL": {
+        "close": 343.46,
+        "high": 347.82,
+        "low": 340.46,
+        "thursdayClose": 342.0,
+        "changePct": 0.43,
+        "atr14": 6.7,
+        "rsi14": 62.1
+      }
+    }
+  },
+  "eventsToday": [
+    "2026-10-17 周六，美股现金交易休市，没有新的财报或宏观数据公布窗口。",
+    "周五已公布：美联储 G.17，9 月工业生产环比 +0.7%，8 月 +0.1%；制造业 +0.3%；产能利用率 76.9%。来源为美联储 2026-10-16 的 G.17 订阅页。本次没有对照未核实的预测值。"
+  ],
+  "candidates": [
+    {
+      "ticker": "NONE",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "休市结论高。这不是盈利置信度。",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周六不设委托。预测盈利 0 不是收益承诺。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 214.13，高 218.68，低 213.34。低点未破 212.85，高点未到 219.64。EMA20 225.57，RSI 37.5，ATR 5.97。休市，不把这些价位写成买单。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 89.85，高 94.22，低 89.19，跌破周四低点 90.02。量比 1.13。EMA20 105.86，EMA50 105.32，RSI 31.4，ATR 5.85，MACD 柱 -3.385。休市，不设买卖价。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 709.80，低 707.23，已破周四低点 715.44。休市，不做。"
+    }
+  ],
+  "followUp": [
+    "周六与周日现金交易休市。21:00 北京时间若再次运行，仍然是休市，不要改成交易计划。",
+    "下一现金交易日为 2026-10-19 周一，夏令时 21:30 北京时间开盘。周一 09:00 再出早报。",
+    "NVDA 看 212.85、213.34、214.13、218.68。QQQ 看 707.23、715.44。INTC 看 89.19、90.02。跌破后不把买单下移。",
+    "没有成交回报。现金仍记 1000，实现盈亏 0。财报日历周一早报再核对，本次不沿用未重新核对的日历。"
+  ],
+  "email": {
+    "email_sent_to": "omitted-public-repo",
+    "email_sent_at": "2026-10-17T01:06:12Z",
+    "email_status": "accepted_http_202",
+    "subject": "[美股Agent] 2026-10-17 09:00 今日休市/无操作 | 本金$1000 | 目标$30",
+    "note": "公开仓库不写入个人邮箱。邮件已发往自动化配置的收件人。"
+  },
+  "disclaimer": "研究参考，不构成投资建议，不承诺收益，不执行交易。可能亏损全部本金。"
+}
