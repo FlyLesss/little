@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-18",
+  "slot": "2100",
+  "slotLabel": "开盘前最终建议",
+  "generatedAt": "2026-10-18T13:06:06Z",
+  "generatedAtBeijing": "2026-10-18 21:06",
+  "scheduledSlotBeijing": "21:00",
+  "scheduleNote": "北京时间周日 21:00。对应任务是开盘前最终确认，但当日美股休市，按休市流程处理：不设买卖价，不预挂周一委托。",
+  "marketStatus": "closed_weekend",
+  "holiday": false,
+  "closureReason": "2026-10-18 是周日。纽交所与纳斯达克周末休市。纽交所官网 2026–2028 年假日表没有 10 月休市日，但今天不是交易日。本次 Yahoo 现金股日线最后一根仍是 2026-10-16。期货最后成交时间仍是周五 16:59 美东，没有周日新日线。",
+  "nextCashSession": {
+    "date": "2026-10-19",
+    "weekday": "Monday",
+    "dst": "EDT",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "21:30",
+    "note": "2026 年夏令时到 11 月 1 日结束。周一仍按 21:30 北京时间开盘。纽交所假日表的下一个全天休市是 2026-11-26 感恩节。"
+  },
+  "session": {
+    "dst": "EDT",
+    "cashOpenToday": false,
+    "quoteSession": "2026-10-16 regular close",
+    "quoteTimeEt": "2026-10-16 16:00",
+    "futuresLastTradeEt": "2026-10-16 16:59",
+    "note": "周日没有盘中报价。下面的价格都是周五日线，不能当成周日或周一的可成交价。"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。休市日不为实现该目标下单。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。",
+    "settlement": "T+1",
+    "allowLeverageEtf": false,
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "空仓",
+  "confidence": "休市结论高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": 0,
+  "status": "market_closed",
+  "priorSessionReview": {
+    "sessionDate": "2026-10-16",
+    "filled": false,
+    "realizedProfitUsd": 0,
+    "brokerFill": false,
+    "note": "10 月 16 日两份建议都是空仓，没有条件单留到周五。周六两份记录和今天 09:00 也是休市空仓。没有成交回报。现金仍记 1000。",
+    "nvdaLowVs212_85": "周五日线低点 213.32，没有跌破 212.85。",
+    "qqqLowVs715_44": "QQQ 低点 707.23，已经跌破 715.44。",
+    "intcLowVs90_02": "INTC 低点 89.19，已经跌破周四低点 90.02。"
+  },
+  "quotes": {
+    "source": "Yahoo Finance chart v8 daily bars",
+    "retrievedAt": "2026-10-18T13:04:00Z",
+    "asOf": "Friday 2026-10-16 cash close. Not a Sunday quote.",
+    "priceMethod": "OHLC and volume are the 2026-10-16 daily bar. Change versus the prior daily close. EMA20, EMA50, RSI(14), ATR(14) and MACD histogram(12,26,9) for NVDA, INTC and QQQ were recomputed this run from about one year of Yahoo daily bars ending 2026-10-16. Volume ratio is Friday volume divided by the prior 20 daily volumes. SOXX indicators were not recomputed this run.",
+    "revisionVs0900": "个股与期货周五收盘和今早一致。本次重算的 NVDA EMA50 为 222.06，今早记为 222.07，差 0.01。NVDA、INTC、QQQ 的其余指标与今早一致。美元指数 Yahoo 出现一根 2026-10-18 日线，开高低收均为空，最后成交价仍是周五的 101.779，不当成周日报价。",
+    "futuresFridayClose": {
+      "NQ=F": {
+        "close": 29391.5,
+        "thursdayClose": 30143.75,
+        "changePct": -2.5,
+        "high": 30225.0,
+        "low": 29268.75,
+        "lastTradeUtc": "2026-10-16T20:59:59Z"
+      },
+      "ES=F": {
+        "close": 7704.25,
+        "thursdayClose": 7791.0,
+        "changePct": -1.11,
+        "lastTradeUtc": "2026-10-16T20:59:58Z"
+      },
+      "YM=F": {
+        "close": 52214.0,
+        "thursdayClose": 52430.0,
+        "changePct": -0.41,
+        "lastTradeUtc": "2026-10-16T20:59:56Z"
+      }
+    },
+    "macroTapeFriday": {
+      "vix": {
+        "close": 19.99,
+        "thursdayClose": 16.46,
+        "changePct": 21.4,
+        "high": 22.31,
+        "low": 15.72,
+        "source": "Yahoo ^VIX daily bar"
+      },
+      "tnx": {
+        "last": 5.098,
+        "thursdayClose": 5.089,
+        "source": "Yahoo ^TNX daily close"
+      },
+      "dxy": {
+        "dailyClose": 101.84,
+        "lastPrint": 101.779,
+        "thursdayClose": 102.0,
+        "emptyBarDate": "2026-10-18",
+        "emptyBarNote": "Yahoo returned a 2026-10-18 daily bar with null OHLC. Not used as a quote.",
+        "source": "Yahoo DX-Y.NYB. Daily close 101.84 on 2026-10-16; regularMarketPrice 101.779."
+      }
+    },
+    "fridayRegular": {
+      "NVDA": {
+        "close": 214.13,
+        "open": 216.56,
+        "high": 218.68,
+        "low": 213.32,
+        "thursdayClose": 217.23,
+        "changePct": -1.43,
+        "volume": 120855100,
+        "volRatio20": 1.12,
+        "ema20": 225.57,
+        "ema50": 222.06,
+        "ema50MorningNote": "09:00 file recorded 222.07",
+        "rsi14": 37.5,
+        "atr14": 5.97,
+        "macdHist": -2.357
+      },
+      "QQQ": {
+        "close": 709.8,
+        "open": 725.52,
+        "high": 725.96,
+        "low": 707.23,
+        "thursdayClose": 728.0,
+        "changePct": -2.5,
+        "volume": 66693300,
+        "volRatio20": 1.9,
+        "ema20": 736.16,
+        "ema50": 727.94,
+        "rsi14": 35.0,
+        "atr14": 10.55,
+        "macdHist": -4.642
+      },
+      "INTC": {
+        "close": 89.85,
+        "open": 93.48,
+        "high": 94.22,
+        "low": 89.19,
+        "thursdayClose": 95.37,
+        "changePct": -5.79,
+        "volume": 122325800,
+        "volRatio20": 1.14,
+        "ema20": 105.86,
+        "ema50": 105.32,
+        "rsi14": 31.4,
+        "atr14": 5.85,
+        "macdHist": -3.385
+      },
+      "SOXX": {
+        "close": 493.39,
+        "open": 505.01,
+        "high": 509.6,
+        "low": 492.83,
+        "thursdayClose": 514.71,
+        "changePct": -4.14,
+        "volume": 14646400,
+        "indicators": "not recomputed this run"
+      },
+      "AAPL": {
+        "close": 343.46,
+        "open": 346.09,
+        "high": 347.82,
+        "low": 340.46,
+        "thursdayClose": 342.0,
+        "changePct": 0.43,
+        "volume": 59895300
+      }
+    }
+  },
+  "eventsToday": [
+    "2026-10-18 周日，美股现金交易休市，没有新的财报或宏观数据公布窗口。",
+    "纽交所官网 2026–2028 年假日表没有 10 月休市日。下一个全天休市是 2026-11-26 感恩节。2026-10-19 周一按正常交易日处理。财报日历周一早报再核对。"
+  ],
+  "candidates": [
+    {
+      "ticker": "NONE",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "休市结论高。这不是盈利置信度。",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周日不设委托。预测盈利 0 不是收益承诺。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 214.13，高 218.68，低 213.32。低点未破 212.85。EMA20 225.57，EMA50 222.06，RSI 37.5，ATR 5.97，MACD 柱 -2.357。休市，不把这些价位写成买单。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 89.85，高 94.22，低 89.19，成交量 122325800，量比 1.14。跌破周四低点 90.02。EMA20 105.86，EMA50 105.32，RSI 31.4，ATR 5.85，MACD 柱 -3.385。价格仍在两条均线下方。休市，不设买卖价。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 709.80，低 707.23，已破 715.44。EMA20 736.16，RSI 35.0，ATR 10.55。休市，不做。"
+    }
+  ],
+  "followUp": [
+    "周一 09:00 北京时间再出早报，不预挂买单。",
+    "下一现金交易日为 2026-10-19 周一，夏令时 21:30 北京时间开盘。",
+    "NVDA 看 212.85、213.32、214.13、218.68。QQQ 看 707.23、715.44。INTC 看 89.19、90.02。跌破后不把买单下移。",
+    "写稿时股指期货没有周日新日线。按 CME 常规时段，周日 18:00 美东重新开盘，约为周一 06:00 北京时间。本次没有打开 CME 原文页。",
+    "没有成交回报。现金仍记 1000，实现盈亏 0。财报日历周一早报再核对。"
+  ],
+  "email": {
+    "email_sent_to": "omitted-public-repo",
+    "email_sent_at": "2026-10-18T13:06:06Z",
+    "email_status": "accepted_http_202",
+    "subject": "[美股Agent] 2026-10-18 21:00 今日休市/无操作 | 本金$1000 | 目标$30",
+    "note": "公开仓库不写入个人邮箱。邮件已发往自动化配置的收件人。"
+  },
+  "disclaimer": "研究参考，不构成投资建议，不承诺收益，不执行交易。可能亏损全部本金。"
+}
