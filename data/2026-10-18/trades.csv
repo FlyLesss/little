@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-10-18,0900,NONE,观望,,,,,,0,0,空仓,休市结论高；不是盈利置信度,周日休市；没有新的财报或宏观窗口,今晚21:00仍休市；周一09:00再出早报；不预挂买单,0,0,不适用,market_closed,2026-10-18是周日。纽交所和纳斯达克休市。预测盈利0不是收益承诺。,omitted-public-repo,2026-10-18T01:03:49Z
+2026-10-18,0900,NVDA,观望,,,,,,0,0,空仓,空仓,同上,NVDA看212.85/213.32/214.13/218.68；跌破212.85不把买单下移,0,0,不适用,market_closed,周五收盘214.13，高218.68，低213.32，未破212.85。EMA20 225.57，RSI 37.5，ATR 5.97。休市不设买卖价。,omitted-public-repo,2026-10-18T01:03:49Z
+2026-10-18,0900,INTC,观望,,,,,,0,0,空仓,空仓,同上,INTC看89.19/90.02,0,0,不适用,market_closed,周五收盘89.85，高94.22，低89.19，成交量122325800，量比1.14。跌破周四低点90.02。EMA20 105.86，EMA50 105.32，RSI 31.4，ATR 5.85。休市不设买卖价。,omitted-public-repo,2026-10-18T01:03:49Z
+2026-10-18,0900,QQQ,观望,,,,,,0,0,空仓,空仓,同上,QQQ看707.23/715.44,0,0,不适用,market_closed,周五收盘709.80，低707.23，已破715.44。休市不做。,omitted-public-repo,2026-10-18T01:03:49Z
