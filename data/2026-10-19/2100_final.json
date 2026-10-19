@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-19",
+  "slot": "2100",
+  "slotLabel": "开盘前最终建议",
+  "generatedAt": "2026-10-19T13:09:30Z",
+  "generatedAtBeijing": "2026-10-19 21:09",
+  "scheduledSlotBeijing": "21:00",
+  "scheduleNote": "对应北京时间 21:00 开盘前最终确认。任务 13:04 UTC 启动。个股盘前截取美东 09:08，期货截取美东 08:58。现金交易 21:30 北京时间开盘，写稿时尚未开盘。",
+  "marketStatus": "premarket_before_cash_open",
+  "holiday": false,
+  "session": {
+    "dst": "EDT",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "21:30",
+    "premarketOpenEt": "04:00",
+    "premarketStarted": true,
+    "quoteTimeEt": "2026-10-19 09:08",
+    "futuresTimeEt": "2026-10-19 08:58"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。卖出价不用 30 美元目标反推。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。",
+    "settlement": "T+1",
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "观望",
+  "confidence": "维持观望：中高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": null,
+  "status": "no_order",
+  "quotes": {
+    "source": "Yahoo Finance chart v8",
+    "indicators": "EMA20、EMA50、RSI(14)、ATR(14)、MACD(12,26,9) 用约六个月日线重算，最后一根完成日线是 2026-10-16。盘前 1 分钟成交量字段全是 0，没有计算盘前 VWAP。常规交易 VWAP 要到 09:30 美东之后才有。",
+    "futures": {
+      "NQ=F": {
+        "last": 29743.25,
+        "asOfEt": "08:58",
+        "fridayClose": 29391.5,
+        "changePctVsFriday": 1.2,
+        "sessionHigh": 29813.5,
+        "globexLow": 29226.0,
+        "fridayLow": 29268.75,
+        "note": "夜盘低点 29226 低于周五低点 29268.75。现价靠近 ArabFX 2026-10-19 给出的阻力 29759。"
+      },
+      "ES=F": {
+        "last": 7736.25,
+        "asOfEt": "08:58",
+        "fridayClose": 7704.25,
+        "changePctVsFriday": 0.42,
+        "sessionHigh": 7768.5,
+        "globexLow": 7678.5,
+        "fridayLow": 7676.0
+      },
+      "YM=F": {
+        "last": 52066.0,
+        "asOfEt": "08:58",
+        "fridayClose": 52214.0,
+        "changePctVsFriday": -0.28,
+        "sessionHigh": 52508.0,
+        "globexLow": 52036.0
+      }
+    },
+    "macroTape": {
+      "vix": {
+        "last": 18.55,
+        "asOfEt": "08:53",
+        "fridayClose": 19.99,
+        "priorSessionCloseNote": "10 月 15 日收盘 16.46。",
+        "note": "Yahoo ^VIX 成交量字段为 0，不是 09:30 美东后的正式现金 VIX。"
+      },
+      "tnx": {
+        "last": 5.104,
+        "asOfEt": "08:53",
+        "fridayClose": 5.098,
+        "note": "ATFX 2026-10-19 早间稿写十年期 5.059%，与本次 Yahoo 不一致，报价用 Yahoo。"
+      },
+      "dxy": {
+        "last": 101.864,
+        "asOfEt": "08:58",
+        "fridayClose": 101.84,
+        "sessionHigh": 102.08,
+        "sessionLow": 101.77
+      },
+      "wti": {
+        "symbol": "CL=F",
+        "last": 97.89,
+        "asOfEt": "08:58",
+        "fridayLast": 99.04,
+        "changePct": -1.16,
+        "note": "ATFX 早间稿写 WTI 100.70，与 Yahoo CL=F 不一致，报价用 Yahoo。"
+      }
+    },
+    "premarketEt0908": {
+      "NVDA": {
+        "last": 218.41,
+        "high": 218.43,
+        "low": 216.0,
+        "fridayClose": 214.13,
+        "fridayHigh": 218.68,
+        "fridayLow": 213.32,
+        "changePct": 2.0
+      },
+      "QQQ": {
+        "last": 719.44,
+        "high": 720.4,
+        "low": 709.27,
+        "fridayClose": 709.8,
+        "fridayHigh": 725.96,
+        "fridayLow": 707.23,
+        "changePct": 1.36
+      },
+      "INTC": {
+        "last": 93.78,
+        "high": 94.16,
+        "low": 92.26,
+        "fridayClose": 89.85,
+        "fridayHigh": 94.22,
+        "fridayLow": 89.19,
+        "changePct": 4.37
+      },
+      "SOXX": {
+        "last": 511.82,
+        "high": 512.01,
+        "low": 505.07,
+        "fridayClose": 493.39,
+        "fridayHigh": 509.6,
+        "fridayLow": 492.83,
+        "changePct": 3.74
+      },
+      "AAPL": {
+        "last": 341.79,
+        "high": 345.1,
+        "low": 341.03,
+        "fridayClose": 343.46,
+        "fridayHigh": 347.82,
+        "fridayLow": 340.46,
+        "changePct": -0.49
+      },
+      "AMD": {
+        "last": 549.16,
+        "high": 549.4,
+        "low": 540.52,
+        "fridayClose": 528.75,
+        "fridayHigh": 550.96,
+        "fridayLow": 526.83,
+        "changePct": 3.86
+      },
+      "AVGO": {
+        "last": 339.6,
+        "high": 340.3,
+        "low": 335.45,
+        "fridayClose": 328.75,
+        "fridayHigh": 339.59,
+        "fridayLow": 328.58,
+        "changePct": 3.3
+      },
+      "TSLA": {
+        "last": 355.74,
+        "high": 358.09,
+        "low": 352.28,
+        "fridayClose": 354.72,
+        "fridayHigh": 370.5,
+        "fridayLow": 349.33,
+        "changePct": 0.29
+      },
+      "TQQQ": {
+        "last": 70.97,
+        "high": 71.24,
+        "low": 70.22,
+        "fridayClose": 68.21,
+        "fridayHigh": 73.13,
+        "fridayLow": 67.43,
+        "changePct": 4.05
+      }
+    }
+  },
+  "indicatorsDailyThrough20261016": {
+    "NVDA": {
+      "ema20": 225.57,
+      "ema50": 222.18,
+      "rsi14": 37.53,
+      "atr14": 5.97,
+      "macd": -0.177,
+      "macdSignal": 2.18,
+      "macdHist": -2.357,
+      "volume": 120855100,
+      "volumeRatio": 1.12
+    },
+    "QQQ": {
+      "ema20": 736.16,
+      "ema50": 728.22,
+      "rsi14": 35.0,
+      "atr14": 10.55,
+      "macdHist": -4.641,
+      "volumeRatio": 1.9
+    },
+    "INTC": {
+      "ema20": 105.86,
+      "ema50": 105.44,
+      "rsi14": 31.42,
+      "atr14": 5.85,
+      "macd": -2.639,
+      "macdSignal": 0.746,
+      "macdHist": -3.385,
+      "volume": 122325800,
+      "volumeRatio": 1.14,
+      "ema50Note": "今早记忆为 105.32，本次重算 105.44，差 0.12，仍远高于现价。"
+    },
+    "SOXX": {
+      "ema20": 545.03,
+      "ema50": 542.37,
+      "rsi14": 30.62,
+      "atr14": 17.76,
+      "macdHist": -9.896
+    },
+    "AAPL": {
+      "ema20": 336.82,
+      "ema50": 328.86,
+      "rsi14": 62.07,
+      "atr14": 6.7,
+      "macdHist": 0.197
+    },
+    "AMD": {
+      "ema20": 586.07,
+      "ema50": 555.17,
+      "rsi14": 37.77,
+      "atr14": 27.27,
+      "macdHist": -14.099
+    },
+    "AVGO": {
+      "ema20": 354.22,
+      "ema50": 363.71,
+      "rsi14": 34.79,
+      "atr14": 11.57
+    },
+    "TSLA": {
+      "atr14": 11.85,
+      "rsi14": 42.2,
+      "ema20": 368.07
+    },
+    "TQQQ": {
+      "ema20": 76.84,
+      "atr14": 3.3,
+      "rsi14": 33.85
+    }
+  },
+  "events": {
+    "earningsToday": "科技巨头无财报。XTB：FITB、CLF 盘前；STLD、ZION、WRB、WAL 盘后。这些都不是候选科技股。",
+    "earningsAhead": "周二盘后 NFLX。周三盘后 META、TSLA、LRCX、TXN、IBM。INTC 财报日为 10 月 29 日（TipRanks，2026-10-19）。",
+    "macro": "NAHB 住房市场指数尚未公布。Wrightson、Helious、WealthBranch 写美东 10:00；Investing.com 写 09:00。预测 31 或 32，前值 32。WealthBranch 日历实际值仍为空。写稿时约 09:08 美东。美联储 10 月 19 日日程没有讲话。11:30 美东有 13 周和 26 周国库券拍卖。",
+    "news": "INTC：JPM 上周五将评级从 Underweight 调至 Neutral，目标价维持 85 美元。Investing.com、Seeking Alpha、TipRanks、Boursorama/Reuters 2026-10-19 均有记载。TipRanks 写该目标价比周五收盘 89.85 低约 5.4%。Finviz 标题另写特斯拉代工协议，Investing.com 与 TipRanks 的升级稿没有这句话，本次不把它当成催化剂。"
+  },
+  "techniqueSearch": {
+    "adopted": [
+      {
+        "name": "盘前回到既有中枢，常规交易收盘才确认",
+        "source": "TradingView，virDeStatera，2026-10-19",
+        "principle": "NVDA 周五收在 214.58 货架下方，盘前回到 217.74 附近只说明价格回到争夺区。作者写明盘前本身不算，要常规交易收盘站上 217.74 才重新打开 220.18。",
+        "application": "本次盘前高点 218.43 仍低于周五高点 218.68，与周五区间重叠，不是无重叠的看涨 Kicker。不把盘前最后价当成买入。"
+      }
+    ],
+    "notAdopted": [
+      {
+        "name": "超卖芯片的技术反弹",
+        "source": "Kenanga 周线技术，2026-10-19",
+        "reason": "文章自己的条件是油价和收益率稳住，并且指数守住关键位。本次纳指期货在 ArabFX 同日阻力 29759 附近，道指期货仍低于周五收盘。不把反弹写成突破。"
+      },
+      {
+        "name": "标普 15 分钟均值回归",
+        "source": "TradingView，ChartPro_Data，2026-10-19",
+        "reason": "文中现价写成 7659.44、涨幅 0.01%，与上周五收盘一致，不像开盘前期货报价。不采用。"
+      },
+      {
+        "name": "看涨 Kicker 加买入 Call",
+        "source": "当日检索没有找到把 NVDA 或 INTC 定义为 Kicker 的高置信度出处",
+        "reason": "候选股盘前低点都没有整体离开周五高点。INTC 盘前高点 94.16 仍低于周五高点 94.22。"
+      },
+      {
+        "name": "财报 IV crush 与卖出期权",
+        "source": "TipRanks 2026-10-19 隐含波动列表；ApexVol、moomoo 的 IV crush 教育页",
+        "reason": "今日隐含波动讨论的是 CLF、FITB、STLD、WRB、ZION、WAL，不是候选科技股。卖出跨式或铁鹰被账户规则禁止。候选科技股今天没有财报，没有核对到 20 美元以内的权利金，不买期权。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "referenceEntry": 218.41,
+      "referenceTarget": 220.18,
+      "referenceStop": 213.32,
+      "shares": 0,
+      "referenceShares": 3,
+      "referencePosition": 655.23,
+      "referenceProfit": 5.31,
+      "referenceRisk": 15.27,
+      "riskReward": 0.35,
+      "order": false,
+      "reason": "到周五高点 218.68 的盈亏比约 0.05，到 TradingView 下一阻力 220.18 约 0.35。止损用周五低点 213.32，约 0.85 倍 ATR 5.97，3 股风险 15.27。EMA20 225.57、EMA50 222.18 仍在上方，RSI 37.53，MACD 柱 -2.357。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "referenceEntry": 93.78,
+      "referenceTarget": 94.22,
+      "referenceStop": 89.19,
+      "shares": 0,
+      "referenceShares": 4,
+      "referencePosition": 375.12,
+      "referenceProfit": 1.76,
+      "referenceRisk": 18.36,
+      "riskReward": 0.1,
+      "order": false,
+      "premarket": {
+        "last": 93.78,
+        "high": 94.16,
+        "low": 92.26
+      },
+      "support": [
+        92.26,
+        89.19
+      ],
+      "resistance": [
+        94.22,
+        105.86
+      ],
+      "news": "JPM 由 Underweight 调至 Neutral，目标价 85 美元，低于周五收盘和盘前价。周五低点 89.19 已破周四低点 90.02。",
+      "reason": "盘前涨约 4.37%，但高点没有离开周五高点。Neutral 不是买入评级，目标价在现价下方。仍在 EMA20 105.86 与 EMA50 105.44 下方，RSI 31.42，ATR 5.85，MACD 柱 -3.385。不买 Call。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "referenceEntry": 719.44,
+      "referenceTarget": 725.96,
+      "referenceStop": 709.27,
+      "shares": 0,
+      "referenceShares": 1,
+      "referencePosition": 719.44,
+      "referenceProfit": 6.52,
+      "referenceRisk": 10.17,
+      "riskReward": 0.64,
+      "order": false,
+      "reason": "盘前低点 709.27 仍低于 715.44。1 股到周五高点 725.96 的盈亏比 0.64。把止损收到 715.44 只有约 0.4 倍 ATR 10.55，距离太近，不采用。"
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "观望",
+      "referenceEntry": 511.82,
+      "referenceTarget": 517.12,
+      "referenceStop": 492.83,
+      "shares": 0,
+      "referenceShares": 1,
+      "referencePosition": 511.82,
+      "referenceProfit": 5.3,
+      "referenceRisk": 18.99,
+      "riskReward": 0.28,
+      "order": false,
+      "reason": "盘前已高于周五高点 509.60。1 股止损放在周五低点，风险 18.99，到周四高点 517.12 的盈亏比 0.28。ATR 17.76。"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "观望",
+      "referenceEntry": 341.79,
+      "referenceTarget": 347.82,
+      "referenceStop": 335.09,
+      "shares": 0,
+      "referenceShares": 2,
+      "referencePosition": 683.58,
+      "referenceProfit": 12.06,
+      "referenceRisk": 13.4,
+      "riskReward": 0.9,
+      "order": false,
+      "reason": "盘前较周五收盘下跌约 0.49%。2 股按 1 倍 ATR 6.70 止损，到周五高点盈亏比 0.90。"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "观望",
+      "shares": 0,
+      "riskReward": null,
+      "order": false,
+      "reason": "盘前 549.16。1 股 ATR 27.27 已超过 20 美元；到周五低点 526.83 的距离也有 22.33 美元。"
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "观望",
+      "referenceEntry": 339.6,
+      "referenceTarget": 344.7,
+      "referenceStop": 328.58,
+      "shares": 0,
+      "referenceShares": 1,
+      "referenceRisk": 11.02,
+      "referenceProfit": 5.1,
+      "riskReward": 0.46,
+      "order": false,
+      "reason": "盘前 339.60，已在周五高点 339.59 附近。1 股到周四高点 344.70 的盈亏比 0.46。"
+    },
+    {
+      "ticker": "TQQQ",
+      "direction": "仅观察",
+      "referenceEntry": 70.97,
+      "referenceTarget": 73.13,
+      "referenceStop": 67.43,
+      "shares": 0,
+      "referenceShares": 4,
+      "referenceRisk": 14.16,
+      "referenceProfit": 8.64,
+      "riskReward": 0.61,
+      "order": false,
+      "reason": "4 股止损距离乘股数 14.16，满足杠杆 ETF 15 美元上限，但到周五高点的盈亏比只有 0.61。不交易。"
+    }
+  ],
+  "options": {
+    "recommendation": "不交易",
+    "reason": "今天不买 Call 或 Put。没有卖出期权。没有核对到单笔不超过 20 美元的权利金。周三财报股的前一日限制落在周二。"
+  },
+  "followUp": [
+    "常规交易看 NVDA 能否收在 217.74 之上，以及 218.68、213.32、212.85。跌破 212.85 不把买单下移。",
+    "QQQ 盘前低点已在 715.44 下方。现金交易重新站上并守住之前，不做指数跟随。",
+    "10:00 美东核对 NAHB 实际值。11:30 美东国库券拍卖不单独作为科技股进场条件。",
+    "周二盘后 NFLX；周三盘后 META、TSLA、LRCX、TXN、IBM。周二起对这几只不再考虑买入期权。",
+    "INTC 看 94.22、92.26、89.19。升级目标价 85 仍低于市价。财报 10 月 29 日。",
+    "没有成交回报。现金仍记 1000，实现盈亏 0。"
+  ],
+  "email": {
+    "emailSentTo": "omitted-public-repo",
+    "emailSentAt": "2026-10-19T13:12:40Z",
+    "result": "accepted_http_202"
+  }
+}
