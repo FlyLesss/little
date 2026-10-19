@@ -1,0 +1,10 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-10-19,0900,NVDA,观望,,,,,0,0,空仓,空仓结论较高；不是盈利置信度,周一无大型科技财报；NAHB共识31前值32；美联储日程无10月19日讲话,21:00用盘前价重估；NVDA看212.85/213.32/214.13/218.68；跌破212.85不把买单下移,0,0,0.76,rejected_risk_reward,测算参考不是委托。214.13买3股止损208.16卖出218.68：仓位642.39风险17.91测算盈利13.65盈亏比0.76。4股风险23.88超限。EMA20 225.57 RSI 37.5 ATR 5.97。基准预测盈利0。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,INTC,观望,,,,,0,0,空仓,空仓,同上,INTC看89.19/90.02/94.22；仍在EMA20 105.86与EMA50 105.32下方,0,0,0.75,rejected_risk_reward,周五收盘89.85高94.22低89.19量122325800量比1.14。3股止损84.00到94.22：仓位269.55风险17.55测算盈利13.11盈亏比0.75。RSI 31.4 ATR 5.85 MACD柱-3.385。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,QQQ,观望,,,,,0,0,空仓,空仓,同上,QQQ看707.23/715.44；站回715.44之前不做指数跟随,0,0,1.53,rejected_structure,周五收盘709.80低707.23已破715.44。1股止损699.25到725.96：风险10.55测算盈利16.16盈亏比1.53。2股风险21.10超限。结构上放弃。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,AAPL,观望,,,,,0,0,空仓,空仓,同上,21:00若盘前价改变结构再重算,0,0,0.65,rejected_risk_reward,周五收盘343.46高347.82。2股ATR止损336.76：风险13.40测算盈利8.72盈亏比0.65。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,MSFT,观望,,,,,0,0,空仓,空仓,同上,同上,0,0,1.23,rejected_structure,周五收盘529.05高543.82 ATR 12.01。1股风险12.01测算盈利14.77盈亏比1.23。失败高点且无盘前价。放弃。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,AMD,观望,,,,,0,0,空仓,空仓,同上,同上,0,0,不适用,rejected_position_limits,周五收盘528.75 ATR 27.27。1股风险超过20美元。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,AVGO,观望,,,,,0,0,空仓,空仓,同上,同上,0,0,0.94,rejected_risk_reward,周五收盘328.75高339.59 ATR 11.57。1股盈亏比0.94。位于EMA20与EMA50下方。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,TSLA,观望,,,,,0,0,空仓,空仓,周三盘后TSLA财报,财报前不抢反弹,0,0,1.33,rejected_event_risk,周五收盘354.72高370.50 ATR 11.85。1股盈亏比1.33。周三财报前放弃。,omitted-public-repo,2026-10-19T01:08:20Z
+2026-10-19,0900,MU,观望,,,,,0,0,空仓,空仓,同上,同上,0,0,不适用,rejected_position_limits,周五收盘878.84 ATR 49.19。1股风险超过20美元。不交易TQQQ。,omitted-public-repo,2026-10-19T01:08:20Z
