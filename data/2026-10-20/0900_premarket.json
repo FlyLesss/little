@@ -1,0 +1,593 @@
+{
+  "date": "2026-10-20",
+  "slot": "0900",
+  "timezone": "Asia/Shanghai",
+  "generated_at_beijing": "2026-10-20T09:10:00+08:00",
+  "session": "us_regular_trading_day",
+  "market_open_beijing": "21:30",
+  "daylight_saving": "EDT",
+  "account": {
+    "capital_usd": 1000,
+    "research_target_usd": 30,
+    "target_is_not_a_promise": true,
+    "max_daily_loss_usd": 30,
+    "max_trade_risk_usd": 20,
+    "cash_usd": 1000,
+    "open_position": false,
+    "day_trades_last_5_sessions": 0,
+    "pdt_limit": 3
+  },
+  "recommendation": "观望",
+  "position_instruction": "空仓",
+  "confidence": "高",
+  "confidence_note": "空仓结论来自止损距离和盈亏比算术。不预测周二收盘方向。",
+  "predicted_profit": 0,
+  "actual_profit": 0,
+  "status": "no_trade",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-10-20T01:14:27Z",
+  "prior_plan_review": {
+    "plan_date": "2026-10-19",
+    "plan_slot": "2100",
+    "plan": "观望空仓",
+    "filled": false,
+    "actual_profit": 0,
+    "checks": [
+      "NVDA 常规交易收盘 217.09，没有站上 217.74。",
+      "NVDA 低点 214.70，没有跌破 212.85。",
+      "NAHB/Wells Fargo 住房市场指数 10 月为 29，较 9 月 32 下降 3 点。来源：NAHB 2026-10-19 新闻稿。"
+    ]
+  },
+  "quotes": {
+    "as_of": "现金股为 2026-10-19 常规交易；盘后为约 19:59 美东的 1 分钟最后一笔；期货与美元为 2026-10-19 21:00 美东。周二现金盘前尚未开始。",
+    "source": "Yahoo Finance chart API；指数收盘引自 CNBC 2026-10-19 16:20 ET 收盘报道。",
+    "indices_monday_close_cnbc": {
+      "nasdaq_composite": {
+        "close": 26430.89,
+        "change_pct": 1.11
+      },
+      "sp500": {
+        "close": 7690.73,
+        "change_pct": 0.41
+      },
+      "dow": {
+        "close": 51966.03,
+        "change_points": -36.38,
+        "change_pct": -0.07
+      }
+    },
+    "futures_2100_et": {
+      "NQ": {
+        "last": 29640.5,
+        "friday_settle": 29391.5,
+        "change_pct_vs_friday": 0.85,
+        "monday_cash_high": 29983.5,
+        "monday_cash_low": 29653.75
+      },
+      "ES": {
+        "last": 7733.75,
+        "friday_settle": 7704.25,
+        "change_pct_vs_friday": 0.38,
+        "monday_cash_high": 7773.25,
+        "monday_cash_low": 7727.5
+      },
+      "YM": {
+        "last": 52242.0,
+        "friday_settle": 52214.0,
+        "change_pct_vs_friday": 0.05,
+        "monday_cash_high": 52349.0,
+        "monday_cash_low": 52063.0
+      }
+    },
+    "vix_monday": {
+      "open": 18.37,
+      "high": 18.93,
+      "low": 17.39,
+      "close": 18.44,
+      "friday_close": 19.99,
+      "change_pct": -7.75
+    },
+    "us10y_monday_close": {
+      "yield_pct": 5.136,
+      "friday_pct": 5.098
+    },
+    "dxy_2100_et": {
+      "last": 101.95,
+      "friday_close": 101.84
+    },
+    "vwap": "Yahoo 1 分钟成交量加总约为官方日成交量的数倍。本次不公布 VWAP。"
+  },
+  "events_today": [
+    "美东 08:30：9 月新屋开工、营建许可。Morningstar 预测：开工 130.5 万（8 月 127.5 万），许可 139.1 万（8 月 140.3 万）。Hyperstocks 日历预测：开工 131 万、前值 127 万；许可 140 万、前值 140 万。两个预测不一致，早报不选边。",
+    "美东 10:00：9 月成屋销售签约。Hyperstocks 预测环比 -0.5%，前值 +0.3%。",
+    "盘前业绩：GE、RTX、GM、MMM、NOC、HAL 等。来源：Investrade 周历、Morningstar。不是科技巨头。",
+    "盘后业绩：NFLX。Yahoo 日历写明 2026-10-20 16:00 ET，EPS 预期 0.82。同日还有 ISRG、UAL、COF、CB。",
+    "NVIDIA GTC Berlin：官网为 2026-10-20 至 10-22。黄仁勋主题演讲是 10-21 11:00–13:00 CEST，不是周二现金盘的买入理由。",
+    "FOMC：美联储官网下一场例会是 2026-10-27 至 10-28。周二没有利率决议。"
+  ],
+  "techniques": {
+    "adopted": [
+      {
+        "name": "反弹遇均线压制，不把熊旗中继当反转",
+        "source": "Investing.com 纳斯达克100实时更新，2026-10-19 发布，2026-10-20 更新",
+        "why": "QQQ 周一收盘 718.36，仍低于本次重算的 SMA50 726.68 和 SMA20 741.36，RSI 41.1，MACD 柱 -4.942。"
+      },
+      {
+        "name": "NVDA 必须常规交易收盘站上 217.74",
+        "source": "TradingView virDeStatera，2026-10-19",
+        "why": "周一收盘 217.09，高点 219.62 曾越过该位，收盘没有留下。盘前跳空不算数。"
+      },
+      {
+        "name": "财报前不买跨事件的 Call/Put",
+        "source": "EarningsWatcher NFLX 页；ApexVol 2026-10-19 更新的预期波动",
+        "why": "NFLX 今晚盘后公布。两处预期波动分别写成约 ±9.4% 和 ±7.5%，数字不一致，但都说明权利金已经计入事件。本账户不卖出期权，也不买这一笔。"
+      }
+    ],
+    "not_adopted": [
+      "Investing.com 2026-10-19 的 TSLA 5 小时头肩顶做空：文中价格 369.38 是盘中，不是收盘 368.06；颈线 354 未破；周三盘后有财报；1000 美元现金账户不做空。",
+      "Investing.com 2026-10-19 的 AAPL 双顶：文章自己写形态只完成约 50%，颈线 336.94 未破。",
+      "EBC、链股调查局的通用技术分析教程与周二事件无直接对应，不采用。"
+    ]
+  },
+  "candidates": [
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.43,
+      "status": "rejected",
+      "monday": {
+        "open": 218.01,
+        "high": 219.62,
+        "low": 214.7,
+        "close": 217.09,
+        "change_pct": 1.38,
+        "volume": 98236684,
+        "volume_ratio": 0.94,
+        "after_hours_1959_et": 217.18
+      },
+      "indicators": {
+        "ema20": 224.76,
+        "ema50": 221.87,
+        "rsi14": 41.5,
+        "atr14": 5.93,
+        "macd_hist": -2.378
+      },
+      "rejected_test": "若用收盘 217.09 做参考，1 倍 ATR 止损 211.16，3 股风险 17.79 美元，卖到周一高点 219.62 仅 7.59 美元，盈亏比 0.43。止损改到 214.70 会小于 ATR，不采用。",
+      "notes": "依据：收盘站上 217.74 才算收复（TradingView virDeStatera，2026-10-19）。周一没收上。仍在 EMA20 224.76 下方。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.57,
+      "status": "rejected",
+      "monday": {
+        "open": 719.61,
+        "high": 724.55,
+        "low": 716.57,
+        "close": 718.36,
+        "change_pct": 1.21,
+        "volume": 36830609,
+        "volume_ratio": 1.02,
+        "after_hours_1959_et": 719.02
+      },
+      "indicators": {
+        "ema20": 734.47,
+        "sma20": 741.36,
+        "sma50": 726.68,
+        "rsi14": 41.1,
+        "atr14": 10.85,
+        "macd_hist": -4.942
+      },
+      "rejected_test": "1 股、止损按 ATR 放到 707.51，风险 10.85 美元，卖到周一高点 724.55 为 6.19 美元，盈亏比 0.57。",
+      "notes": "依据：反弹遇均线压制（Investing.com，2026-10-19/20）。收盘仍低于 SMA50。周一低点 716.57 守住了 715.44，但没有改成买单。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.58,
+      "status": "rejected",
+      "monday": {
+        "open": 94.53,
+        "high": 95.39,
+        "low": 91.88,
+        "close": 92.03,
+        "change_pct": 2.43,
+        "volume": 101113975,
+        "volume_ratio": 0.97,
+        "after_hours_1959_et": 91.97
+      },
+      "indicators": {
+        "ema20": 104.54,
+        "ema50": 104.8,
+        "rsi14": 34.7,
+        "atr14": 5.82,
+        "macd_hist": -3.285
+      },
+      "levels": {
+        "support": [
+          91.88,
+          89.19
+        ],
+        "resistance": [
+          95.39,
+          94.22,
+          104.54
+        ]
+      },
+      "news": "CNBC 与 Investing.com 2026-10-19：摩根大通由 Underweight 调至 Neutral，目标价 85 美元，低于周一收盘。Yahoo 一条标题写成 Buy，与这两处正文不一致，本次采用 Neutral。第三方日历指向 10 月 29 日业绩，本次没有打开公司投资者关系页，不写成已确认。",
+      "rejected_test": "3 股、ATR 止损 86.21，风险 17.46 美元，卖到周一高点 95.39 为 10.08 美元，盈亏比 0.58。",
+      "notes": "跳空高开后收阴，量比 0.97，不是看涨 Kicker。价格仍在 EMA20 与 EMA50 下方。不买 Call。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "SOXX",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.63,
+      "status": "rejected",
+      "monday": {
+        "open": 511.3,
+        "high": 513.12,
+        "low": 500.57,
+        "close": 501.93,
+        "change_pct": 1.73,
+        "after_hours_1959_et": 502.8
+      },
+      "indicators": {
+        "ema20": 540.93,
+        "rsi14": 34.8,
+        "atr14": 17.9,
+        "macd_hist": -10.109
+      },
+      "notes": "1 股 ATR 风险 17.90 美元，到周一高点 513.12 盈利 11.19 美元，盈亏比 0.63。EMA20 仍在 540.93。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "AAPL",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.46,
+      "status": "rejected",
+      "monday": {
+        "open": 341.33,
+        "high": 346.0,
+        "low": 340.11,
+        "close": 342.94,
+        "change_pct": -0.15
+      },
+      "indicators": {
+        "ema20": 337.4,
+        "rsi14": 61.2,
+        "atr14": 6.64
+      },
+      "notes": "2 股 ATR 风险 13.28 美元，到周一高点 346.00 盈利 6.12 美元，盈亏比 0.46。双顶脚本未完成，不采用。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "AMD",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": null,
+      "status": "rejected",
+      "monday": {
+        "close": 538.05,
+        "change_pct": 1.76,
+        "high": 554.41,
+        "low": 535.67,
+        "after_hours_1959_et": 538.88
+      },
+      "indicators": {
+        "atr14": 27.16,
+        "rsi14": 40.5,
+        "ema20": 581.5
+      },
+      "notes": "1 股的 1 倍 ATR 风险 27.16 美元，超过 20 美元上限。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "MSFT",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.18,
+      "status": "rejected",
+      "monday": {
+        "close": 533.52,
+        "change_pct": 0.84,
+        "high": 535.57,
+        "low": 528.74
+      },
+      "indicators": {
+        "atr14": 11.64,
+        "rsi14": 59.6
+      },
+      "notes": "1 股到周一高点的盈亏比约 0.18。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "AMZN",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.19,
+      "status": "rejected",
+      "monday": {
+        "close": 262.45,
+        "change_pct": 4.98,
+        "high": 263.71,
+        "low": 255.24,
+        "after_hours_1959_et": 263.2
+      },
+      "indicators": {
+        "atr14": 6.5,
+        "rsi14": 57.3
+      },
+      "notes": "涨幅已大部分走完。3 股 ATR 风险 19.50 美元，到周一高点只剩 3.78 美元，盈亏比 0.19。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "AVGO",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.49,
+      "status": "rejected",
+      "monday": {
+        "close": 334.59,
+        "change_pct": 1.78,
+        "high": 340.2,
+        "low": 333.82
+      },
+      "indicators": {
+        "atr14": 11.56,
+        "rsi14": 38.7,
+        "ema20": 352.35
+      },
+      "notes": "1 股 ATR 风险 11.56 美元，到周一高点 5.61 美元，盈亏比 0.49。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "TSLA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.13,
+      "status": "rejected",
+      "monday": {
+        "close": 368.06,
+        "change_pct": 3.76,
+        "high": 369.58,
+        "low": 354.47,
+        "after_hours_1959_et": 368.83
+      },
+      "indicators": {
+        "atr14": 12.08,
+        "rsi14": 50.6
+      },
+      "notes": "周三盘后财报。1 股到周一高点盈亏比约 0.13。头肩顶做空脚本不采用。不买期权。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "TQQQ",
+      "direction": "观察",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观察",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": 0.53,
+      "status": "watch_only",
+      "monday": {
+        "close": 70.64,
+        "change_pct": 3.56,
+        "high": 72.43,
+        "low": 70.13
+      },
+      "indicators": {
+        "atr14": 3.36
+      },
+      "notes": "4 股 ATR 风险 13.44 美元，未超过杠杆 ETF 的 15 美元观察线，但盈亏比 0.53，不纳入候选。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "META",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": null,
+      "status": "rejected",
+      "monday": {
+        "close": 705.44,
+        "change_pct": -0.55
+      },
+      "indicators": {
+        "atr14": 24.59
+      },
+      "notes": "1 股 ATR 24.59 美元，超过 20 美元。周三盘后财报，不买期权。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "MU",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": null,
+      "status": "rejected",
+      "monday": {
+        "close": 904.9,
+        "change_pct": 2.97,
+        "after_hours_1959_et": 905.26
+      },
+      "indicators": {
+        "atr14": 49.1
+      },
+      "notes": "1 股价格已超过本金可承受的风险预算。ATR 49.10 美元。"
+    },
+    {
+      "date": "2026-10-20",
+      "slot": "0900",
+      "ticker": "NFLX",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "recommendation": "观望",
+      "confidence": "高",
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk_reward": null,
+      "status": "rejected",
+      "monday": {
+        "close": 69.85,
+        "change_pct": -0.96,
+        "high": 70.22,
+        "low": 69.02
+      },
+      "notes": "今晚盘后财报。不买 Call 或 Put。预期波动来源互相不一致，不引用为交易价。"
+    }
+  ],
+  "options": {
+    "recommendation": "无",
+    "reason": "只允许买入 Call 或 Put，权利金不超过 20 美元，每日最多一笔，禁止卖出。NFLX 今晚公布，IV 事件溢价未消退。没有看涨或看跌 Kicker 配合成交量确认。"
+  },
+  "follow_up": [
+    "北京时间 21:00 再用周二盘前现金价重估。现在不预挂买单。",
+    "NVDA 若跌破周一低点 214.70，不把买单下移。212.85 仍是上周低点。",
+    "QQQ 收盘仍在 SMA50 726.68 下方时，不把周一反弹当成进场。",
+    "住房数据只作背景。预测来源不一致，不用某个预测值自动下单。",
+    "NFLX 盘后结果不作为隔夜持仓理由。本计划没有仓位。",
+    "周三盘后：META、TSLA、LRCX、TXN、IBM。自今晚起不对这些名字买期权。GTC 主题演讲在周三 11:00 CEST。",
+    "未采用的技巧：TSLA 头肩顶做空、AAPL 双顶做空、通用 K 线教程。原因见 techniques.not_adopted。"
+  ],
+  "risk_notice": "研究参考，不构成投资建议，不承诺收益。目标 +30 美元只是筛选阈值。可能亏损全部用于该笔的风险金。不执行真实交易。",
+  "email_status": "outlook_http_202"
+}
