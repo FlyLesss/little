@@ -1,0 +1,400 @@
+{
+  "date": "2026-10-23",
+  "slot": "0900",
+  "timezone": "Asia/Shanghai",
+  "quote_asof_et": "2026-10-22T20:54:00-04:00",
+  "cash_session": "2026-10-22 regular close; Friday 2026-10-23 premarket had not started",
+  "session_label": "今晚美股操作早报",
+  "account": {
+    "equity": 1000,
+    "daily_target_screen": 30,
+    "max_daily_loss": 30,
+    "max_trade_risk": 20,
+    "min_reward_risk": 1.5,
+    "predicted_profit": 0,
+    "actual_profit": 0,
+    "cash": 1000,
+    "position": "flat",
+    "day_trades_last_5_sessions": 0,
+    "pdt_note": "账户低于25000美元，5个交易日内最多3次日内交易。近5日成交型日内交易为0。本次空仓不是因为PDT名额。"
+  },
+  "recommendation": "空仓",
+  "confidence": "高",
+  "confidence_note": "高置信度指的是不交易，不是预测指数必跌。",
+  "market": {
+    "cash_indexes_2026_10_22": {
+      "nasdaq": {
+        "close": 26008.86,
+        "change_pct": -2.6
+      },
+      "sp500": {
+        "close": 7663.43,
+        "change_pct": -1.21
+      },
+      "dow": {
+        "close": 52867.98,
+        "change_pct": 0.02
+      },
+      "source": "Yahoo ^IXIC ^GSPC ^DJI regularMarketPrice"
+    },
+    "nq": {
+      "thu_cash_1559": 29146.5,
+      "wed_close": 30007.0,
+      "evening_2054": 29174.0,
+      "evening_volume": 300,
+      "vs_wed_pct": -2.78,
+      "vs_thu_cash_pct": 0.09
+    },
+    "es": {
+      "thu_cash_1559": 7706.5,
+      "wed_close": 7800.25,
+      "evening_2054": 7708.75,
+      "evening_volume": 453,
+      "vs_wed_pct": -1.17,
+      "vs_thu_cash_pct": 0.03
+    },
+    "ym": {
+      "thu_cash_1559": 53075.0,
+      "wed_close": 53059.0,
+      "evening_2054": 53089.0,
+      "evening_volume": 24,
+      "vs_wed_pct": 0.06,
+      "vs_thu_cash_pct": 0.03
+    },
+    "vix": {
+      "close": 19.03,
+      "high": 20.31,
+      "low": 17.71,
+      "previous_close": 16.68,
+      "change_pct": 14.09,
+      "asof_et": "16:15"
+    },
+    "us10y": {
+      "close": 4.953,
+      "previous_close": 5.146,
+      "high": 5.054,
+      "low": 4.939,
+      "asof_et": "14:59"
+    },
+    "dxy": {
+      "close": 101.547,
+      "previous_close": 101.78,
+      "asof_et": "20:52"
+    },
+    "wti": {
+      "daily_print": 99.18,
+      "previous_close": 97.15,
+      "evening_1m_2054": 99.14,
+      "evening_volume": 21
+    },
+    "brent": {
+      "daily_print": 112.86,
+      "previous_close": 108.82,
+      "evening_1m_2054": 112.78,
+      "evening_volume": 7
+    },
+    "vwap": "Yahoo 1分钟成交量加总远大于官方日成交量，不公布VWAP",
+    "tech_tone": "芯片和纳指大跌，道指基本持平。AAPL收涨，NVDA、INTC、SOXX、AMD、META明显弱于指数中位数。"
+  },
+  "indicators_through_2026_10_22": {
+    "source": "Yahoo日线至10月21日，10月22日用已核对的开高低收追加。EMA以SMA为种子，RSI与ATR用Wilder。",
+    "NVDA": {
+      "ema20": 222.68,
+      "ema50": 221.3,
+      "rsi14": 39.06,
+      "atr14": 6.25,
+      "macd_hist": -2.041,
+      "volume_ratio": 1.21
+    },
+    "QQQ": {
+      "ema20": 729.5,
+      "ema50": 726.21,
+      "rsi14": 36.54,
+      "atr14": 11.79,
+      "macd_hist": -4.953,
+      "volume_ratio": 1.84
+    },
+    "INTC": {
+      "ema20": 100.73,
+      "ema50": 103.12,
+      "rsi14": 30.47,
+      "atr14": 5.8,
+      "macd_hist": -2.769,
+      "volume_ratio": 1.35
+    },
+    "SOXX": {
+      "ema20": 528.89,
+      "ema50": 535.26,
+      "rsi14": 30.8,
+      "atr14": 19.11,
+      "macd_hist": -9.446,
+      "volume_ratio": 1.94
+    }
+  },
+  "events_today": "周五美东09:45标普全球制造业和服务业PMI初值（Schwab 10月22日前瞻、Investrade周历；本次没有打开标普全球发布页）。10:00密歇根大学消费者信心终值（Yahoo财经日历；前值情绪46.3、一年通胀预期4.7、五年3.5，共识栏为空）。盘前财报AXP、SLB、INFY、FCNCA，不是候选池。没有检索到10月23日的美联储决议；Schwab前瞻写下一场决议在10月28日。周四已公布：初请19.4万、世界大型企业联合会领先指标9月持平于99.6、堪萨斯城联储制造业综合指数11、WDC营收43.8亿美元和非GAAP EPS 4.64美元。",
+  "follow_up": "北京时间21:00再用周五盘前有成交量的现金价重估。NVDA低点已到211.26，不把买单下移；盘前站上218.88不算收盘修复。QQQ要先收回10月16日低点707.23并让回踩守住。INTC高点没有碰到90.75，低点84.64已低于8月26日低点85.63，财报仍是10月29日盘后。09:45的PMI和10:00的密歇根终值都在21:00最终建议之后，不用未公布数字提前改结论。不对AXP、SLB买期权。没有成交回报就继续记空仓。",
+  "thursday_review": {
+    "prior_plan": "2026-10-22 09:00和21:00都是空仓，没有成交回报。",
+    "nvda_conditions": "没有收在217.74之上，收盘212.21低于216.47和214.58，低点211.26低于216.31。",
+    "intc_conditions": "没有收回90.75。",
+    "lei": "世界大型企业联合会：9月领先指标持平于99.6（2016=100），8月-0.1%，3月至9月+0.6%。同步指标+0.3%，滞后指标+0.5%。",
+    "kc_fed": "堪萨斯城联储：10月制造业综合指数11，9月14；生产指数16，前值20；未来活动预期综合指数22，前值19。",
+    "wdc": "现金收盘354.19，-6.43%。公司口径营收43.8亿美元，非GAAP EPS 4.64美元，非GAAP毛利率58.1%，下一季营收50亿至52亿美元、非GAAP EPS 5.60至6.00美元，季度股息提高到0.175美元。共识数字两处媒体不一致，不选一个。Investing.com写电话会后盘后大约跌8%；Yahoo 1分钟只有16:00有量的一笔，开354.19、高357.00、收356.43、量492578，没有把媒体描述换算成价格。"
+  },
+  "techniques_adopted": [
+    {
+      "name": "盘前价格不是收盘确认",
+      "source": "TradingView virDeStatera",
+      "date": "2026-10-22",
+      "principle": "收盘站回217.74才算修复，收盘跌破216.47才看214.58。",
+      "why": "周四收盘212.21已经低于216.47和214.58。周五盘前尚未开始，不能把尚未出现的价格写成修复。"
+    },
+    {
+      "name": "收回失守价并让回踩守住",
+      "source": "Benzinga 撰稿人 RIPS",
+      "date": "2026-10-22",
+      "principle": "跌破的价位要先收回，回踩守住后再考虑多头。",
+      "why": "QQQ收盘704.47、低点701.90，低于10月16日低点707.23，也低于周三低点719.71。"
+    },
+    {
+      "name": "财报窗口不买权利金",
+      "source": "OptionStrat 2026-10-20；TipRanks 2026-10-20至10-23隐含波幅",
+      "principle": "公告后隐含波动率通常下降。事件前的隐含涨跌已经写进权利金。",
+      "why": "周五盘前AXP隐含约±4.05%、SLB约±5.52%（TipRanks）。这两只不在候选池。候选股没有看涨Kicker加放量，VIX收19.03也不是低位超买。没有核对到权利金不超过20美元的合约。"
+    }
+  ],
+  "techniques_not_used": [
+    "XtradingTime 2026-02-19的12种K线和EBC的通用价格行为没有对上周四某根具体K线，不作为进场信号。",
+    "Investing.com纳指盘前K线页显示的指数在30566附近，对不上纳指现金26008.86，也对不上纳指期货29174。",
+    "The Option Premium和Moomoo的铁蝶、卖跨，属于卖出期权，账户规则禁止。",
+    "不把QQQ、INTC周四跳空叫作Kicker：区间确实不与周三重叠，但没有当日来源使用这个名称，盘前1分钟成交量也是0。",
+    "Strongbuy 2026-10-23展望里的707.27和699.10没有用Yahoo日线重算。QQQ用已打印的707.23和700.00。",
+    "Investing.com早间稿把INTC财报写成10月22日盘后，与10月29日的公司时间不符，不采用。Susquehanna目标价105美元的日期在GuruFocus和Investing.com之间不一致，不当成周五的新催化剂。",
+    "Gap-and-Go不适用：跳空方向向下，失守价没有收回。"
+  ],
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": 212.21,
+      "exit_price": 218.88,
+      "stop_loss": 205.96,
+      "take_profit": 218.88,
+      "shares": 3,
+      "position_size": 636.63,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 20.01,
+      "hypothetical_risk": 18.75,
+      "risk_reward": 1.07,
+      "status": "no_trade",
+      "notes": "周四现金：开217.23，高218.88，低211.26，收212.21（-4.40%），量124,963,035，量比1.21。开高低收与Lord of TA 2026-10-22日线一致，收盘等于Yahoo meta。低点跌破10月20日212.77和10月15日212.85，仍高于9月15日211.16。EMA20 222.68，EMA50 221.30，RSI 39.06，ATR 6.25，MACD柱-2.041。3股止损205.96，到周四高点盈亏比1.07。virDeStatera 2026-10-22：盘前不是收盘；收盘跌破216.47才看214.58。收盘212.21同时低于这两条。不把买单下移。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": 704.47,
+      "exit_price": 715.43,
+      "stop_loss": 692.68,
+      "take_profit": 715.43,
+      "shares": 1,
+      "position_size": 704.47,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 10.96,
+      "hypothetical_risk": 11.79,
+      "risk_reward": 0.93,
+      "status": "no_trade",
+      "notes": "Yahoo日线序列尚未写入10月22日蜡烛。1分钟09:30开713.68，现金时段高715.43，低701.90，15:59收704.59；收盘用meta 704.47（-2.86%），量64,223,209，量比1.84。高点仍低于周三低点719.71，低点跌破10月16日707.23，仍高于9月16日700.00。EMA20 729.50，RSI 36.54，ATR 11.79，MACD柱-4.953。1股到周四高点盈亏比0.93。Benzinga RIPS 2026-10-22：先收回失守价并让回踩守住。1分钟成交量加总不可用，不公布VWAP。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": 85.49,
+      "exit_price": 89.19,
+      "stop_loss": 79.69,
+      "take_profit": 89.19,
+      "shares": 3,
+      "position_size": 256.47,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 11.1,
+      "hypothetical_risk": 17.4,
+      "risk_reward": 0.64,
+      "status": "no_trade",
+      "notes": "周四现金：开87.83，高89.19，低84.64，收85.49（-8.04%），量133,529,950，量比1.35。与Lord of TA和Yahoo meta收盘一致。高点低于周三低点90.75，区间不重叠。低点84.64和收盘85.49都低于8月26日低点85.63。EMA20 100.73，EMA50 103.12，RSI 30.47，ATR 5.80，MACD柱-2.769。3股到周四高点盈亏比0.64。Motley Fool 2026-10-22 18:36美东：下跌伴随布伦特高于112美元和Meta自由现金流转负，不是新的公司产品稿。财报仍为10月29日盘后。不买Put。"
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "观望",
+      "entry_price": 475.69,
+      "exit_price": 494.0,
+      "stop_loss": 456.58,
+      "take_profit": 494.0,
+      "shares": 1,
+      "position_size": 475.69,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 18.31,
+      "hypothetical_risk": 19.11,
+      "risk_reward": 0.96,
+      "status": "no_trade",
+      "notes": "1分钟09:30开489.73，高494.00，低472.21，15:59收475.56；收盘用meta 475.69（-6.79%），量14,977,322，量比1.94。EMA20 528.89，RSI 30.80，ATR 19.11，MACD柱-9.446。1股到周四高点盈亏比0.96。失守价没有收回。"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "观望",
+      "entry_price": 348.22,
+      "exit_price": 348.36,
+      "stop_loss": 341.78,
+      "take_profit": 348.36,
+      "shares": 2,
+      "position_size": 696.44,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 0.28,
+      "hypothetical_risk": 12.88,
+      "risk_reward": 0.02,
+      "status": "no_trade",
+      "notes": "周四开344.94，高348.36，低342.28，收348.22（+1.23%），量46,845,411，量比1.27。是这组大型科技股里少数收涨的。EMA20 339.16，RSI 64.75，ATR 6.44。本金只够2股。到周四高点只有0.14美元，盈亏比0.02。相对强势不是进场。"
+    },
+    {
+      "ticker": "MSFT",
+      "direction": "观望",
+      "entry_price": 521.08,
+      "exit_price": 533.6,
+      "stop_loss": 509.71,
+      "take_profit": 533.6,
+      "shares": 1,
+      "position_size": 521.08,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 12.52,
+      "hypothetical_risk": 11.37,
+      "risk_reward": 1.1,
+      "status": "no_trade",
+      "notes": "开532.70，高533.60，低520.30，收521.08（-2.23%）。ATR 11.37。1股到周四高点盈亏比1.10。下周10月28日盘后财报，今天不买期权。"
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "观望",
+      "entry_price": 250.38,
+      "exit_price": 258.36,
+      "stop_loss": 243.51,
+      "take_profit": 258.36,
+      "shares": 2,
+      "position_size": 500.76,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 15.96,
+      "hypothetical_risk": 13.74,
+      "risk_reward": 1.16,
+      "status": "no_trade",
+      "notes": "开258.18，高258.36，低248.00，收250.38（-4.57%）。ATR 6.87。2股是风险不超过20美元的上限，到周四高点盈亏比1.16，是本次常规测算里最高的，仍不到1.5。10月29日财报，今天不买期权。"
+    },
+    {
+      "ticker": "TSLA",
+      "direction": "观望",
+      "entry_price": 374.58,
+      "exit_price": 388.86,
+      "stop_loss": 361.96,
+      "take_profit": 388.86,
+      "shares": 1,
+      "position_size": 374.58,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 14.28,
+      "hypothetical_risk": 12.62,
+      "risk_reward": 1.13,
+      "status": "no_trade",
+      "notes": "开374.03，高388.86，低373.71，收374.58（-3.08%）。ATR 12.62。1股盈亏比1.13。周三财报后的第一个现金交易日已经走完，不把周四高点当成新的看涨Kicker。"
+    },
+    {
+      "ticker": "GOOGL",
+      "direction": "观望",
+      "entry_price": 324.22,
+      "exit_price": 331.43,
+      "stop_loss": 315.29,
+      "take_profit": 331.43,
+      "shares": 2,
+      "position_size": 648.44,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 14.42,
+      "hypothetical_risk": 17.86,
+      "risk_reward": 0.81,
+      "status": "no_trade",
+      "notes": "开330.45，高331.43，低322.00，收324.22（-3.15%）。ATR 8.93。2股盈亏比0.81。10月28日财报，今天不买期权。"
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "观望",
+      "entry_price": 323.24,
+      "exit_price": 330.82,
+      "stop_loss": 311.69,
+      "take_profit": 330.82,
+      "shares": 1,
+      "position_size": 323.24,
+      "recommendation": "观望",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 7.58,
+      "hypothetical_risk": 11.55,
+      "risk_reward": 0.66,
+      "status": "no_trade",
+      "notes": "开326.53，高330.82，低321.02，收323.24（-4.31%）。ATR 11.55。1股盈亏比0.66。2股风险23.10美元，超过20美元。"
+    },
+    {
+      "ticker": "TQQQ",
+      "direction": "观察",
+      "entry_price": 66.42,
+      "exit_price": 69.65,
+      "stop_loss": 62.8,
+      "take_profit": 69.65,
+      "shares": 4,
+      "position_size": 265.68,
+      "recommendation": "观察",
+      "confidence": "低",
+      "predicted_profit": 0,
+      "hypothetical_profit": 12.92,
+      "hypothetical_risk": 14.48,
+      "risk_reward": 0.89,
+      "status": "watch_only",
+      "notes": "杠杆ETF。1分钟开69.14，高69.65，低65.61，收盘meta 66.42（-8.52%）。ATR 3.62。4股风险14.48美元，没有超过15美元上限，但到周四高点盈亏比0.89。只观察，不纳入交易。"
+    }
+  ],
+  "rejected": [
+    {
+      "ticker": "AMD",
+      "reason": "ATR 28.23美元，1股风险已超过20美元。收盘507.93，-8.10%。不做。"
+    },
+    {
+      "ticker": "META",
+      "reason": "ATR 26.88美元，1股风险已超过20美元。收盘648.85，-6.98%。周四是财报后的现金交易日，不买期权。"
+    },
+    {
+      "ticker": "MU",
+      "reason": "ATR 48.80美元，1股风险已超过20美元。收盘856.49，-6.26%。不做。"
+    },
+    {
+      "ticker": "SOXL",
+      "reason": "杠杆ETF。收盘82.11，-20.47%，ATR 13.19美元，1股风险超过15美元。只观察。"
+    }
+  ],
+  "options": {
+    "recommendation": "不买",
+    "reason": "只允许买入Call或Put，且权利金不超过20美元。本次没有合格的看涨或看跌场景，也没有核对到这样的合约。禁止卖出期权。"
+  },
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-10-23T01:09:25Z",
+  "email_status": "outlook_http_202"
+}
