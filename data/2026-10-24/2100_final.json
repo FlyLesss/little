@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-24",
+  "slot": "2100",
+  "slotLabel": "开盘前最终建议",
+  "generatedAt": "2026-10-24T13:04:49Z",
+  "generatedAtBeijing": "2026-10-24 21:04",
+  "scheduledSlotBeijing": "21:00",
+  "scheduleNote": "北京时间周六 21:00。对应任务是开盘前最终确认，但当日美股休市，按休市流程处理：不设买卖价，不预挂周一委托。今早 09:00 的周末复盘仍在 weekend_review.json，本次不改写。",
+  "marketStatus": "closed_weekend",
+  "holiday": false,
+  "closureReason": "2026-10-24 是周六。纽交所与纳斯达克周末休市。本次 Yahoo 日线最后一根仍是 2026-10-23，1 分钟线也没有 2026-10-24。这不是临时假日。",
+  "nextCashSession": {
+    "date": "2026-10-26",
+    "weekday": "Monday",
+    "dst": "EDT",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "21:30",
+    "note": "2026 年夏令时到 11 月 1 日结束。周一仍按 21:30 北京时间开盘。"
+  },
+  "session": {
+    "dst": "EDT",
+    "cashOpenToday": false,
+    "quoteSession": "2026-10-23 regular close",
+    "quoteTimeEt": "2026-10-23 16:00",
+    "note": "周六没有盘中报价。下面的价格是周五日线，不能当成周六或周一的可成交价。"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。休市日不为实现该目标下单。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。空仓不是因为 PDT。",
+    "settlement": "T+1",
+    "allowLeverageEtf": false,
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "空仓",
+  "confidence": "休市结论高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": 0,
+  "status": "market_closed",
+  "priorSessionReview": {
+    "sessionDate": "2026-10-23",
+    "filled": false,
+    "realizedProfitUsd": 0,
+    "brokerFill": false,
+    "note": "今早周末复盘：上周 10 次建议都是空仓，假设盈亏 0。没有成交回报。现金仍记 1000。本次不把今早的测算改成委托。"
+  },
+  "quotes": {
+    "source": "Yahoo Finance chart v8",
+    "retrievedAt": "2026-10-24T13:02:27Z",
+    "asOf": "Friday 2026-10-23 cash close. Not a Saturday quote.",
+    "priceMethod": "个股用已经填上的 2026-10-23 日线 OHLC。收盘与今早 regularMarketPrice 一致。指标沿用今早，本次没有重算。期货日线收盘字段若成交量为 0，同时记下最后一笔有量的 1 分钟价。",
+    "revisionVs0900": "NVDA 日线开 210.99，今早 1 分钟开盘 210.94；高低收仍是 213.85 / 210.18 / 210.96。QQQ 日线开 702.20，今早 702.10；高低收仍是 709.30 / 701.16 / 704.40。INTC 日线开 85.92、高 87.87、量 71813700；今早是开 85.87、高 87.86、量 71684828；收盘仍是 86.96，低点仍是 84.74。AAPL 日线收盘字段 347.73，regularMarketPrice 仍是 347.725。期货见 futuresNote。",
+    "futuresNote": "NQ=F 日线收盘 29117.75 等于 16:59 美东、成交量为 0 的打印。最后一笔有量是 16:58 的 29163.25。今早写的 29175.00 是 16:45 的有量价，不是最后一笔。ES=F 日线收盘 7659.75 等于 17:00、成交量为 0 的打印。最后一笔有量是 16:59 的 7672.75。今早的 7672.50 与 16:52 的 7672.50 相同。没有周六新日线，不把这些差异写成新的进场。",
+    "futuresFriday": {
+      "NQ=F": {
+        "dailyCloseField": 29117.75,
+        "dailyCloseVolume": 0,
+        "lastPrintWithVolume": 29163.25,
+        "lastPrintWithVolumeEt": "16:58",
+        "morningRecord": 29175.0,
+        "morningRecordEt": "16:45",
+        "thursdayDailyClose": 29142.0,
+        "high": 29326.0,
+        "low": 28987.0
+      },
+      "ES=F": {
+        "dailyCloseField": 7659.75,
+        "dailyCloseVolume": 0,
+        "lastPrintWithVolume": 7672.75,
+        "lastPrintWithVolumeEt": "16:59",
+        "morningRecord": 7672.5,
+        "thursdayDailyClose": 7704.5
+      }
+    },
+    "macroTapeFriday": {
+      "vix": {
+        "close": 19.45,
+        "high": 20.66,
+        "low": 18.87,
+        "source": "Yahoo ^VIX daily bar 2026-10-23"
+      },
+      "tnx": {
+        "close": 4.988,
+        "source": "Yahoo ^TNX daily close 2026-10-23"
+      },
+      "dxy": {
+        "lastPrint": 101.752,
+        "lastPrintEt": "16:59",
+        "dailyCloseField": 101.81,
+        "source": "Yahoo DX-Y.NYB. regularMarketPrice 101.752 matches the 16:59 print. Daily bar close field is 101.81."
+      },
+      "ixic": 25955.34,
+      "gspc": 7623.68,
+      "dji": 52215.16
+    },
+    "fridayRegular": {
+      "NVDA": {
+        "open": 210.99,
+        "high": 213.85,
+        "low": 210.18,
+        "close": 210.96,
+        "volume": 79987200,
+        "regularMarketPrice": 210.96,
+        "indicatorsAsOf0900NotRecomputed": {
+          "ema20": 221.56,
+          "ema50": 220.89,
+          "rsi14": 38.09,
+          "atr14": 6.06,
+          "macdHist": -2.152
+        }
+      },
+      "QQQ": {
+        "open": 702.2,
+        "high": 709.3,
+        "low": 701.16,
+        "close": 704.4,
+        "volume": 30138000,
+        "regularMarketPrice": 704.4
+      },
+      "INTC": {
+        "open": 85.92,
+        "high": 87.87,
+        "low": 84.74,
+        "close": 86.96,
+        "volume": 71813700,
+        "regularMarketPrice": 86.96,
+        "indicatorsAsOf0900NotRecomputed": {
+          "ema20": 99.42,
+          "ema50": 102.49,
+          "rsi14": 32.79,
+          "atr14": 5.61,
+          "macdHist": -2.561,
+          "volumeRatio20dMorning": 0.72
+        }
+      },
+      "SOXX": {
+        "open": 474.74,
+        "high": 485.04,
+        "low": 473.1,
+        "close": 478.2,
+        "volume": 8577100
+      },
+      "AAPL": {
+        "dailyCloseField": 347.73,
+        "regularMarketPrice": 347.725,
+        "high": 351.73,
+        "low": 345.75,
+        "open": 349.12
+      }
+    }
+  },
+  "eventsToday": [
+    "2026-10-24 周六，美股现金交易休市，没有新的财报或宏观数据公布窗口。",
+    "今早已经记录、本次没有改写：路透综合 PMI 初值 57.6；密歇根 10 月终值情绪 48.0、现况 46.7、预期 48.8。"
+  ],
+  "intcNews": "周六没有打开到 Intel 新的公司新闻稿。财报日期仍用公司 2026-10-06 公告：10 月 29 日收盘后，电话会太平洋时间 14:00。检索到的 2026-10-24 页面是对周四跌幅、Susquehanna 目标价、Fab 62 和 FCC 豁免的转述，不当成新的成交价。",
+  "techniqueMatch": "今日未找到高置信度技巧匹配，建议以常规风控框架执行。",
+  "techniquesNotUsed": [
+    "OptionStrat，Brett Friedman，2026-10-20：公告次日 IV 下降频率 96.3%–100%。只继续当作不买期权的过滤器。不采用文中的卖出波动率。",
+    "FlashAlpha 的 crush 表把 META 下一财报写成 2026-10-27、NVDA 写成 2026-08-26，与已经公布的 META 财报冲突，不采用那些百分比。",
+    "CMElite 2026-07-03 与 moomoo 的 IV crush 说明是通用教材，文中的波动率数字是举例，不是今日报价。"
+  ],
+  "candidates": [
+    {
+      "ticker": "NONE",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "休市结论高。这不是盈利置信度。",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周六不设委托。预测盈利 0 不是收益承诺。今早没有任何标的同时满足风险不超过 20 美元和盈亏比至少 1.5。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五日线开 85.92、高 87.87、低 84.74、收 86.96，量 71813700。没有收回 90.75。EMA20 99.42、EMA50 102.49、RSI 32.79、ATR 5.61 为今早计算、本次未重算。休市，不设买卖价。不买期权。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五日线开 210.99、高 213.85、低 210.18、收 210.96。收盘低于 211.26 和 214.58。休市，不把买单下移。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五日线开 702.20、高 709.30、低 701.16、收 704.40。高点曾过 707.23，收盘没有留住。休市，不做。"
+    }
+  ],
+  "followUp": [
+    "周日现金交易休市。今晚 21:00 已经是周六，不要把下一档周日 21:00 改成交易计划。",
+    "下一现金交易日为 2026-10-26 周一，夏令时 21:30 北京时间开盘。周一 09:00 再出早报，不预挂买单。",
+    "NVDA 看 210.18、210.96、214.58。QQQ 看 701.16、704.40、707.23。INTC 看 84.74、86.96、90.75。跌破后不把买单下移。",
+    "周二起不买 MSFT、GOOGL 期权。周三起不买 INTC、AMZN 期权，也不买 QQQ 或 SOXX 期权去碰 FOMC。不卖出期权。",
+    "没有成交回报。现金仍记 1000，实现盈亏 0。"
+  ],
+  "email": {
+    "email_sent_to": "omitted-public-repo",
+    "email_sent_at": "2026-10-24T13:04:49Z",
+    "email_status": "accepted_http_202",
+    "subject": "[美股Agent] 2026-10-24 21:00 今日休市/无操作 | 本金$1000 | 目标$30",
+    "note": "公开仓库不写入个人邮箱。邮件已发往自动化配置的收件人。"
+  },
+  "disclaimer": "研究参考，不构成投资建议，不承诺收益，不执行交易。可能亏损全部本金。"
+}
