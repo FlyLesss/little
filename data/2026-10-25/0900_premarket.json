@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-25",
+  "slot": "0900",
+  "slotLabel": "今晚操作早报",
+  "generatedAt": "2026-10-25T01:05:49Z",
+  "generatedAtBeijing": "2026-10-25 09:05",
+  "scheduledSlotBeijing": "09:00",
+  "scheduleNote": "北京时间周日 09:00。对应任务是早报，但当日美股休市，按休市流程处理：不设买卖价，不预挂周一委托。",
+  "marketStatus": "closed_weekend",
+  "holiday": false,
+  "closureReason": "2026-10-25 是周日。纽交所与纳斯达克周末休市。纽交所官网 2026 假日表没有 10 月休市日，10 月 26 日不在假日名单里。本次 Yahoo 日线最后一根仍是 2026-10-23，没有周日新的现金或期货日线。",
+  "nextCashSession": {
+    "date": "2026-10-26",
+    "weekday": "Monday",
+    "dst": "EDT",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "21:30",
+    "note": "2026 年夏令时到 11 月 1 日结束。周一仍按 21:30 北京时间开盘。纽交所 2026 假日表的 10 月没有休市日。"
+  },
+  "session": {
+    "dst": "EDT",
+    "cashOpenToday": false,
+    "quoteSession": "2026-10-23 regular close",
+    "quoteTimeEt": "2026-10-23 16:00",
+    "note": "周日没有盘中报价。下面的价格都是周五日线，不能当成周日或周一的可成交价。盘后 19:59 美东的 1 分钟成交量为 0，不采用。"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。休市日不为实现该目标下单。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "minRewardRisk": 1.5,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。空仓不是因为 PDT。",
+    "settlement": "T+1",
+    "allowLeverageEtf": false,
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "空仓",
+  "confidence": "休市结论高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": 0,
+  "status": "market_closed",
+  "screen": {
+    "rule": "最大风险不超过 20 美元，且盈亏比至少 1.5。止损用 1 倍 ATR，卖出目标只用周五已经打印的高点。",
+    "anyPass": false,
+    "note": "即便不考虑休市，周五收盘测算也没有任何标的同时满足这两条。目标 30 美元不反推卖出价。",
+    "rejected": [
+      {
+        "ticker": "NVDA",
+        "shares": 3,
+        "referenceEntry": 210.96,
+        "referenceStop": 204.9,
+        "referenceTarget": 213.85,
+        "risk": 18.18,
+        "profit": 8.67,
+        "riskReward": 0.48,
+        "note": "到周四高点 218.88 约 1.31，仍不到 1.5，且那是用前一日高点去凑，不采用。"
+      },
+      {
+        "ticker": "QQQ",
+        "shares": 1,
+        "referenceEntry": 704.4,
+        "referenceStop": 692.87,
+        "referenceTarget": 709.3,
+        "risk": 11.53,
+        "profit": 4.9,
+        "riskReward": 0.42
+      },
+      {
+        "ticker": "INTC",
+        "shares": 3,
+        "referenceEntry": 86.96,
+        "referenceStop": 81.35,
+        "referenceTarget": 87.87,
+        "risk": 16.83,
+        "profit": 2.73,
+        "riskReward": 0.16
+      },
+      {
+        "ticker": "SOXX",
+        "shares": 1,
+        "referenceEntry": 478.2,
+        "referenceStop": 459.61,
+        "referenceTarget": 485.04,
+        "risk": 18.59,
+        "profit": 6.84,
+        "riskReward": 0.37
+      },
+      {
+        "ticker": "AAPL",
+        "shares": 2,
+        "referenceEntry": 347.73,
+        "referenceStop": 341.32,
+        "referenceTarget": 351.73,
+        "risk": 12.82,
+        "profit": 8.0,
+        "riskReward": 0.62
+      },
+      {
+        "ticker": "TQQQ",
+        "shares": 4,
+        "referenceEntry": 66.29,
+        "referenceStop": 62.77,
+        "referenceTarget": 67.67,
+        "risk": 14.08,
+        "profit": 5.52,
+        "riskReward": 0.39,
+        "note": "4 股风险 14.08 美元，没有超过杠杆 ETF 的 15 美元观察线，但盈亏比不够，只观察。"
+      },
+      {
+        "ticker": "AMD",
+        "shares": 1,
+        "atr": 27.36,
+        "note": "1 股 ATR 超过 20 美元。"
+      },
+      {
+        "ticker": "META",
+        "shares": 1,
+        "atr": 26.08,
+        "note": "1 股 ATR 超过 20 美元。"
+      },
+      {
+        "ticker": "MU",
+        "shares": 1,
+        "atr": 47.85,
+        "note": "1 股 ATR 超过 20 美元。"
+      }
+    ]
+  },
+  "priorSessionReview": {
+    "sessionDate": "2026-10-23",
+    "filled": false,
+    "realizedProfitUsd": 0,
+    "brokerFill": false,
+    "note": "10 月 23 日早报和开盘前建议都是空仓。周六周末复盘和周六晚休市记录也是空仓。没有成交回报。现金仍记 1000。",
+    "nvdaCloseVs211_26": "周五收盘 210.96，低于 211.26，也低于 214.58。低点 210.18。不把买单下移。",
+    "qqqVs707_23": "QQQ 高点 709.30 曾高于 707.23，收盘 704.40 没有留住。",
+    "intcVs90_75": "INTC 高点 87.87，没有收回 90.75。"
+  },
+  "quotes": {
+    "source": "Yahoo Finance chart v8",
+    "retrievedAt": "2026-10-25T01:05:49Z",
+    "asOf": "Friday 2026-10-23 cash close. Not a Sunday quote.",
+    "priceMethod": "个股 OHLC 与成交量用 2026-10-23 日线。涨跌幅相对前一根日线收盘。EMA 为 span、adjust=False。RSI14 与 ATR14 为 Wilder。MACD 柱为 12/26/9。该算法与周六复盘复现的 10 月 23 日读数一致。量比是当日成交量除以前 20 根日成交量。",
+    "futures": {
+      "note": "没有 2026-10-24 或 2026-10-25 的有价日线。下面区分日线收盘字段和周五下午最后几分钟的有量 1 分钟，不把结算式打印写成周日成交。",
+      "NQ=F": {
+        "dailyCloseField": 29117.75,
+        "regularMarketPrice": 29117.75,
+        "regularMarketTimeUtc": "2026-10-23T20:59:59Z",
+        "minute1659Et": {
+          "close": 29117.75,
+          "high": 29178.75,
+          "low": 29117.75,
+          "volume": 345
+        },
+        "minute1658Et": {
+          "close": 29162.75,
+          "volume": 100
+        },
+        "dailyVolumeEqualsPriorDay": true,
+        "priorDailyCloseField": 29142.0
+      },
+      "ES=F": {
+        "dailyCloseField": 7659.75,
+        "regularMarketPrice": 7659.75,
+        "minute1659Et": {
+          "close": 7672.75,
+          "volume": 624
+        },
+        "minute1700Et": {
+          "open": 7659.75,
+          "close": 7672.5,
+          "volume": 1744080,
+          "note": "量异常大，开在日线收盘字段上，不当成新的方向。"
+        },
+        "priorDailyCloseField": 7704.5
+      },
+      "YM=F": {
+        "dailyCloseField": 52394.0,
+        "regularMarketPrice": 52394.0,
+        "minute1658Et": {
+          "close": 52448.0,
+          "volume": 17
+        },
+        "minute1659Et": {
+          "open": 52394.0,
+          "high": 52457.0,
+          "low": 52394.0,
+          "close": 52451.0,
+          "volume": 91576
+        }
+      }
+    },
+    "macroTapeFriday": {
+      "ixic": {
+        "close": 25955.34,
+        "prior": 26008.86,
+        "changePct": -0.21,
+        "high": 26111.62,
+        "low": 25866.15
+      },
+      "gspc": {
+        "close": 7623.68,
+        "prior": 7663.43,
+        "changePct": -0.52
+      },
+      "dji": {
+        "close": 52215.16,
+        "prior": 52867.98,
+        "changePct": -1.23
+      },
+      "ndx": {
+        "close": 28957.53,
+        "high": 29161.03,
+        "low": 28825.72
+      },
+      "vix": {
+        "close": 19.45,
+        "prior": 19.03,
+        "changePct": 2.21,
+        "high": 20.66,
+        "low": 18.87
+      },
+      "tnx": {
+        "close": 4.988,
+        "prior": 4.953
+      },
+      "dxy": {
+        "dailyCloseField": 101.81,
+        "regularMarketPrice": 101.752,
+        "priorDailyCloseField": 101.61
+      },
+      "wti": {
+        "dailyCloseField": 103.27,
+        "regularMarketPrice": 103.27,
+        "minute1659Et": 103.44,
+        "note": "日线收盘字段与 16:59 的 1 分钟 103.44 不一致。没有周日新报价，不另选结算价。"
+      },
+      "brent": {
+        "dailyCloseFieldRejected": 116.72,
+        "regularMarketPrice": 111.7,
+        "minute1659Et": 111.66,
+        "note": "日线收盘字段 116.72 与 regularMarketPrice、16:59 的 1 分钟都对不上，不采用。"
+      }
+    },
+    "fridayRegular": {
+      "NVDA": {
+        "close": 210.96,
+        "open": 210.99,
+        "high": 213.85,
+        "low": 210.18,
+        "prior": 212.21,
+        "changePct": -0.59,
+        "volume": 79987200,
+        "volRatio20": 0.76,
+        "ema20": 221.56,
+        "ema50": 220.89,
+        "rsi14": 38.09,
+        "atr14": 6.06,
+        "macdHist": -2.152
+      },
+      "QQQ": {
+        "close": 704.4,
+        "open": 702.2,
+        "high": 709.3,
+        "low": 701.16,
+        "prior": 704.47,
+        "changePct": -0.01,
+        "volume": 30138000,
+        "volRatio20": 0.82,
+        "ema20": 727.11,
+        "ema50": 725.36,
+        "rsi14": 36.51,
+        "atr14": 11.53,
+        "macdHist": -5.141
+      },
+      "INTC": {
+        "close": 86.96,
+        "open": 85.92,
+        "high": 87.87,
+        "low": 84.74,
+        "prior": 85.49,
+        "changePct": 1.72,
+        "volume": 71813700,
+        "volRatio20": 0.72,
+        "ema20": 99.42,
+        "ema50": 102.49,
+        "rsi14": 32.79,
+        "atr14": 5.61,
+        "macdHist": -2.561
+      },
+      "SOXX": {
+        "close": 478.2,
+        "open": 474.74,
+        "high": 485.04,
+        "low": 473.1,
+        "prior": 475.69,
+        "changePct": 0.53,
+        "volume": 8577100,
+        "volRatio20": 1.04,
+        "ema20": 524.06,
+        "ema50": 533.02,
+        "rsi14": 31.96,
+        "atr14": 18.59,
+        "macdHist": -9.327
+      },
+      "AAPL": {
+        "close": 347.73,
+        "open": 349.12,
+        "high": 351.73,
+        "low": 345.75,
+        "prior": 348.22,
+        "changePct": -0.14,
+        "volume": 39496500,
+        "atr14": 6.41
+      }
+    }
+  },
+  "intc": {
+    "direction": "观望",
+    "premarket": null,
+    "afterHoursUsed": false,
+    "support": 84.74,
+    "resistance": [
+      87.87,
+      90.75
+    ],
+    "news": "本次打开的 Intel IR 仍写三季报电话会为 2026-10-29 14:00 PDT。没有看到 10 月 25 日的公司新稿。周末转载仍是周四 Susquehanna 目标价由 115 调到 105、维持 Neutral，以及周五反弹；周五收盘相对周四 85.49 约 +1.72%，与“涨约 1.76%”的转述同向。Fab 62 投产年份媒体仍不一致，不选一个年份。",
+    "reason": "价格仍低于 EMA20 99.42 和 EMA50 102.49。周五高点 87.87 没有收回 90.75。3 股到周五高点盈亏比 0.16。财报在 10 月 29 日盘后，不买 Call。"
+  },
+  "techniques": {
+    "matchSentence": "今日未找到可变成买卖价的高置信度技巧匹配，建议以常规风控框架执行。",
+    "adoptedAsFilterOnly": [
+      {
+        "name": "均线下方不把靠近下轨当成买入",
+        "source": "LabbitX，Chou Hoyi",
+        "date": "2026-10-24",
+        "principle": "价格仍在 10 日 EMA 和 50 日 SMA 下方时，接近布林下轨不等于风险出清，不新增方向仓。",
+        "why": "Yahoo ^NDX 周五收盘 28957.53、高点 29161.03，与该文引用的收盘和收回价一致。周日没有新收盘，不把这套分层加仓写成周一委托。"
+      },
+      {
+        "name": "收盘确认，而不是盘前守住",
+        "source": "TradingView，virDeStatera",
+        "date": "2026-10-23",
+        "principle": "214.58 要靠常规交易收盘收回才算修复；收盘低于 211.26 则下跌延伸。",
+        "why": "周五收盘 210.96 已经低于 211.26。文章里“守住 212.47”的那条路径已经被这个收盘关掉。周日不能用盘前价重开。"
+      },
+      {
+        "name": "公告次日隐含波动率下降",
+        "source": "OptionStrat，Brett Friedman",
+        "date": "2026-10-20",
+        "principle": "财报前权利金含事件波动，公告次日 IV 下降的样本频率为 96.3%–100%。",
+        "why": "只用来继续禁止买入期权。下周三 MSFT、GOOGL，下周四 INTC、AMZN。不把该文变成卖方结构。"
+      }
+    ],
+    "notUsed": [
+      "Released 2026-10-25 的夜盘日记：纳指、标普、QQQ、VIX 与周五收盘相同，没有周日新成交。",
+      "Investing.com 的 NVDA 技术页写 RSI 34.162、MA20 215.23，与本次 Yahoo 日线 RSI 38.09、以及 Lord of TA 同日 SMA20 225.54 矛盾。",
+      "IG 与解盘姐的通用 K 线教材没有对应到周五这根 K 线。Optiontrading.app 的 NVDA 形态停在 2026-10-20。",
+      "CryptoBourse 2026-10-21 的盘前图价格对不上，并夹带券商推广。",
+      "Saxo 2026-10-07 与 OptionsPro 2026-10-09 的铁鹰、跨式是卖出期权，账户禁止。",
+      "Lord of TA 2026-10-23 的超卖回测写明不是买卖清单。周五收盘仍在 EMA20 下方，周日也没有现金时段。",
+      "StreetInsider 2026-10-22 把英特尔财报写成周四收盘后，与本次打开的 Intel IR（10 月 29 日）冲突。"
+    ]
+  },
+  "eventsToday": [
+    "2026-10-25 周日，美股现金交易休市，没有新的财报或宏观数据公布窗口。",
+    "纽交所官网 2026 假日表没有 10 月休市日。下一个现金交易日是 2026-10-26 周一，夏令时 21:30 北京时间开盘。",
+    "Intel IR 本次打开：三季报电话会 2026-10-29 14:00 PDT。EarningsWatcher 日历：10 月 28 日盘后 MSFT、GOOGL；10 月 29 日盘后 INTC、AMZN。这些日期与 10 月 24 日已打开的公司页面一致。周一早报再用盘前价重估，今天不预挂。"
+  ],
+  "candidates": [
+    {
+      "ticker": "NONE",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "休市结论高。这不是盈利置信度。",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周日不设委托。没有任何标的同时满足最大风险不超过 20 美元和盈亏比至少 1.5。预测盈利 0 不是收益承诺。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 210.96，高 213.85，低 210.18。收盘低于 211.26 和 214.58。EMA20 221.56，EMA50 220.89，RSI 38.09，ATR 6.06，MACD 柱 -2.152。3 股到周五高点盈亏比 0.48。依据：virDeStatera 2026-10-23 收盘确认；LabbitX 2026-10-24 不在均线下方抢反弹。休市，不设买卖价。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 86.96，高 87.87，低 84.74，量 71813700，量比 0.72。没有盘前价。支撑 84.74，阻力 87.87 与 90.75。仍低于 EMA20 99.42 和 EMA50 102.49，RSI 32.79，ATR 5.61，MACD 柱 -2.561。没有收回 90.75。Intel IR：10 月 29 日 14:00 PDT。周末没有公司新稿。3 股盈亏比 0.16。不买 Call。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "actual_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "空仓",
+      "recommendation": "空仓",
+      "status": "market_closed",
+      "notes": "周五收盘 704.40，高 709.30，低 701.16。高点曾过 707.23，收盘没有留住。1 股盈亏比 0.42。休市，不做。"
+    }
+  ],
+  "followUp": [
+    "今晚 21:00 北京时间仍是周日。若再次运行，仍然是休市，不要改成交易计划。",
+    "下一现金交易日为 2026-10-26 周一，夏令时 21:30 北京时间开盘。周一 09:00 再出早报，不预挂买单。",
+    "NVDA 看 210.18、210.96、214.58。收盘已低于 211.26，不把买单下移。QQQ 看 707.23。INTC 看 84.74、87.87、90.75。",
+    "周二起不买 MSFT、GOOGL 期权。周三起不买 INTC、AMZN 期权，也不买 QQQ 或 SOXX 期权去碰 10 月 28 日决议。不卖出期权。",
+    "没有成交回报。现金仍记 1000，实现盈亏 0。"
+  ],
+  "email": {
+    "email_sent_to": "omitted-public-repo",
+    "email_sent_at": "2026-10-25T01:07:04Z",
+    "email_status": "accepted_http_202",
+    "subject": "[美股Agent] 2026-10-25 09:00 今日休市/无操作 | 本金$1000 | 目标$30",
+    "note": "公开仓库不写入个人邮箱。"
+  },
+  "disclaimer": "研究参考，不构成投资建议，不承诺收益，不执行交易。可能亏损全部本金。"
+}
