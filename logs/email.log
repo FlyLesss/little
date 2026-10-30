@@ -1,0 +1,2 @@
+2026-10-30T08:27:51Z slot=0900_premarket subject=[美股Agent] 2026-10-30 09:00 今晚操作早报 | 本金$1000 | 目标$30 status=sent_stub reason=placeholder_body_not_the_report recipient=omitted-public-repo
+2026-10-30T08:31:44Z slot=0900_premarket subject=[美股Agent] 2026-10-30 09:00 今晚操作早报 | 本金$1000 | 目标$30 status=sent reason=outlook_http_202 recipient=omitted-public-repo recommendation=观望 predicted_profit=0
