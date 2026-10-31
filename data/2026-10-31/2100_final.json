@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "date": "2026-10-31",
+  "slot": "2100",
+  "slotLabel": "开盘前最终建议",
+  "generatedAt": "2026-10-31T13:07:28Z",
+  "generatedAtBeijing": "2026-10-31 21:07",
+  "scheduledSlotBeijing": "21:00",
+  "scheduleNote": "北京时间周六 21:00。对应任务是开盘前最终确认，但当日美股休市，按休市流程处理：不设买卖价，不预挂周一委托。今早 09:00 的周末复盘不改写。",
+  "marketStatus": "closed_weekend",
+  "holiday": false,
+  "closureReason": "2026-10-31 是周六。纽交所与纳斯达克周末休市。Yahoo 现金股日线最后一根仍是 2026-10-30，1 分钟线没有 2026-10-31。股指期货周六分钟开高低收为空、成交量为空，没有新的有量成交。",
+  "nextCashSession": {
+    "date": "2026-11-02",
+    "weekday": "Monday",
+    "dst": "EST",
+    "cashOpenEt": "09:30",
+    "cashOpenBeijing": "22:30",
+    "note": "夏令时于 2026-11-01 结束。周一按北京时间 22:30 开盘。今早周末复盘已把 11 月 2 日写成交易日。本次没有打开纽交所原文页，也没有把周一改成假日。"
+  },
+  "session": {
+    "dst": "EDT",
+    "cashOpenToday": false,
+    "quoteSession": "2026-10-30 regular close",
+    "quoteTimeEt": "2026-10-30 16:00",
+    "quoteCheckedAt": "2026-10-31T13:06:00Z",
+    "note": "周六没有盘中报价。下面的价格是周五收盘，不能当成周六或周一的可成交价。盘后 20:00 UTC 之后成交量为 0 的打印不采用。"
+  },
+  "account": {
+    "capitalUsd": 1000,
+    "cashUsd": 1000,
+    "openPosition": null,
+    "dailyProfitTargetUsd": 30,
+    "dailyProfitTargetNote": "筛选阈值，不是收益承诺。休市日不为实现该目标下单。",
+    "maxDailyLossUsd": 30,
+    "maxRiskPerTradeUsd": 20,
+    "minRewardRisk": 1.5,
+    "dayTradesLast5Sessions": 0,
+    "pdtLimit": 3,
+    "pdtNote": "账户低于 25000 美元。近 5 个交易日没有已记录的成交型日内交易。今天不开仓，不使用额度。空仓不是因为 PDT。",
+    "settlement": "T+1",
+    "allowLeverageEtf": false,
+    "preferWholeShares": true,
+    "realizedProfitUsd": 0
+  },
+  "recommendation": "空仓",
+  "confidence": "休市结论高。这不是对盈利的置信度。",
+  "predictedProfitUsd": 0,
+  "actualProfitUsd": 0,
+  "status": "market_closed",
+  "screen": {
+    "rule": "最大风险不超过 20 美元，且盈亏比至少 1.5。止损用 1 倍 ATR，卖出目标只用周五已经打印的高点。",
+    "anyPass": false,
+    "recomputedThisRun": false,
+    "note": "收盘价与今早一致。指标和拒绝测算沿用今早，本次没有重算，也没有改成委托。目标 30 美元不反推卖出价。",
+    "morningReferenceNotOrdered": [
+      {"ticker": "NVDA", "shares": 3, "entry": 204.64, "stop": 198.42, "target": 209.05, "risk": 18.66, "rewardRisk": 0.71},
+      {"ticker": "QQQ", "shares": 1, "entry": 690.49, "stop": 677.78, "target": 698.63, "risk": 12.71, "rewardRisk": 0.64},
+      {"ticker": "INTC", "shares": 2, "entry": 65.76, "stop": 58.79, "target": 68.77, "risk": 13.94, "rewardRisk": 0.43},
+      {"ticker": "AAPL", "shares": 2, "entry": 344.63, "stop": 338.32, "target": 349.19, "risk": 12.62, "rewardRisk": 0.72}
+    ]
+  },
+  "priorSessionReview": {
+    "sessionDate": "2026-10-30",
+    "filled": false,
+    "realizedProfitUsd": 0,
+    "brokerFill": false,
+    "note": "10 月 30 日两份建议和今早周末复盘都是空仓。没有成交回报。现金仍记 1000。",
+    "nvdaClose": "周五收盘 204.64，低于 210.18、213.66 和 217.74。低点 200.92。不把买单下移。",
+    "qqqVs707_23": "QQQ 高点 698.63，没有碰到 707.23。收盘 690.49。",
+    "intcRange": "INTC 高点 68.77，低点 63.20，整个区间低于 90.75 和周四低点 90.84。"
+  },
+  "quotes": {
+    "source": "Yahoo Finance chart v8",
+    "retrievedAt": "2026-10-31T13:06:00Z",
+    "asOf": "Friday 2026-10-30 cash close. Not a Saturday quote.",
+    "priceMethod": "个股收盘用 regularMarketPrice。收盘分钟用 1 分钟里最后一根有成交量的 K 线。期货同时记下日线收盘字段和最后一笔有量的 1 分钟。指标沿用今早，本次没有重算。",
+    "revisionVs0900": "收盘价未变：NVDA 204.64，QQQ 690.49，INTC 65.76，SOXX 471.51，AAPL 344.63。收盘分钟与今早相同：NVDA 20:00 UTC 收 204.80、量 1471295；QQQ 19:59 UTC 收 690.56、量 1260594；INTC 19:59 UTC 收 65.88、量 5258206，20:00 成交量为 0。日线字段的小差异：NVDA 开 208.94（今早 208.88）、高 209.06（今早 209.05）、量 168039400（今早 165923799）；QQQ 开 697.21（今早 697.13）、量 85108900（今早 84754440）；INTC 开 68.36（今早 68.35）、量 454221300（今早 450884426）。高低收盘没有因此改变。AAPL 日线低点字段 334.35 在 1 分钟里没有打印；regularMarketDayLow 和有量低点都是 342.35，沿用今早。期货今早的 28543、7614.50、51928 分别是 20:59 UTC 零成交分钟的开盘。今晚日线字段是这根的收盘：NQ 28534、ES 7614、YM 51918，成交量都是 0。最后一笔有量是 20:58 UTC：NQ 28530 量 294，ES 7613.25 量 322，YM 51924 量 16。WTI 日线字段和 regularMarketPrice 为 104.12，1 分钟有量最后一笔 20:58 UTC 收 102.92，与今早 102.95 接近，104.12 不采用。布伦特有量收 112.30，今早 112.33；regularMarketPrice 113.43 和日线字段 117.64 不采用。这些差异不构成新的进场。",
+    "futures": {
+      "NQ=F": {
+        "dailyCloseField": 28534.0,
+        "regularMarketPrice": 28534.0,
+        "regularMarketTimeUtc": "2026-10-30T21:00:00Z",
+        "thursdayDailyCloseField": 29562.0,
+        "minute2058UtcWithVolume": {"close": 28530.0, "volume": 294},
+        "minute2059Utc": {"open": 28543.0, "close": 28534.0, "volume": 0},
+        "morningUsedZeroVolumeOpen": 28543.0,
+        "saturdayBarsThrough0358Utc": "empty OHLC, zero volume"
+      },
+      "ES=F": {
+        "dailyCloseField": 7614.0,
+        "regularMarketPrice": 7614.0,
+        "thursdayDailyCloseField": 7754.25,
+        "minute2058UtcWithVolume": {"close": 7613.25, "volume": 322},
+        "minute2059Utc": {"open": 7614.5, "close": 7614.0, "volume": 0},
+        "morningUsedZeroVolumeOpen": 7614.5
+      },
+      "YM=F": {
+        "dailyCloseField": 51918.0,
+        "regularMarketPrice": 51918.0,
+        "thursdayDailyCloseField": 52512.0,
+        "minute2058UtcWithVolume": {"close": 51924.0, "volume": 16},
+        "minute2059Utc": {"open": 51928.0, "close": 51918.0, "volume": 0},
+        "morningUsedZeroVolumeOpen": 51928.0
+      }
+    },
+    "macroTapeFriday": {
+      "vix": {"close": 19.42, "high": 23.93, "thursday": 17.2, "source": "Yahoo ^VIX daily bar 2026-10-30"},
+      "tnx": {"close": 4.929, "thursday": 4.989, "source": "Yahoo ^TNX daily close 2026-10-30"},
+      "dxy": {
+        "lastPrint": 101.964,
+        "lastPrintUtc": "2026-10-30T20:59:00Z",
+        "dailyCloseField": 101.88,
+        "volume": 0,
+        "thursday": 102.04,
+        "source": "Yahoo DX-Y.NYB"
+      },
+      "ixic": 25437.0,
+      "gspc": {"open": 7631.07, "high": 7637.48, "low": 7527.56, "close": 7580.07, "volume": 6149170000},
+      "dji": 51770.31,
+      "ndx": {"open": 28604.91, "high": 28713.45, "low": 28093.24, "close": 28384.85},
+      "sox": {"close": 10688.8, "volume": 0, "source": "Yahoo ^SOX daily close 2026-10-30"}
+    },
+    "oil": {
+      "WTI": {
+        "symbol": "CL=F",
+        "adoptedLastVolumeMinute2058Utc": 102.92,
+        "morningDailyField": 102.95,
+        "rejectedRegularMarketPrice": 104.12,
+        "reason": "104.12 对不上 1 分钟有量序列的最后一笔。"
+      },
+      "Brent": {
+        "symbol": "BZ=F",
+        "adoptedLastVolumeMinute2058Utc": 112.3,
+        "morningDailyField": 112.33,
+        "rejectedRegularMarketPrice": 113.43,
+        "rejectedDailyCloseField": 117.64
+      }
+    },
+    "fridayRegular": {
+      "NVDA": {
+        "close": 204.64,
+        "morningOpen": 208.88,
+        "dailyOpenField": 208.94,
+        "morningHigh": 209.05,
+        "dailyHighField": 209.06,
+        "low": 200.92,
+        "minute2000Utc": {"close": 204.8, "volume": 1471295},
+        "morningVolume": 165923799,
+        "dailyVolumeField": 168039400,
+        "indicatorsAsOf0900NotRecomputed": {"ema20": 218.18, "ema50": 219.52, "rsi14": 35.06, "atr14": 6.22, "macdHist": -1.477}
+      },
+      "QQQ": {
+        "close": 690.49,
+        "high": 698.63,
+        "low": 683.45,
+        "morningOpen": 697.13,
+        "dailyOpenField": 697.21,
+        "minute1959Utc": {"close": 690.56, "volume": 1260594},
+        "morningVolume": 84754440,
+        "dailyVolumeField": 85108900
+      },
+      "INTC": {
+        "close": 65.76,
+        "morningOpen": 68.35,
+        "dailyOpenField": 68.36,
+        "high": 68.77,
+        "low": 63.2,
+        "thursdayClose": 92.07,
+        "thursdayLow": 90.84,
+        "dayPct": -28.58,
+        "minute1959Utc": {"close": 65.88, "volume": 5258206},
+        "minute2000UtcVolume": 0,
+        "morningVolume": 450884426,
+        "dailyVolumeField": 454221300,
+        "indicatorsAsOf0900NotRecomputed": {"ema20": 94.3, "ema50": 99.7, "rsi14": 25.1, "atr14": 6.97, "macdHist": -1.941, "volumeRatio20dMorning": 4.58}
+      },
+      "SOXX": {"close": 471.51, "high": 483.39, "low": 460.1},
+      "AAPL": {
+        "close": 344.63,
+        "high": 349.19,
+        "regularMarketDayLow": 342.35,
+        "rejectedDailyLowField": 334.35,
+        "rejectedDailyLowReason": "1 分钟序列里没有 334.35。有量低点在 18:54 UTC，为 342.35。"
+      }
+    }
+  },
+  "intc": {
+    "direction": "观望",
+    "support": [63.2],
+    "resistance": [68.77, 90.75],
+    "news": "没有 2026-10-31 的英特尔公司新稿。周六文章仍在转述 2026-10-29 业绩新闻稿：营收 165 亿美元，非 GAAP EPS 0.52 美元；四季营收 150–160 亿美元，非 GAAP EPS 0.25 美元。CNBC 2026-10-30 援引的 LSEG 四季预期约 171 亿美元、EPS 0.43 美元，今早已经记录，本次不改。",
+    "options": "不买 Call，不买 Put，不卖出期权。财报已经公布，周六也没有可成交的权利金报价。"
+  },
+  "techniques": {
+    "searched": [
+      "美股 今日 交易策略 K线形态 2026-10-31",
+      "NVDA technical analysis today October 31 2026",
+      "INTC Intel news October 31 2026"
+    ],
+    "adopted": [],
+    "notAdopted": [
+      {
+        "name": "LabbitX 标普不新建方向仓",
+        "source": "LabbitX，2026-10-31",
+        "reason": "收盘 7580.07、开 7631.07、高 7637.48、低 7527.56、成交量 6149170000 与 Yahoo 一致。结论支持空仓，但休市日没有可执行的买卖价，也不提供本账户 20 美元风险内、盈亏比至少 1.5 的委托。"
+      },
+      {
+        "name": "Borearis NVDA 枢轴",
+        "source": "Borearis，2026-10-31",
+        "reason": "页面现价 204.78，Yahoo 收盘 204.64。30 分钟看向 197.89，日线看向 249.12，互相矛盾。不采用。"
+      },
+      {
+        "name": "Borearis 道指转折位",
+        "source": "Borearis，2026-10-31",
+        "reason": "页面现价 51812，Yahoo 道指收盘 51770.31。价位对不上，不采用。"
+      },
+      {
+        "name": "看跌 Kicker / 卖方期权 / 207.25 支撑",
+        "source": "今早周末复盘已排除",
+        "reason": "周五低点 200.92 已经穿过 207.25 和 210.18。账户禁止卖出期权。周六没有新的 K 线可以确认 Kicker。"
+      }
+    ],
+    "statement": "今日未找到可变成委托的高置信度技巧匹配，建议以常规风控框架执行。"
+  },
+  "eventsToday": "周六休市。没有新的宏观数据窗口。周一 ISM 制造业、SLOOS 和苹果电话会仍按今早周末复盘，本次没有改写。",
+  "followUp": "周日仍休市。周一 09:00 北京时间再出早报，不预挂买单。NVDA 看 200.92 / 204.64 / 210.18 / 213.66。QQQ 看 707.23。INTC 看 63.20 / 68.77。周一起不对苹果财报日买期权；周二盘后 AMD、周三盘后高通，财报当天和前一日都不买期权。写稿时没有打开 CME 原文页。股指期货按常规周日美东 18:00 重开，夏令时结束后对应北京时间周一 07:00。",
+  "email": {
+    "subject": "[美股Agent] 2026-10-31 21:00 今日休市/无操作 | 本金$1000 | 目标$30",
+    "result": "accepted_http_202",
+    "emailSentTo": "omitted-public-repo",
+    "emailSentAt": "2026-10-31T13:07:28Z",
+    "bodyTimeNote": "邮件正文写的核对时间是约 13:15 UTC。文件以发送后的时钟 2026-10-31T13:07:28Z 为准。行情是在此之前几分钟拉取的。"
+  }
+}
