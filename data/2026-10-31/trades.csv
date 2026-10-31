@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-10-31,0900_weekend,NONE,观望,,,,,,,观望,高,周六休市。上周10次建议全部空仓。,周六21:00仍休市。周一09:00再出早报，不预挂。,0,0,,no_order,假设盈亏0。没有成交回报。现金1000。预测盈利基准0，不是收益承诺。,omitted-public-repo,2026-10-31T01:08:34Z
+2026-10-31,0900_weekend,NVDA,观望,204.64,,198.42,209.05,3,613.92,观望,高,周五收盘低于210.18。,不把买单下移到200.92。,0,0,0.71,no_order,测算不是委托。ATR止损到周五高点盈亏比0.71。周五高点209.05未回到210.18。,omitted-public-repo,2026-10-31T01:08:34Z
+2026-10-31,0900_weekend,QQQ,观望,690.49,,677.78,698.63,1,690.49,观望,高,周五高点698.63低于707.23。,旧的707.23尚未收回。,0,0,0.64,no_order,测算不是委托。盈亏比0.64。,omitted-public-repo,2026-10-31T01:08:34Z
+2026-10-31,0900_weekend,INTC,观望,65.76,,58.79,68.77,2,131.52,观望,高,三季报已于10月29日公布。四季营收展望150-160亿美元，非GAAP EPS 0.25美元。,看63.20与68.77。不买期权。,0,0,0.43,no_order,测算不是委托。周五区间整体低于90.75。盈亏比0.43。,omitted-public-repo,2026-10-31T01:08:34Z
+2026-10-31,0900_weekend,AAPL,观望,344.63,,338.32,349.19,2,689.26,观望,高,11月2日盘后财报，电话会美东17:00。,财报前和当天不买期权。,0,0,0.72,no_order,测算不是委托。3股超过本金。盈亏比0.72，且周一有财报。,omitted-public-repo,2026-10-31T01:08:34Z

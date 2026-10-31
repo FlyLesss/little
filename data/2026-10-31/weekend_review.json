@@ -1,0 +1,423 @@
+{
+  "date": "2026-10-31",
+  "slot": "0900_weekend",
+  "timezone": "Asia/Shanghai",
+  "title": "周末复盘与下周前瞻",
+  "generated_from_trigger": "2026-10-31T01:00:18Z",
+  "market_status": "休市",
+  "recommendation": "观望",
+  "position": "空仓",
+  "predicted_profit": 0,
+  "actual_profit": 0,
+  "confidence": "高",
+  "confidence_note": "置信度只针对空仓筛选：没有任何标的同时满足最大风险不超过20美元且盈亏比至少1.5。不是对下周涨跌的预测。",
+  "account": {
+    "equity": 1000,
+    "goal_screen": 30,
+    "goal_note": "每日+30美元只是筛选阈值，不是收益承诺。",
+    "max_daily_loss": 30,
+    "max_trade_risk": 20,
+    "cash": 1000,
+    "day_trades_last_5_sessions": 0,
+    "pdt_note": "近5个交易日成交型日内交易0次，没有逼近第4次日内交易。"
+  },
+  "quote_basis": {
+    "session": "2026-10-30 regular",
+    "source": "Yahoo Finance chart",
+    "daily_close_field": "空",
+    "close_used": "regularMarketPrice，时间戳 2026-10-30T20:00:01Z",
+    "vwap": "未计算。不用1分钟成交量加总。",
+    "indicators": "日线。EMA 用 SMA 作种子；RSI(14)、ATR(14) 用 Wilder；MACD(12,26,9) 柱。10月29日 NVDA 的 EMA20 219.60、EMA50 220.13、RSI 42.27、ATR 5.72、MACD柱 -1.029 与上一次记录一致。",
+    "volume_ratio": "当日成交量 / 前20个交易日均量"
+  },
+  "last_week_recommendations": {
+    "window": "2026-10-26 至 2026-10-30",
+    "count": 10,
+    "all_flat": true,
+    "hypothetical_pnl": 0,
+    "actual_pnl": 0,
+    "fills": 0,
+    "notes": [
+      "10月26日、27日、28日、30日的早报和开盘前建议都是观望，预测盈利基准0。",
+      "10月29日两份建议也是观望。09:00 邮件返回 HTTP 403，21:00 需要交互登录，两封都没有送达。结论不因邮件失败改成持仓。",
+      "10月30日 09:00 先有一封占位邮件，随后完整早报送达；21:00 完整建议送达。两份都是空仓。",
+      "没有成交回报。不把未挂出的限价写成假设盈亏。"
+    ]
+  },
+  "market": {
+    "nasdaq_composite": {
+      "close": 25436.998,
+      "day_pct": -2.86,
+      "week_pct": -2.0,
+      "prior_close": 26184.721,
+      "week_base": 25955.34
+    },
+    "spx": {
+      "close": 7580.07,
+      "day_pct": -1.82,
+      "week_pct": -0.57,
+      "prior_close": 7720.39,
+      "week_base": 7623.68
+    },
+    "dow": {
+      "close": 51770.309,
+      "day_pct": -1.09,
+      "week_pct": -0.85,
+      "prior_close": 52342.559,
+      "week_base": 52215.16
+    },
+    "nq_futures_daily": {
+      "close": 28543.0,
+      "thursday_close_field": 29562.0,
+      "day_pct": -3.45,
+      "note": "Yahoo 日线字段，不是现金结算价。"
+    },
+    "es_futures_daily": {
+      "close": 7614.5,
+      "thursday_close_field": 7754.25,
+      "day_pct": -1.8
+    },
+    "ym_futures_daily": {
+      "close": 51928.0,
+      "thursday_close_field": 52512.0,
+      "day_pct": -1.11
+    },
+    "vix": {
+      "close": 19.42,
+      "high": 23.93,
+      "thursday": 17.2,
+      "prior_friday": 19.45
+    },
+    "us10y": {
+      "close": 4.929,
+      "thursday": 4.989,
+      "prior_friday": 4.988
+    },
+    "dxy": {
+      "close": 101.964,
+      "thursday": 102.04,
+      "prior_friday": 101.81,
+      "volume": 0
+    },
+    "wti_daily": {
+      "close": 102.95
+    },
+    "brent_daily": {
+      "close": 112.33
+    }
+  },
+  "closes_2026_10_30": {
+    "NVDA": {
+      "open": 208.88,
+      "high": 209.05,
+      "low": 200.92,
+      "close": 204.64,
+      "minute_2000_utc": 204.8,
+      "minute_2000_volume": 1471295,
+      "volume": 165923799,
+      "volume_ratio": 1.67,
+      "thursday_close": 213.66,
+      "prior_friday": 210.96,
+      "day_pct": -4.22,
+      "week_pct": -3.0,
+      "ema20": 218.18,
+      "ema50": 219.52,
+      "rsi14": 35.06,
+      "atr14": 6.22,
+      "macd_hist": -1.477
+    },
+    "QQQ": {
+      "open": 697.13,
+      "high": 698.63,
+      "low": 683.45,
+      "close": 690.49,
+      "minute_1959_utc": 690.56,
+      "minute_1959_volume": 1260594,
+      "volume": 84754440,
+      "volume_ratio": 2.31,
+      "thursday_close": 715.34,
+      "prior_friday": 704.4,
+      "day_pct": -3.47,
+      "week_pct": -1.97,
+      "ema20": 721.13,
+      "ema50": 723.04,
+      "rsi14": 34.88,
+      "atr14": 12.71,
+      "macd_hist": -3.092,
+      "note": "20:00 UTC 那根成交量为0，收盘用 regularMarketPrice。"
+    },
+    "INTC": {
+      "open": 68.35,
+      "high": 68.77,
+      "low": 63.2,
+      "close": 65.76,
+      "minute_1959_utc": 65.88,
+      "minute_1959_volume": 5258206,
+      "volume": 450884426,
+      "volume_ratio": 4.58,
+      "thursday_close": 92.07,
+      "thursday_low": 90.84,
+      "prior_friday": 86.96,
+      "day_pct": -28.58,
+      "week_pct": -24.38,
+      "ema20": 94.3,
+      "ema50": 99.7,
+      "rsi14": 25.1,
+      "atr14": 6.97,
+      "macd_hist": -1.941,
+      "note": "20:00 UTC 那根成交量为0。19:59 有量收盘 65.88，与 regularMarketPrice 65.76 差 0.12。"
+    },
+    "SOXX": {
+      "open": 479.36,
+      "high": 483.39,
+      "low": 460.1,
+      "close": 471.51,
+      "thursday_close": 513.86,
+      "thursday_low": 506.59,
+      "prior_friday": 478.2,
+      "day_pct": -8.24,
+      "week_pct": -1.4,
+      "atr14": 20.7,
+      "ema20": 515.04,
+      "rsi14": 36.1
+    },
+    "AAPL": {
+      "open": 346.68,
+      "high": 349.19,
+      "low": 342.35,
+      "close": 344.63,
+      "thursday_close": 348.91,
+      "prior_friday": 347.73,
+      "day_pct": -1.23,
+      "week_pct": -0.89,
+      "atr14": 6.31,
+      "ema20": 342.24,
+      "ema50": 334.21,
+      "rsi14": 55.35
+    },
+    "MSFT": {
+      "close": 521.91,
+      "high": 526.0,
+      "low": 514.35,
+      "atr14": 11.88,
+      "day_pct": -1.55,
+      "week_pct": -0.5
+    },
+    "AMD": {
+      "close": 504.8,
+      "high": 520.4,
+      "low": 492.24,
+      "thursday_close": 566.42,
+      "atr14": 29.44,
+      "day_pct": -10.88,
+      "week_pct": -2.32
+    },
+    "GOOGL": {
+      "close": 279.84,
+      "high": 283.14,
+      "atr14": 10.4,
+      "rsi14": 21.38,
+      "day_pct": -1.4,
+      "week_pct": -12.61
+    },
+    "AMZN": {
+      "close": 240.35,
+      "high": 241.54,
+      "low": 229.36,
+      "thursday_close": 243.79,
+      "atr14": 7.26,
+      "day_pct": -1.41,
+      "week_pct": -3.08
+    },
+    "META": {
+      "close": 614.99,
+      "atr14": 23.29,
+      "day_pct": -1.53,
+      "week_pct": -4.3
+    },
+    "TSLA": {
+      "close": 399.81,
+      "high": 404.2,
+      "atr14": 13.44,
+      "day_pct": -0.87,
+      "week_pct": 7.41
+    },
+    "AVGO": {
+      "close": 326.08,
+      "high": 331.98,
+      "atr14": 12.59,
+      "day_pct": -5.48,
+      "week_pct": 1.37
+    },
+    "TQQQ": {
+      "close": 62.01,
+      "high": 64.32,
+      "atr14": 3.83,
+      "day_pct": -10.47,
+      "week_pct": -6.46
+    },
+    "MU": {
+      "close": 884.74,
+      "atr14": 49.58,
+      "day_pct": -5.3,
+      "week_pct": 0.82
+    }
+  },
+  "screen": {
+    "rule": "止损用1倍ATR。目标只用周五常规交易高点。股数先受本金1000美元限制，再受最大风险20美元限制。杠杆ETF风险上限15美元。止损距离小于ATR的日低点不采用。",
+    "passed": [],
+    "measured_not_ordered": [
+      {
+        "ticker": "NVDA",
+        "direction": "观望",
+        "entry_price": 204.64,
+        "take_profit": 209.05,
+        "stop_loss": 198.42,
+        "shares": 3,
+        "position_size": 613.92,
+        "predicted_profit": 13.23,
+        "risk": 18.66,
+        "risk_reward": 0.71
+      },
+      {
+        "ticker": "QQQ",
+        "direction": "观望",
+        "entry_price": 690.49,
+        "take_profit": 698.63,
+        "stop_loss": 677.78,
+        "shares": 1,
+        "position_size": 690.49,
+        "predicted_profit": 8.14,
+        "risk": 12.71,
+        "risk_reward": 0.64
+      },
+      {
+        "ticker": "INTC",
+        "direction": "观望",
+        "entry_price": 65.76,
+        "take_profit": 68.77,
+        "stop_loss": 58.79,
+        "shares": 2,
+        "position_size": 131.52,
+        "predicted_profit": 6.02,
+        "risk": 13.94,
+        "risk_reward": 0.43
+      },
+      {
+        "ticker": "AAPL",
+        "direction": "观望",
+        "entry_price": 344.63,
+        "take_profit": 349.19,
+        "stop_loss": 338.32,
+        "shares": 2,
+        "position_size": 689.26,
+        "predicted_profit": 9.12,
+        "risk": 12.62,
+        "risk_reward": 0.72,
+        "note": "3股仓位1033.89美元，超过本金。"
+      }
+    ]
+  },
+  "intc": {
+    "direction": "观望",
+    "company_release": "2026-10-29 8-K 及业绩新闻稿：营收165亿美元，同比+21%；GAAP稀释EPS 0.60美元，非GAAP稀释EPS 0.52美元。四季营收展望150至160亿美元，GAAP EPS 0.10美元，非GAAP EPS 0.25美元，非GAAP毛利率展望38.0%。调整后自由现金流16.39亿美元（表格单位为百万美元）。CFO称PC放缓至少持续到明年上半年。",
+    "consensus_context": "CNBC 2026-10-30 援引 LSEG：四季营收预期约171亿美元，EPS预期0.43美元。公司指引低于该预期。",
+    "price": "常规交易开68.35，高68.77，低63.20，收65.76。相对周四收盘92.07为-28.58%。高点低于周四低点90.84，也低于此前关注的90.75。",
+    "news_note": "没有2026-10-31公司新稿。10月29日的财报仍是最新公司数字。"
+  },
+  "techniques": {
+    "matched_to_orders": false,
+    "statement": "今日未找到可变成买卖价的高置信度技巧匹配，建议以常规风控框架执行。",
+    "used_as_filters": [
+      {
+        "name": "跌破既有低点后等待收回",
+        "source": "Benzinga，2026-10-30",
+        "principle": "NVDA 若失守8月24日低点207.25，下一步看205一带；收回10月23日低点210.18才削弱下跌情景。",
+        "applicability": "周五低点200.92、收盘204.64都在207.25之下，高点209.05没有回到210.18。收回条件没有出现，所以不构成买单。"
+      },
+      {
+        "name": "跳空后的反抽做空计划",
+        "source": "Capital Street FX，2026-10-30",
+        "principle": "作者计划在68.77至71.00做空INTC，止损72.50，并把64.78当作日内支撑。",
+        "applicability": "周五高点68.77正好落在该带下沿。本账户用多头风险公式，不把这篇改成卖空。64.78被低点63.20穿过，收盘65.76又回到其上，不能写成守住。不采用为买单。"
+      },
+      {
+        "name": "财报前高隐含波动，公告后不追买入期权",
+        "source": "SpotGamma 对INTC 10月30日到期曲面的描述；同一过滤沿用 OptionStrat 2026-10-20 的公告后IV下降统计",
+        "principle": "财报周近月隐含波动远高于30日曲线时，买入期权容易遇到IV回落。",
+        "applicability": "INTC这场财报已经公布，10月30日到期合约已过。不追那笔权利金。下周苹果、AMD、高通已由公司公告确认财报，财报前一交易日和当天都不买这些标的的期权，也不买QQQ或SOXX去碰这三场。"
+      }
+    ],
+    "rejected": [
+      "不把NVDA、QQQ、INTC周五的跳空命名成次日还能追的看跌Kicker。三只周五高点都低于周四低点，但INTC和QQQ收盘都离开了最低点，不是无重叠的单边阴线延续。",
+      "SpotGamma 文中的90至100美元伽马区是财报前的定位，对不上收盘65.76。",
+      "GreeksView 把NVDA财报写在11月17日附近，并注明是日历预测不是公司公告。本次没有打开英伟达公司原文，不用这个日期。",
+      "不采用卖方期权、铁蝶或跨式。"
+    ]
+  },
+  "next_week": {
+    "cash_sessions": "2026-11-02 至 2026-11-06",
+    "dst": "2026-11-01 美国冬令时开始。下周现金开盘为北京时间22:30，收盘为次日05:00。",
+    "holiday": "美联储11月日历的假期是11月11日退伍军人节和11月26日感恩节。11月2日至6日没有列在这份假期里。选举日是11月3日周二，不是纽交所休市日。",
+    "events": [
+      {
+        "date": "2026-11-02",
+        "item": "ISM 制造业 PMI（10月），惯例美东10:00，北京时间23:00。来源：ISM 2026发布日历，11月制造业在2日。"
+      },
+      {
+        "date": "2026-11-02",
+        "item": "美联储高级信贷官调查（SLOOS）美东14:00。不是利率决议。"
+      },
+      {
+        "date": "2026-11-02",
+        "item": "苹果 FY26 第四季电话会，太平洋时间14:00 / 美东17:00，北京时间周二06:00。来源：Apple Investor Relations。盘后公布。"
+      },
+      {
+        "date": "2026-11-03",
+        "item": "美国中期选举。现金市场照常开盘。"
+      },
+      {
+        "date": "2026-11-03",
+        "item": "BLS：9月 JOLTS，美东10:00，北京时间23:00。"
+      },
+      {
+        "date": "2026-11-03",
+        "item": "AMD 第三财季盘后公布，电话会美东17:00 / 太平洋时间14:00。来源：AMD 2026-10-06 GlobeNewswire。"
+      },
+      {
+        "date": "2026-11-04",
+        "item": "ISM 服务业 PMI（10月），惯例美东10:00，北京时间23:00。来源：ISM 日历，11月服务业在4日。"
+      },
+      {
+        "date": "2026-11-04",
+        "item": "高通第四季及2026财年，盘后公布，电话会太平洋时间13:45。来源：Qualcomm 2026-10-22 新闻稿。"
+      },
+      {
+        "date": "2026-11-05",
+        "item": "BLS：三季度生产率与成本初值，美东08:30，北京时间21:30。BLS 11月精选日历没有把每周初请列在这一天，本次不把初请写成条件。"
+      },
+      {
+        "date": "2026-11-06",
+        "item": "BLS：10月就业形势，美东08:30，北京时间21:30。来源：bls.gov employment situation schedule。"
+      },
+      {
+        "date": "2026-11-06",
+        "item": "美联储：监管副主席 Bowman 美东12:15 在密西西比大学的讨论。不是FOMC决议。FOMC纪要是11月18日美东14:00。"
+      }
+    ],
+    "not_confirmed_here": "聚合日历上的 PLTR、ANET、ARM、APP 等本次没有打开公司原文，不写进条件。英伟达、博通的下一次财报也没有打开公司原文。",
+    "options": "下周期权建议0笔。不卖出期权。不对AAPL、AMD、QCOM买入Call或Put。周一至周三不对QQQ或SOXX买期权去碰这三场财报。周五就业数据前不新开期权。VIX收19.42、盘中高23.93，不是低位；主要科技股在均线下方，不是超买，不满足买Put的组合条件。"
+  },
+  "follow_up": [
+    "周六21:00北京时间仍休市，不要改成交易计划。",
+    "周一09:00再用有成交量的盘前价出早报，不预挂买单。",
+    "NVDA：不把买单下移到200.92或204.64。看常规交易能否收回210.18和213.66。",
+    "QQQ：周五高点698.63没有碰到707.23，也没有碰到周四低点711.62。",
+    "INTC：看63.20和68.77。整个周五区间低于90.75。不买Call。",
+    "周一苹果财报前不把AAPL的盈亏比0.72放宽成进场。"
+  ],
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-10-31T01:08:34Z",
+  "email_status": "http_202",
+  "email_note": "Outlook send_mail 返回 HTTP 202。01:08:34Z 是收到该状态后的记录时钟，不是邮件服务器给出的时间戳。公开仓库不写收件地址。"
+}
