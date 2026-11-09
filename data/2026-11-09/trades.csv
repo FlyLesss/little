@@ -1,0 +1,17 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-09,2100,BOOK,观望,,,,,,0,,观望,高,CPI Tuesday 08:30 ET; NVDA board probe reported; no mega-cap earnings today,Check NVDA 181.46 and 174.49; QQQ 653.99; INTC 54.56; no options before CPI,0,0,,no_trade,No order. Baseline predicted profit is 0. Premarket 1-minute volume is 0.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,NVDA,观望,177.35,,169.58,181.00,2,354.70,观望,低,NVDA idiosyncratic premarket weakness versus higher index futures,Do not move a bid under 174.49,0,0,0.47,rejected,ATR stop to today's high fails 1.5. Friday high 194.90 would print 2.24 and is rejected.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,QQQ,观望,662.48,,647.03,663.45,1,662.48,观望,低,Index futures higher; cash not open,648.43 is a zero-volume print,0,0,0.06,rejected,One share to premarket high.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,INTC,观望,56.75,,50.40,56.97,3,170.25,观望,低,No new Intel release found for 2026-11-09,Still below 68.77 and both EMAs. No call.,0,0,0.03,rejected,Q4 guide remains 15-16 billion revenue and non-GAAP EPS 0.25 from the Oct 29 release.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,AAPL,观望,344.19,,335.42,345.38,2,688.38,观望,低,,,0,0,0.14,rejected,Already near the premarket high.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,MSFT,观望,542.50,,527.06,545.57,1,542.50,观望,低,,,0,0,0.20,rejected,ATR stop to today's high.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,AMZN,观望,267.36,,258.17,267.95,2,534.72,观望,低,,,0,0,0.06,rejected,ATR stop to today's high.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,GOOGL,观望,293.26,,282.58,293.80,1,293.26,观望,低,,,0,0,0.05,rejected,ATR stop to today's high.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,AVGO,观望,304.00,,289.25,304.41,1,304.00,观望,低,,,0,0,0.03,rejected,Friday-high ratio 0.51 is not used.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,TSLA,观望,361.18,,344.47,363.11,1,361.18,观望,低,,,0,0,0.12,rejected,ATR stop to today's high.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,SOXX,观望,138.67,,130.61,138.73,2,277.34,观望,低,,,0,0,0.01,rejected,Post 3-for-1 split price. Do not compare with 471.51.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,AMD,观望,,,,,0,,观望,低,,,0,0,,rejected,One-share ATR 36.61 exceeds 20.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,META,观望,,,,,0,,观望,低,,,0,0,,rejected,One-share ATR 24.14 exceeds 20.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,MU,观望,,,,,0,,观望,低,,,0,0,,rejected,One-share ATR 58.75 exceeds 20.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,TQQQ,观察,53.77,,49.43,53.95,3,161.31,只观察,低,,,0,0,0.04,watch_only,Four shares exceed the 15 dollar leveraged-ETF cap. Three shares still fail the reward ratio.,omitted-public-repo,2026-11-09T13:10:18Z
+2026-11-09,2100,SOXL,观察,48.00,,34.43,48.18,1,48.00,只观察,低,,,0,0,0.01,watch_only,Risk is within 15 dollars and the reward ratio is not.,omitted-public-repo,2026-11-09T13:10:18Z
