@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-10,2100,NVDA,观望,177.33,179.92,168.54,179.92,0,0,放弃,低,CPI 08:30 ET; NVDA调查新闻,CPI后15-30分钟再评估,0,0,0.29,plan_only,2股测算RR0.29未达1.5,omitted-public-repo,
+2026-11-10,2100,INTC,观望,57.91,60.03,51.46,60.03,0,0,放弃,低,无公司新稿,守住55.72枢轴,0,0,0.33,plan_only,强制分析行;EMA20下观望,omitted-public-repo,
+2026-11-10,2100,AMZN,观望,267.50,275.34,256.94,275.34,0,0,放弃,低,CPI前,CPI波动后重估,0,0,0.74,plan_only,最高常规RR仍<1.5,omitted-public-repo,
+2026-11-10,2100,QQQ,观望,676.42,682.48,658.80,682.48,0,0,放弃,低,CPI前,662.02支撑,0,0,0.34,plan_only,指数情绪分化,omitted-public-repo,
