@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-10",
+  "slot": "2100",
+  "account_principal": 1000,
+  "daily_target_profit": 30,
+  "max_daily_loss": 30,
+  "recommendation": "观望",
+  "confidence": "高",
+  "predicted_profit_baseline": 0,
+  "status": "plan_only",
+  "market_overview": {
+    "nq_futures": 27904.5,
+    "nq_futures_high_vol": 28050.5,
+    "nq_futures_low_vol": 27870.0,
+    "nq_futures_ts_utc": "2026-11-10T12:49:00Z",
+    "es_futures": 7578.25,
+    "ym_futures": 52701.0,
+    "vix_premarket_yahoo": 20.13,
+    "vix_monday_close": 19.92,
+    "ten_year_pct": 4.864,
+    "dxy_last": 101.758,
+    "wti_context": "周五收盘约86.38，盘前有量约87.70"
+  },
+  "premarket_quotes_utc_1300": {
+    "NVDA": { "last": 177.33, "high": 183.09, "low": 176.66, "monday_close": 178.67 },
+    "QQQ": { "last": 676.42, "high": 679.83, "low": 675.69, "monday_close": 679.35 },
+    "INTC": { "last": 57.91, "high": 59.2, "low": 57.68, "monday_close": 59.37 },
+    "SOXX": { "last": 145.13, "high": 147.3, "low": 143.42, "monday_close": 146.76 },
+    "AAPL": { "last": 352.71, "high": 352.82, "low": 349.06, "monday_close": 350.69 },
+    "premarket_volume_note": "Yahoo 1 分钟成交量全部为 0，不公布 VWAP"
+  },
+  "events_today": [
+    "美东 08:30（北京时间 21:30）劳工统计局公布 2026 年 10 月 CPI；写稿 UTC 13:00 时尚未公布",
+    "BLS 曾说明部分指数可能缺少 12 个月同比（2025 年 10 月数据缺口）",
+    "英伟达董事会独立调查相关报道持续；财报电话会 11 月 17 日",
+    "11 月 13 日美东 08:30 PPI"
+  ],
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": 177.33,
+      "exit_price": 179.92,
+      "stop_loss": 168.54,
+      "take_profit": 179.92,
+      "shares": 2,
+      "position_size": 354.66,
+      "predicted_profit": 5.18,
+      "risk": 17.57,
+      "risk_reward": 0.29,
+      "confidence": "低",
+      "recommendation": "放弃",
+      "notes": "依据：virDeStatera 2026-11-09 收盘确认（TradingView）。原理：收于 181.46 下方维持空头。适用：盘前 177.33 仍在其下。1ATR 止损到周一高点盈亏比不足 1.5。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": 57.91,
+      "exit_price": 60.03,
+      "stop_loss": 51.46,
+      "take_profit": 60.03,
+      "shares": 3,
+      "position_size": 173.73,
+      "predicted_profit": 6.36,
+      "risk": 19.36,
+      "risk_reward": 0.33,
+      "confidence": "低",
+      "recommendation": "放弃",
+      "notes": "支撑阻力：枢轴 55.72（Borearis 2026-11-10），阻力 60.03/60.67。新闻：无 11-10 公司新稿；四季指引仍为 10-29。仍低于 EMA20 77.74。不买 Call。"
+    },
+    {
+      "ticker": "AMZN",
+      "direction": "观望",
+      "entry_price": 267.5,
+      "exit_price": 275.34,
+      "stop_loss": 256.94,
+      "take_profit": 275.34,
+      "shares": 1,
+      "position_size": 267.5,
+      "predicted_profit": 7.84,
+      "risk": 10.56,
+      "risk_reward": 0.74,
+      "confidence": "低",
+      "recommendation": "放弃",
+      "notes": "常规测算最高盈亏比仍低于 1.5；CPI 数据前不挂单。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": 676.42,
+      "exit_price": 682.48,
+      "stop_loss": 658.8,
+      "shares": 1,
+      "position_size": 676.42,
+      "predicted_profit": 6.06,
+      "risk": 17.62,
+      "risk_reward": 0.34,
+      "confidence": "低",
+      "recommendation": "放弃",
+      "notes": "盘前低点 675.69 仍守住周一低点 662.02；盈亏比不足。"
+    }
+  ],
+  "options_recommendation": "无。CPI 公布日且 NVDA 临近 11-17 财报，仅买入期权规则下禁止建议。",
+  "pdt_note": "近 5 日成交型日内交易 0 次；今日仍不推荐新开日内单。",
+  "follow_up": [
+    "CPI 公布后观察 15–30 分钟再评估方向（Trader Dan 2026-11-10 / edgeful CPI 指南）",
+    "NVDA 常规交易收在 181.46 之上才可考虑结构修复",
+    "QQQ 守住 662.02；INTC 守住 55.72",
+    "22:30 冬令时开盘后再确认有量盘前区间"
+  ],
+  "techniques_adopted": [
+    "Trader Dan Substack 2026-11-10：CPI 日等待 15–30 分钟，用数据后区间而非猜数字",
+    "edgeful 2026-11-10：不追 CPI 后第一根 15 分钟 K 线",
+    "virDeStatera 2026-11-09：NVDA 收盘跌破 181.46，过滤做多"
+  ],
+  "techniques_rejected": [
+    "Borearis INTC 日内bullish至60.67：数学盈亏比不足",
+    "看跌 Kicker（INTC 盘前下行）：缺口与周一区间重叠，非高置信 Kicker",
+    "Saxo/Barchart 卖方期权与铁蝶：违反仅买入期权约束"
+  ],
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-10T13:11:00Z"
+}

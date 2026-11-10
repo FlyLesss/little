@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-10",
+  "slot": "0900",
+  "account_principal": 1000,
+  "daily_target_profit": 30,
+  "max_daily_loss": 30,
+  "recommendation": "观望",
+  "confidence": "高",
+  "predicted_profit_baseline": 0,
+  "status": "plan_only",
+  "market_overview": {
+    "nq_futures_last_vol": 27982.5,
+    "nq_futures_ts_utc": "2026-11-09T19:54:00-05:00",
+    "es_futures_last_vol": 7570.75,
+    "ym_futures_last_vol": 52500,
+    "ndx_cash_close": 25253.14,
+    "spx_cash_close": 7549.94,
+    "vix_close": 19.92,
+    "ten_year_pct": 4.864,
+    "dxy_note": "周五日线约102.30，周一分钟成交量为0"
+  },
+  "events_today": [
+    "美东 08:30 劳工统计局公布 2026 年 10 月 CPI（写早报时未公布）",
+    "英伟达董事会就 CEO 相关调查发布 11-08 新闻稿",
+    "NVDA 财报电话会仍为 11 月 17 日美东 17:00",
+    "11 月 11 日劳工统计局休假，纽交所照常交易"
+  ],
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周一收 178.67，未收回 181.46；EMA20 205.91，RSI 27.4，ATR 8.39"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周一收 59.37，仍远低于 EMA20/50；四季指引仍为 10-29 公司稿"
+    }
+  ],
+  "follow_up": [
+    "21:00 北京时间用有成交量盘前价重估",
+    "CPI 公布前不买期权",
+    "跌破 NVDA 170.24 不把买单下移"
+  ],
+  "techniques_adopted": [
+    "virDeStatera 2026-11-09：收盘跌破 181.46 维持空头结构，不作抄底",
+    "TradeFundrr/ApexVol：CPI 前 IV 偏高，只作禁止买入期权过滤"
+  ],
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-10T01:01:00Z"
+}
