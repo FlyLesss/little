@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-11",
+  "slot": "0900",
+  "beijing_time": "2026-11-11 09:00",
+  "us_session_date": "2026-11-11",
+  "account_principal": 1000,
+  "daily_profit_target": 30,
+  "max_daily_loss": 30,
+  "recommendation": "观望",
+  "confidence": "中",
+  "predicted_profit": 0,
+  "actual_profit": null,
+  "status": "plan_only",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-11T01:14:00Z",
+  "market_overview": {
+    "nq_futures_last_vol": {
+      "as_of_utc": "2026-11-11T00:53:00Z",
+      "price": 27991.75,
+      "note": "相对周二期货日线收盘约27992.5基本持平；写稿时美东周二20:00，周三盘前尚未开始"
+    },
+    "es_futures_last_vol": {
+      "as_of_utc": "2026-11-11T00:53:00Z",
+      "price": 7568.25
+    },
+    "nasdaq_close": { "date": "2026-11-10", "value": 25065.88, "chg_pct": -0.74 },
+    "sp500_close": { "date": "2026-11-10", "value": 7520.93, "chg_pct": -0.38 },
+    "dow_close": { "date": "2026-11-10", "value": 52231.89, "chg_pct": -0.3 },
+    "sox_close": { "date": "2026-11-10", "value": 9998.33, "chg_pct": -0.35 },
+    "vix_close": { "date": "2026-11-10", "value": 19.46, "prev": 19.92 },
+    "ten_year_yield_pct": { "date": "2026-11-10", "value": 4.983, "prev": 4.859 },
+    "dxy_close": { "date": "2026-11-10", "value": 102.253 },
+    "wti_close": { "date": "2026-11-10", "value": 86.42 }
+  },
+  "events_today": [
+    "美东周二08:30已公布：10月CPI环比+0.4%（预期约+0.3%），核心CPI环比+0.3%（预期约+0.2%）；BLS未发布可靠同比读数（2025年10月数据缺失）。来源：CNBC / BLS新闻稿转述",
+    "美东周三：多家中型公司盘后财报（如CTVA、CAE等）；大型科技巨头无密集财报",
+    "NVDA董事会独立调查CEO相关报道延续发酵；正式财报电话会仍为11月17日美东17:00（公司10月28日公告）",
+    "美东11月13日08:30 PPI；11月17日前不买NVDA相关期权"
+  ],
+  "technique_scan": {
+    "adopted": [
+      {
+        "name": "收盘确认过滤（virDeStatera 2026-11-10）",
+        "source": "TradingView virDeStatera · 2026-11-10",
+        "applicability": "周二常规交易NVDA收168.79，收于181.46下方，下行结构延续；不适用无脑抄底"
+      },
+      {
+        "name": "CPI后15–30分钟再定方向（Trader Dan / edgeful）",
+        "source": "Trader Dan 2026-11-10 · edgeful CPI playbook",
+        "applicability": "CPI已于周二08:30公布；周三开盘前不预挂追涨单，等21:00盘前量再评估"
+      },
+      {
+        "name": "事件前IV升高→只作排除买入期权",
+        "source": "ApexVol / Barchart earnings-week notes · 2026-11-10",
+        "applicability": "NVDA 11-17财报前；账户约束下不买Call/Put"
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Failed breakdown 做多QQQ/NQ",
+        "source": "Barkworthy Notes 2026-11-08",
+        "reason": "NVDA周二低点165.89下破前低170.24路径，不符合failed breakdown"
+      },
+      {
+        "name": "AMZN/NKE double bottom",
+        "source": "Stock Data Analytics 2026-11-10",
+        "reason": "半导体情绪偏弱，CPI偏热；未与NVDA/INTC当日结构匹配"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周二RTH收168.79（低165.89，高178.67）。2股以收盘买、日内低点止损、目标周二高点测算盈亏比约3.4，但收盘仍低于181.46/170.24结构位且CPI偏热，不满足高置信做多。盘前尚未开始，不写盘前价。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周二收674.81；1股至周二高680.95风险约7.8美元、盈亏比约0.79。指数期货隔夜持平，缺1.5:1。"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周二收58.11（低56.85，高60.65）；仍远低于EMA20约77.7。3股至周二高测算盈亏比约2.0，但缺少成交量确认的反弹结构，且四季度指引疲软（10/29公司稿）未变。不买Call。"
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周二收146.45；费半指数收9998.33。1股ATR止损风险超20美元方向不纳入。"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周二收515.42；1股无法在本金内建仓，ATR止损亦不适合小账户。"
+    }
+  ],
+  "intc_mandatory": {
+    "ticker": "INTC",
+    "premarket_price": null,
+    "postmarket_price": null,
+    "last_rth_close": 58.11,
+    "last_rth_high": 60.65,
+    "last_rth_low": 56.85,
+    "support": "56.85（周二低）；55.83（周一低）",
+    "resistance": "60.65（周二高）；68.77（10/30高）",
+    "ema20": 77.74,
+    "ema50": 90.74,
+    "rsi14": 27.03,
+    "atr14": 6.45,
+    "news": "无11/11公司新稿；四季指引仍以10/29财报为准（营收150–160亿美元，非GAAP EPS约0.25美元）；11/2 Form 4披露家族信托买入",
+    "suggested_direction": "观望",
+    "rationale": "算术上3股抢周二高有盈亏比空间，但均线空头+CPI后利率路径偏鹰，不符合高置信日内框架"
+  },
+  "follow_up": [
+    "北京时间21:00用有成交量盘前价出最终建议",
+    "核对周三NVDA能否收回181.46或继续测试165.89/164.27",
+    "周五美东08:30 PPI；11/17 NVDA财报前不买期权",
+    "无成交回报则继续记空仓；跌破165.89不把买单下移"
+  ],
+  "pdt_note": "近5个交易日成交型日内交易0次；现金账户仍须注意3次PDT限制",
+  "risk_disclaimer": "仅供参考，不构成投资建议；小额账户可能亏损全部本金。"
+}

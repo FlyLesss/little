@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-11,0900,NVDA,观望,,,,,0,0,观望,低,CPI偏热+NVDA结构破位,21:00盘前重估,0,,,plan_only,无委托,omitted-public-repo,
+2026-11-11,0900,QQQ,观望,,,,,0,0,观望,低,周二指数回落,同上,0,,,plan_only,无委托,omitted-public-repo,
+2026-11-11,0900,INTC,观望,,,,,0,0,观望,低,无新基本面催化,同上,0,,,plan_only,不买Call,omitted-public-repo,
