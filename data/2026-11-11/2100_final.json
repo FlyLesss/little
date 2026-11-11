@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-11",
+  "slot": "2100",
+  "generated_at_beijing": "2026-11-11T21:00:00+08:00",
+  "account_principal_usd": 1000,
+  "daily_profit_target_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "nq100_futures_pct": 1.7,
+    "sp500_futures_pct": 0.7,
+    "dow_futures_pct": -0.1,
+    "qqq_premarket": 687.57,
+    "qqq_premarket_pct": 1.9,
+    "vix": 18.45,
+    "vix_futures_nov": 19.2,
+    "us10y_pct": 4.99,
+    "treasury_market_closed_veterans_day": true,
+    "tech_sentiment": "半导体/AI基础设施盘前强势反弹，纳指期货领涨",
+    "dxy_note": "美债收益率高位（10Y逼近5%），通胀数据偏热推升降息预期降温"
+  },
+  "events_today": [
+    "CoreWeave(CRWV)昨日盘后财报超预期并上调2026全年营收指引至130-133亿美元",
+    "美股国债现货市场因退伍军人节休市",
+    "本周宏观：上周五CPI偏热；关注周五PPI",
+    "NVIDIA CEO治理/调查新闻仍在发酵，盘前随板块反弹",
+    "Anthropic IPO预期提振AI交易情绪"
+  ],
+  "technique_matching": [
+    {
+      "name": "Gap-and-Go / 开盘区间突破(ORB)",
+      "source": "LuxAlgo Library + Chiefland Trading",
+      "source_date": "2026-11-11",
+      "principle": "催化缺口后不回踩填补，突破盘前高或开盘15分钟区间高点且放量延续",
+      "applicable": true,
+      "apply_to": ["NVDA", "INTC"]
+    },
+    {
+      "name": "财报缺口看涨吞没",
+      "source": "Chiefland Trading",
+      "source_date": "2026-11-11",
+      "principle": "缺口后首小时形成看涨吞没+成交量≥1.5倍均量再突破入场",
+      "applicable": "conditional",
+      "apply_to": ["NVDA"],
+      "note": "须开盘30分钟内确认形态，禁止盲追盘前价"
+    }
+  ],
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "long",
+      "entry_price": 177.5,
+      "exit_price": 182.75,
+      "stop_loss": 174.0,
+      "shares": 5,
+      "position_size": 887.5,
+      "predicted_profit": 26.25,
+      "risk": 17.5,
+      "risk_reward": 1.5,
+      "confidence": "medium-high",
+      "recommendation": "conditional_buy",
+      "notes": "依据：Gap-and-Go（LuxAlgo，2026-11-11）。原理：CRWV指引上调重塑AI基建需求预期，半导体集体高开。适用：盘前约+3.7%~5%，RVOL elevated；须待9:30后突破盘前高/ORB高且不回填至昨收168.89再执行。",
+      "intc_analysis": false
+    },
+    {
+      "ticker": "INTC",
+      "direction": "long",
+      "entry_price": 62.05,
+      "exit_price": 64.22,
+      "stop_loss": 60.6,
+      "shares": 13,
+      "position_size": 806.65,
+      "predicted_profit": 28.21,
+      "risk": 18.85,
+      "risk_reward": 1.5,
+      "confidence": "medium",
+      "recommendation": "conditional_buy",
+      "notes": "【INTC强制】盘前约61.84（+6.38%），昨收58.13。支撑：60.20/56.93（Moneycontrol pivot），阻力：62.51/60.98。新闻：随NVDA/CRWV链反弹，日线RSI仍超卖区反弹（约29-37），MACD负值，趋势仍偏空。方向：轻仓逆势反弹博弈，仅ORB确认后；跌破60.35止损。依据：ORB+超卖反抽（TradingView kaitokuraba7 + Moneycontrol，2026-11-11）。",
+      "intc_analysis": true,
+      "premarket_price": 61.84,
+      "support": [60.2, 56.93, 55.72],
+      "resistance": [62.51, 60.98]
+    },
+    {
+      "ticker": "AMD",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "low",
+      "recommendation": "observe",
+      "notes": "盘前545.30（+5.84%），单价过高，$1000本金仅可1股，单笔难以满足风险收益比≥1.5且接近+$30目标，仅观察。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "long",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "low",
+      "recommendation": "observe",
+      "notes": "盘前687.57，1股仓位下盈亏比不足1.5，不作为主推。"
+    }
+  ],
+  "final_recommendation": "conditional_buy",
+  "final_pick": "NVDA",
+  "final_pick_fallback": "INTC",
+  "options_recommendation": "none",
+  "options_reason": "当日无符合买入期权的风控标的；板块已大幅跳空，权利金/IV不利于小额买入Call，遵守财报前IV过高不买期权规则",
+  "follow_up": [
+    "开盘后15-30分钟记录NVDA/INTC开盘区间高低点",
+    "若NVDA回踩填补缺口至168.89一带，切换至gap-fill观望模式，取消做多",
+    "周四盘后关注ONDS、CRMD等财报对纳指情绪",
+    "周五PPI与VIX期权到期（11/18）前波动率变化",
+    "未采用纯Kicker追多：治理新闻未明朗，跳空或衰竭，需成交量确认"
+  ],
+  "pdt_reminder": "账户低于$25,000适用PDT：5个交易日内最多3次日内交易，今日若已用满次数应避免第4次开仓",
+  "predicted_profit_best_case": 26.25,
+  "confidence_overall": "medium",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-11T13:05:00Z",
+  "status": "published",
+  "disclaimer": "本内容仅为研究参考，不构成投资建议，不承诺收益，实盘可能亏损。"
+}

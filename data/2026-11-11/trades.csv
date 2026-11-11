@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-11,2100,NVDA,long,177.50,182.75,174.00,182.75,5,887.50,conditional_buy,medium-high,CRWV beat-and-raise; chip sector gap-up; Veterans Day bond market closed,ORB confirm then entry; gap fill to 168.89 cancels long,26.25,,1.5,planned,Gap-and-Go LuxAlgo 2026-11-11,leehotpot@outlook.com,
+2026-11-11,2100,INTC,long,62.05,64.22,60.60,64.22,13,806.65,conditional_buy,medium,sector beta rebound; INTC daily still bearish MACD negative,Hold above 62.05 pivot; stop 60.60,28.21,,1.5,planned,INTC mandatory ORB counter-trend bounce,leehotpot@outlook.com,
+2026-11-11,2100,AMD,long,,,,,0,0,observe,low,chip rally,price too high for 1k account,0,,,skipped,Cannot meet R/R with integer shares,leehotpot@outlook.com,
