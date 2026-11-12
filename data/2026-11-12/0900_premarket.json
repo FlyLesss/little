@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-12",
+  "slot": "0900",
+  "generated_at": "2026-11-12T09:00:00+08:00",
+  "account_principal": 1000,
+  "daily_target_profit": 30,
+  "max_daily_loss": 30,
+  "recommendation": "watch_light_position",
+  "confidence": 58,
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-12T01:08:00Z",
+  "market_overview": {
+    "nq_futures": 28199.5,
+    "es_futures": 7605.0,
+    "qqq_prev_close": 674.76,
+    "qqq_estimate_close": 690.38,
+    "soxx_prev_close": 146.59,
+    "vix": 17.49,
+    "us10y": 5.0,
+    "dxy": 102.86,
+    "sentiment": "tech_semis_risk_on_after_crwv"
+  },
+  "events_today": [
+    "US Initial Jobless Claims (exp ~195k)",
+    "Earnings BMO: BN, NBIS, ASND",
+    "Earnings AMC: CSCO, AMAT, CBRS, NU"
+  ],
+  "technique_notes": [
+    {
+      "name": "Pullback to VWAP/support after sector gap-up",
+      "source": "gushihangqing technical-analysis + Frank's Report premarket playbook",
+      "adopted": true,
+      "reason": "Chip rally on CRWV; avoid chase, wait for first pullback"
+    },
+    {
+      "name": "IV crush earnings playbook",
+      "source": "FlashAlpha earnings calendar 2026-11-12",
+      "adopted": false,
+      "reason": "No long options per rules; AMAT/CSCO event IV elevated"
+    },
+    {
+      "name": "BloomSignals bearish premarket sheet",
+      "source": "bloomsignals.com 2026-11-12",
+      "adopted": false,
+      "reason": "Contradicts overnight semi strength; low alignment confidence"
+    }
+  ],
+  "intc_analysis": {
+    "ticker": "INTC",
+    "prev_close": 58.13,
+    "session_high_ref": 62.59,
+    "support": [58.0, 59.0, 56.5],
+    "resistance": [62.5, 63.0, 65.0],
+    "news": "Sector beta rally on CoreWeave; CEO insider buy Nov 2; Web Summit AI visibility through Nov 12",
+    "direction": "long_on_pullback_only",
+    "confidence": 62
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "long",
+      "entry_price": 61.2,
+      "exit_price": 63.2,
+      "stop_loss": 60.0,
+      "take_profit": 63.2,
+      "shares": 16,
+      "position_size": 979.2,
+      "predicted_profit": 32.0,
+      "risk": 19.2,
+      "risk_reward": 1.67,
+      "confidence": 62,
+      "status": "primary",
+      "notes": "Technique: oversold bounce + sector beta; source Investing.com 2026-11-11"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "long",
+      "entry_price": 173.5,
+      "exit_price": 178.5,
+      "stop_loss": 171.0,
+      "take_profit": 178.5,
+      "shares": 5,
+      "position_size": 867.5,
+      "predicted_profit": 25.0,
+      "risk": 12.5,
+      "risk_reward": 2.0,
+      "confidence": 58,
+      "status": "secondary",
+      "notes": "Relief bounce; confirm first 15min; reduced size for $1k account"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "long",
+      "entry_price": 538.0,
+      "exit_price": 548.0,
+      "stop_loss": 533.0,
+      "take_profit": 548.0,
+      "shares": 1,
+      "position_size": 538.0,
+      "predicted_profit": 10.0,
+      "risk": 5.0,
+      "risk_reward": 2.0,
+      "confidence": 55,
+      "status": "optional_small",
+      "notes": "High share price; 1 share only or skip"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "long",
+      "entry_price": 685.0,
+      "exit_price": 691.0,
+      "stop_loss": 682.0,
+      "take_profit": 691.0,
+      "shares": 1,
+      "position_size": 685.0,
+      "predicted_profit": 6.0,
+      "risk": 3.0,
+      "risk_reward": 2.0,
+      "confidence": 60,
+      "status": "optional_small",
+      "notes": "Liquidity hedge; size 1 share"
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "watch",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": 50,
+      "status": "no_trade_amat_earnings",
+      "notes": "AMAT AMC earnings — avoid holding ETF through event"
+    }
+  ],
+  "options_recommendation": {
+    "action": "none",
+    "reason": "Earnings day high IV; buy options prohibited; max premium $20 rule"
+  },
+  "follow_up": [
+    "Confirm QQQ/SOXX first 15 minutes vs overnight rally",
+    "Jobless claims impact on yields",
+    "AMAT/CSCO AMC guidance",
+    "NVDA headline risk on board investigation"
+  ],
+  "predicted_profit_primary": 32,
+  "actual_profit": null,
+  "pdt_warning": true
+}

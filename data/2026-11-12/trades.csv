@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-12,0900,INTC,long,61.20,63.20,60.00,63.20,16,979.20,primary,62,"Jobless claims; AMAT/CSCO AMC","Open confirm; earnings tonight",32.00,,1.67,planned,Oversold sector bounce pullback entry,leehotpot@outlook.com,
+2026-11-12,0900,NVDA,long,173.50,178.50,171.00,178.50,5,867.50,secondary,58,"Jobless claims; AMAT/CSCO AMC","15min VWAP confirm",25.00,,2.00,planned,Relief bounce reduced size,leehotpot@outlook.com,
+2026-11-12,0900,AMD,long,538.00,548.00,533.00,548.00,1,538.00,optional,55,"Jobless claims; AMAT/CSCO AMC","Skip if no pullback",10.00,,2.00,optional,High price 1 share only,leehotpot@outlook.com,
