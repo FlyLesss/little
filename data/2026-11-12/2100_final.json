@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-12",
+  "slot": "2100_final",
+  "beijing_time": "2026-11-12 21:00",
+  "account_principal": 1000,
+  "daily_profit_target": 30,
+  "max_daily_loss": 30,
+  "recommendation": "观望",
+  "status": "plan_only",
+  "predicted_profit": 0,
+  "actual_profit": null,
+  "confidence": "中",
+  "pdt_day_trades_last_5_sessions": 0,
+  "market_overview": {
+    "nq_futures": {
+      "last": 28197.5,
+      "prev_close": 28473.25,
+      "change_pct_approx": -0.97,
+      "as_of_utc": "2026-11-12T12:54:06Z"
+    },
+    "es_futures": {
+      "last": 7608.25,
+      "prev_close": 7640.5,
+      "change_pct_approx": -0.42,
+      "as_of_utc": "2026-11-12T12:53:59Z"
+    },
+    "nasdaq_composite_close_2026_11_11": 25466.19,
+    "sp500_close_2026_11_11": 7619.38,
+    "ndx_close_2026_11_11": 28374.25,
+    "vix": {
+      "last": 18.35,
+      "prev_close": 17.49,
+      "note": "Yahoo分钟成交量为0，非09:30后正式现金VIX"
+    },
+    "us10y_pct": 4.998,
+    "dxy_note": "美元指数分钟成交量为0，不写盘前报价",
+    "wti_last": 85.79,
+    "tech_sentiment": "NVDA盘前大跌拖累纳指100期货；AMD盘前偏强"
+  },
+  "events_today": [
+    "美东08:30 初请失业金（写稿时约08:07 ET，尚未公布）",
+    "美东10:00 成屋销售、Fed理事Barr讲话",
+    "盘前 NBIS 等财报；盘后 CSCO、AMAT（大型科技）",
+    "周五美东08:30 PPI",
+    "11月17日盘后 NVDA 财报"
+  ],
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "premarket_last": 160.45,
+      "premarket_high": 164.8,
+      "premarket_low": 158.91,
+      "regular_close_2026_11_11": 173.73,
+      "notes": "盘前约-7.7%；若常规交易前无成交确认，不写VWAP。2股@160.45 止损151.31 到盘前高164.8 盈亏比0.44。未见无重叠看跌Kicker收盘确认（Bulkowski 2026引用）。",
+      "technique": "Barchart 2026-11-12：开盘等待NVDA董事会动向；LabbitX 2026-11-12：修复反弹不追多"
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "premarket_last": 60.37,
+      "premarket_high": 61.55,
+      "premarket_low": 60.04,
+      "regular_close_2026_11_11": 62.5,
+      "support_resistance": {
+        "support": [55.83, 54.56],
+        "resistance": [64.06, 68.77, 90.75]
+      },
+      "notes": "盘前约-3.4%；EMA20 74.60 下方。3股测算盈亏比0.19。CNBC 2026-11-12：Xeon延误叙事；Reuters盘前提及NVDA丑闻外溢。不买Call。",
+      "technique": "跟随板块避险，未采用看跌Kicker（盘前未收盘、与周二阳线重叠）"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "premarket_last": 682.95,
+      "premarket_high": 686.27,
+      "premarket_low": 682.04,
+      "regular_close_2026_11_11": 690.38,
+      "notes": "1股ATR止损盈亏比0.19。关键支撑653.99（周一低）。"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "观察",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": 0.4,
+      "confidence": "低",
+      "premarket_last": 560.67,
+      "notes": "相对NVDA偏强；CNBC 2026-11-12 William Blair上调。1股ATR风险42.82>20，不纳入可执行单。"
+    },
+    {
+      "ticker": "AVGO",
+      "direction": "观察",
+      "entry_price": null,
+      "risk_reward": 0.6,
+      "notes": "测算最高常规盈亏比仍<1.5"
+    }
+  ],
+  "options_recommendation": "无。NVDA 11/17财报前IV偏高；CSCO/AMAT今晚盘后（EarningsWatcher IV crush），禁止买入期权。",
+  "follow_up": [
+    "常规交易后核对NVDA是否收稳或延续缺口（158.91/164.8）",
+    "初请、成屋销售公布值",
+    "CSCO/AMAT盘后指引",
+    "周五PPI前继续不买期权",
+    "未采用Bearish Kicker做多/做空：需等RTH收盘且无重叠缺口；Bulkowski统计仅54%反转"
+  ],
+  "risk_disclosure": "不构成投资建议，可能亏损。目标+30美元仅为筛选阈值，非收益承诺。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-12T13:15:30Z",
+  "data_sources": [
+    "Yahoo Finance chart API 2026-11-12T13:04Z",
+    "Reuters/Investing.com/CNBC/Barchart 2026-11-12 盘前报道",
+    "LabbitX 2026-11-12",
+    "Bulkowski thepatternsite.com KickingBear",
+    "EarningsWatcher/OptionProfit 2026-11-12 IV"
+  ]
+}
