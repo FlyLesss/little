@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-13,0900,INTC,watch,,,57.20,61.00,0,0,watch,中,PPI+NVDA人事震荡,NVDA声明与支撑测试,0,,,premarket_only,强制分析行-盘前弱,null,null
+2026-11-13,0900,CSCO,long,100.20,103.80,98.10,103.80,9,901.80,conditional_long,中,CSCO财报beat,待PPI后确认,32.40,,1.71,premarket_conditional,Gap&Go待确认,null,null
+2026-11-13,0900,AMD,watch,596.00,612.00,583.00,612.00,1,596.00,watch,低,NVDA竞品轮动,盈亏比不足,16.00,,1.23,premarket_only,观察,null,null
