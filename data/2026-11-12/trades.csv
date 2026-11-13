@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-12,2100_final,NVDA,观望,,,,,0,0,观望,低,NVDA CEO舆情;初请;CSCO/AMAT财报,核对缺口与董事会消息,0,,0.44,rejected,2股盘前测算RR<1.5;Yahoo盘前成交量0,omitted-public-repo,
+2026-11-12,2100_final,INTC,观望,,,,,0,0,观望,低,NVDA外溢;Xeon延误报道,支撑55.83阻力64.06,0,,0.19,rejected,强制分析行;不买Call,omitted-public-repo,
+2026-11-12,2100_final,QQQ,观望,,,,,0,0,观望,低,期货走弱,守住653.99,0,,0.19,rejected,,omitted-public-repo,
+2026-11-12,2100_final,AMD,观察,,,,,0,0,观望,低,相对强势,1股ATR>20,0,,0.4,watch_only,不执行,omitted-public-repo,
+2026-11-12,2100_final,PORTFOLIO,空仓,,,,,0,0,观望,中,见2100_final.json,,0,,,plan_only,现金仍记1000;近5日成交型日内0次,omitted-public-repo,
