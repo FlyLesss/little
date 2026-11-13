@@ -2,3 +2,7 @@ date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,p
 2026-11-13,0900,INTC,watch,,,57.20,61.00,0,0,watch,中,PPI+NVDA人事震荡,NVDA声明与支撑测试,0,,,premarket_only,强制分析行-盘前弱,null,null
 2026-11-13,0900,CSCO,long,100.20,103.80,98.10,103.80,9,901.80,conditional_long,中,CSCO财报beat,待PPI后确认,32.40,,1.71,premarket_conditional,Gap&Go待确认,null,null
 2026-11-13,0900,AMD,watch,596.00,612.00,583.00,612.00,1,596.00,watch,低,NVDA竞品轮动,盈亏比不足,16.00,,1.23,premarket_only,观察,null,null
+2026-11-13,2100,INTC,watch,,,59.40,62.20,0,0,watch,中,PPI即将公布,枢轴确认后跟踪,0,,,final_watch,强制分析-观望,leehotpot@outlook.com,2026-11-13T21:02:00+08:00
+2026-11-13,2100,CSCO,watch,,,,,0,0,avoid_new_long,低,财报余震,Gap&Go作废,0,,,final_cancelled,盘前转跌,null,null
+2026-11-13,2100,NVDA,watch,,,,,0,0,avoid,低,治理余波,11/17财报,0,,,final_watch,波动过大,null,null
+2026-11-13,2100,QQQ,watch,,686.00,679.50,692.00,0,0,watch,中,PPI+680支撑,PPI后评估,0,,,final_watch,无合规R:R,null,null
