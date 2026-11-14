@@ -1,0 +1,3 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-14,2100,MARKET,—,,,,,0,0,空仓,高,周六美股休市,"周一09:00早报;NVDA11/17财报",0,0,,closed_no_trade,不预挂周一委托,omitted-public-repo,
+2026-11-14,2100,INTC,观望,,,,,0,0,watch,中,周六休市,"守57.0/54.56;NVDA合作担忧",0,0,,plan_only,周五收59.66 低57.0 EMA20下方,omitted-public-repo,

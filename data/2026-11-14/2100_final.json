@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-14",
+  "slot": "2100",
+  "generated_at_beijing": "2026-11-14T21:00:00+08:00",
+  "report_type": "market_closed_weekend",
+  "market_status": "closed",
+  "market_status_reason": "周六（美东周五晚间至周六），NYSE/Nasdaq 现金市场休市；本档期不生成可执行买卖价，不预挂周一委托。",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "last_cash_session": "2026-11-13",
+    "nq_futures_close": 28034.75,
+    "es_futures_close": 7583.0,
+    "qqq_close": 679.89,
+    "vix_close": 19.3,
+    "us10y_pct": 5.154,
+    "dxy_close": 103.411,
+    "wti_close": 88.56,
+    "tech_sentiment": "nvda_governance_shock_continuation_weak_semis"
+  },
+  "events_today": [
+    "美股现金市场休市（周六）",
+    "无财报/宏观数据需交易",
+    "消化周五：PPI 与 NVDA 治理传闻余波（仅观察，不交易）"
+  ],
+  "technique_research": [
+    {
+      "name": "Earnings IV crush（财报后波动率坍塌）",
+      "source": "Barchart Education + ApexVol, 2026-11-13 周度",
+      "principle": "财报公布后隐含波动率常回落，买入单边期权易受损",
+      "applicable": "filter_only",
+      "notes": "仅用于禁止买入期权；账户规则禁止卖出期权，不采用卖方铁鹰/跨式"
+    },
+    {
+      "name": "Gap & Go",
+      "source": "TradingView/Capitalcom, 2026",
+      "principle": "缺口+放量延续",
+      "applicable": "no",
+      "notes": "休市日无盘前缺口可确认，不套用"
+    }
+  ],
+  "technique_match_summary": "今日未找到可变成委托的高置信度技巧匹配，建议以常规风控框架执行（本日无需交易）。",
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市；且 NVDA 11/17 财报前 IV 偏高，禁止买入期权。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "after_hours_price": null,
+      "premarket_price": null,
+      "rth_close": 59.66,
+      "rth_high": 61.34,
+      "rth_low": 57.0,
+      "support": [57.0, 54.56],
+      "resistance": [61.34, 62.5],
+      "technique_basis": "无（休市）— Barchart 2026-11-13 IV 框架仅作期权排除",
+      "notes": "周五收 59.66（-2.5%），低 57.0 考验支撑；EMA20 72.03/EMA50 86.24 下方；与 NVDA 合作/持股担忧延续。小账户 ATR 止损测算：3 股至周五高盈亏比约 0.26，不满足 ≥1.5。不买 Call。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "rth_close": 162.85,
+      "rth_high": 170.0,
+      "rth_low": 158.39,
+      "notes": "周五收跌，量放大；EMA20 193.29，RSI 24.72，ATR 11.0。2 股 ATR 止损风险约 $16，至日内高盈利约 $14.3，RR 0.89。事件波动过大，休市不建仓。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "rth_close": 679.89,
+      "notes": "周五收低于开盘；1 股 ATR 风险超 $20。休市。"
+    }
+  ],
+  "final_recommendation": "空仓",
+  "final_recommendation_detail": "周六休市，无日内交易。账户仍空仓；周一 09:00 再用盘前价出早报，22:30 冬令时开盘前出 21:00 最终建议。",
+  "predicted_profit": 0,
+  "actual_profit": 0,
+  "confidence": "高",
+  "follow_up": [
+    "周一 09:00 北京时间操作早报",
+    "NVDA 11/17 财报与董事会动态",
+    "INTC 能否守住 57.0 / 54.56（周一低点）",
+    "周五 PPI 实际值及其对利率路径的延续影响"
+  ],
+  "pdt_reminder": "账户<$25,000：5 个交易日内最多 3 次日内交易。近 5 日成交型日内 0 次。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-14T21:10:00+08:00",
+  "status": "closed_no_trade",
+  "notes": "报价来源：Yahoo Finance chart API，核对时刻约 2026-11-14T13:05Z。周五常规交易已结束；期货/指数为最近可用收盘字段。"
+}
