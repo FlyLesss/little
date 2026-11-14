@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-13,0900,CSCO,long,100.20,95.64,98.10,103.80,9,901.80,conditional_long,中,PPI+CSCO财报,周五实际收盘复盘,32.40,-18.90,1.71,hypothetical_stopped,条件单：严格未成交记0；追入则止损,leehotpot@outlook.com,
+2026-11-13,0900,INTC,watch,,59.66,57.20,61.00,0,0,watch,中,NVDA震荡,下周NVDA财报,0,0,,hypothetical_flat,观望正确,leehotpot@outlook.com,
+2026-11-14,weekend_0900,MARKET,none,,,,,0,0,空仓,高,休市,,0,0,,weekend_no_trade,周六无美股交易,leehotpot@outlook.com,
