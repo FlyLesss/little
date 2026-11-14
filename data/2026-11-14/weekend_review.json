@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-14",
+  "slot": "weekend_0900",
+  "report_type": "weekend_review",
+  "generated_at_beijing": "2026-11-14T09:00:00+08:00",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_status": "US_market_closed_weekend",
+  "week_label": "2026-11-10 至 2026-11-13（美东）",
+  "week_market_summary": {
+    "nasdaq_weekly_pct": 2.3,
+    "sp500_weekly_pct": 2.5,
+    "dow_weekly_pct": 2.1,
+    "nasdaq_friday_close": 25136.27,
+    "sp500_friday_close": 7561.67,
+    "dow_friday_close": 52347.55,
+    "nvda_friday_close": 162.85,
+    "csco_friday_close": 95.64,
+    "intc_friday_close": 59.66,
+    "qqq_week_context": "周涨但周五科技承压；NVDA治理震荡+十年债收益率>5%",
+    "vix_context": "波动抬升，防御板块相对强势",
+    "sources": ["CNBC 2026-11-13", "AP News 2026-11-13", "Kiplinger 2026-11-13"]
+  },
+  "last_week_recommendation_review": [
+    {
+      "date": "2026-11-13",
+      "ticker": "CSCO",
+      "recommendation": "conditional_long",
+      "planned_entry": 100.2,
+      "stop_loss": 98.1,
+      "take_profit": 103.8,
+      "shares": 9,
+      "hypothetical_outcome": "未成交或止损",
+      "hypothetical_actual_profit_usd": 0,
+      "hypothetical_notes": "周五收$95.64（-6.24%）。条件单需PPI后站稳$100且放量；盘中曾随数据高开但科技回吐，CSCO全日走弱。严格按条件多数应空仓；若早盘追入$100.20区域，止损$98.10将触发，假设亏损约$18.9（计入风控上限内）。",
+      "lesson": "财报Gap&Go在宏观+PPI年率6.5%环境下易失败；须等第二小时企稳。"
+    },
+    {
+      "date": "2026-11-13",
+      "ticker": "INTC",
+      "recommendation": "watch",
+      "hypothetical_outcome": "无交易",
+      "hypothetical_actual_profit_usd": 0,
+      "hypothetical_notes": "收盘$59.66，日内低$57.00测试支撑后收回；观望建议正确，避免NVDA关联波动。"
+    },
+    {
+      "date": "2026-11-13",
+      "ticker": "AMD",
+      "recommendation": "watch",
+      "hypothetical_outcome": "无交易",
+      "hypothetical_actual_profit_usd": 0,
+      "hypothetical_notes": "周五收跌约8.75%至$534.06；观察正确，盈亏比与仓位本就不达标。"
+    }
+  ],
+  "week_hypothetical_pnl_usd": -18.9,
+  "week_hypothetical_pnl_disclaimer": "基于仓库内2026-11-13早报条件草案的假设情景；非实盘。若严格执行观望为主则周度假设盈亏为$0。",
+  "technique_research_next_week": [
+    {
+      "name": "财报后IV Crush / 不宜买期权",
+      "source": "Agent约束 + SMW Markets/NVDA preview, 2026-11-13",
+      "principle": "NVDA 11/17盘后财报，隐含波动率通常抬升；买入期权面临波动率坍塌",
+      "applicable_next_week": "yes",
+      "match_tickers": ["NVDA", "QQQ"],
+      "notes": "下周财报季禁止在NVDA财报前一日买入期权；股票日内须等指引落地。"
+    },
+    {
+      "name": "关键位守/破框架（指数）",
+      "source": "Borearis, 2026-11-14",
+      "principle": "纳指100守$28,001.3转强，下破看向$27,396.8",
+      "applicable_next_week": "partial",
+      "match_tickers": ["QQQ"],
+      "notes": "适用于零售销售+PPI余波后的指数确认，不用于盲目追跳空。"
+    },
+    {
+      "name": "MACD金叉+成交量确认（周线修复）",
+      "source": "盘中技术分析观点汇总/Gan Jing World, 2026-11-13",
+      "principle": "QQQ若周线MACD金叉且冲击月均线需放量，否则易假突破",
+      "applicable_next_week": "partial",
+      "match_tickers": ["QQQ"],
+      "notes": "与NVDA财报周叠加，置信度中等；未采用单一MACD信号独立建仓。"
+    }
+  ],
+  "next_week_calendar": {
+    "macro": [
+      {"date_et": "2026-11-17", "time_et": "08:30", "event": "10月零售销售（共识约+0.2%，前月+0.8%）"},
+      {"date_et": "2026-11-18", "time_et": "14:00", "event": "10月FOMC会议纪要"},
+      {"date_et": "2026-11-19", "time_et": "08:30", "event": "初请失业金；领先指标"},
+      {"date_et": "2026-11-19", "event": "Anthropic IPO首日交易（科技情绪风向标）"}
+    ],
+    "earnings_major": [
+      {"date_et": "2026-11-16", "tickers": ["BIDU", "TSN"], "timing": "mixed"},
+      {"date_et": "2026-11-17", "tickers": ["HD", "DIS", "NVDA"], "timing": "HD/DIS盘前，NVDA约16:20 ET盘后"},
+      {"date_et": "2026-11-18", "tickers": ["TGT", "LOW"], "timing": "盘前为主"},
+      {"date_et": "2026-11-19", "tickers": ["WMT", "BABA"], "timing": "WMT盘前"}
+    ],
+    "sources": ["Morningstar", "StockTitan 2026-11-16周历", "Newsquawk 2026-11-13"]
+  },
+  "next_week_focus_tickers": [
+    {
+      "ticker": "NVDA",
+      "priority": "最高",
+      "catalyst": "首份无Jensen Huang任CEO语境下财报；共识营收约$108B±2%",
+      "key_levels_reference": {"support": [150, 140], "resistance": [170, 182]},
+      "intraday_stance": "财报日禁止盲目追涨；小账户等盘后指引后再定翌日计划",
+      "notes": "来源：CNBC/Kiplinger/StockTitan；周五收$162.85，创52周新低区域（Investing.com）"
+    },
+    {
+      "ticker": "INTC",
+      "priority": "强制跟踪",
+      "catalyst": "NVDA合作/持股叙事；11/17 NVDA电话会",
+      "key_levels_reference": {"support": [57.0, 56.0], "resistance": [60.0, 62.5]},
+      "intraday_stance": "观望至NVDA财报落地；守$57放量则短线多草案，破$56回避",
+      "friday_close": 59.66,
+      "ah_reference": 58.76
+    },
+    {
+      "ticker": "QQQ",
+      "priority": "高",
+      "catalyst": "零售销售+NVDA指引联动",
+      "key_levels_reference": {"support": [680.5, 675.0], "resistance": [694, 700]},
+      "intraday_stance": "事件周以观望为主；突破须成交量配合"
+    },
+    {
+      "ticker": "HD",
+      "priority": "中",
+      "catalyst": "周二盘前财报+零售销售同日",
+      "intraday_stance": "非科技主线，仅作宏观消费参考"
+    },
+    {
+      "ticker": "CSCO",
+      "priority": "低",
+      "catalyst": "上周财报利好已price in，周五大跌",
+      "intraday_stance": "恢复观望，等待$93-94支撑再评估"
+    }
+  ],
+  "intc_weekly_analysis": {
+    "friday_close": 59.66,
+    "week_change_approx_pct": 2.6,
+    "session_low": 57.0,
+    "session_high": 61.34,
+    "news": "NVDA CEO变动引发对Intel-NVIDIA投资与合作路线担忧；周五随半导体走弱",
+    "direction_next_week": "观望偏多仅观察",
+    "rationale": "NVDA 11/17财报为二元事件；$57为周内关键支撑已测试，收盘站回$59.6显示买盘承接但缺催化剂"
+  },
+  "options_next_week": {
+    "recommendation": "none",
+    "reason": "NVDA财报周IV偏高；规则禁止财报前一日买入期权。整周不建议期权单，权利金预算保留给财报后方向确认日。"
+  },
+  "pdt_reminder": "新交易周开始前请自查滚动5日日内交易次数；财报周易触发冲动交易，避免第4次PDT。",
+  "final_recommendation_weekend": "本周休市无操作；下周以观望为主，焦点NVDA 11/17盘后与INTC关键位$57-60。",
+  "follow_up": [
+    "周一21:00（北京）输出11/17交易日早报",
+    "NVDA共识营收$108B与Q4指引",
+    "十年期美债是否持续守在5%上方",
+    "INTC能否在NVDA电话会后守住$58"
+  ],
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-14T09:02:00+08:00",
+  "status": "weekend_complete",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
