@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-15,0900,MARKET,休市,,,,,0,0,空仓观望,高,美东周日休市无交易,周一09:00早报;11/17 NVDA财报,0,0,,market_closed,不设买卖价不预挂委托,omitted-public-repo,
+2026-11-15,0900,INTC,观望,,,53.44,61.34,0,0,watch,中,休市,周一盘前再评估NVDA连锁,0,0,0.27,reject_rr,强制分析:周五收59.66 EMA下承压;3股ATR止损RR不足,omitted-public-repo,
+2026-11-15,0900,NVDA,观望,,,151.85,170.0,0,0,avoid_orders,低,休市,170/158.39关键位,0,0,0.65,reject_risk,2股ATR风险>20;财报11/17前不追,omitted-public-repo,

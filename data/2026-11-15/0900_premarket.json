@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-15",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-15T09:00:00+08:00",
+  "report_type": "market_closed_sunday",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_closed_reason": "美东周日休市；现金股与主要指数无新常规交易时段。",
+  "next_cash_session": {
+    "date_et": "2026-11-16",
+    "beijing_open": "22:30",
+    "timezone_note": "冬令时"
+  },
+  "market_overview": {
+    "last_cash_session_date": "2026-11-13",
+    "nasdaq_close": 25136.27,
+    "nasdaq_change_pct": -0.91,
+    "sp500_close": 7561.67,
+    "sp500_change_pct": -0.41,
+    "ndx_close": 27943.74,
+    "nq_futures_close": 28034.75,
+    "es_futures_close": 7583.0,
+    "ym_futures_close": 52418.0,
+    "qqq_close": 679.89,
+    "soxx_close": 149.3,
+    "vix": 19.3,
+    "us10y_pct": 5.154,
+    "dxy": 103.411,
+    "wti_usd": 88.56,
+    "tech_sentiment": "defensive_chop_ahead_nvda_earnings",
+    "notes": "期货与指数数据取自 Yahoo Finance 最近现金收盘（2026-11-13）；周日无新的有量盘前报价，不设委托价。"
+  },
+  "events_today": [
+    "今日（美东周日）：纽交所/纳斯达克休市，无 PPI、无宏观数据日程。",
+    "下一现金交易日 2026-11-16（周一）盘前起可更新报价。",
+    "2026-11-17（周二）美东收盘后：NVIDIA 财报（已在 2026-10-28 公司公告 17:00 ET 电话会）。"
+  ],
+  "technique_research": [
+    {
+      "name": "NVDA 财报前关键位守/破（170 / 158.39）",
+      "source": "TradingView Pineify, 2026-11-15",
+      "principle": "日收盘站上周五高 170 偏强；收盘跌破周五低 158.39 则反弹结构转弱。",
+      "applicable": "partial",
+      "match_tickers": ["NVDA"],
+      "adopted": false,
+      "notes": "周日休市无法确认收盘；仅作为周一观察框架，不生成买卖价。"
+    },
+    {
+      "name": "科技下跌趋势内耐心/等待耗尽",
+      "source": "Fundstrat Daily Technical Strategy, 2026-11-13",
+      "principle": "QQQ/SPX 仍处下降趋势线下方时，不追反弹；SPX 跌破 7500 则下看 7350。",
+      "applicable": "yes",
+      "match_tickers": ["QQQ"],
+      "adopted": "filter_only",
+      "notes": "适用于周一开盘前环境评估，今日不产生委托。"
+    },
+    {
+      "name": "18 日均线收复（年线窗口门禁）",
+      "source": "Big Picture Investing / Kevin McCormick, 2026-11-15",
+      "principle": "指数需收复 18 日均线后才谈年末行情延续；盘前跳空不算确认。",
+      "applicable": "partial",
+      "match_tickers": ["QQQ", "NVDA"],
+      "adopted": "filter_only",
+      "notes": "与 virDeStatera 类收盘确认一致；周日不交易。"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市日无报价；且 NVDA 11/17 财报前 IV 偏高，禁止买入期权（EarningsWatcher / OptionStrat IV crush 规则延续）。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": null,
+      "last_close": 59.66,
+      "last_session_high": 61.34,
+      "last_session_low": 57.0,
+      "support": [57.0, 54.56],
+      "resistance": [60.02, 62.5, 68.77],
+      "technique_basis": "McCormick 2026-11-15 提及 INTC 在 Combo 13 区域震荡筑底 — 仅观察，周日无成交量确认，未采用为买单。",
+      "notes": "周五收 59.66（-2.52%），仍低于 EMA20 72.02、EMA50 86.60。与 NVDA 治理/财报波动联动；无 11/15 公司新稿。3 股按 1×ATR 止损至周五高盈亏比约 0.27，不达标。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.65,
+      "confidence": "低",
+      "recommendation": "avoid_orders",
+      "last_close": 162.85,
+      "last_session_high": 170.0,
+      "last_session_low": 158.39,
+      "notes": "2 股 1×ATR(11) 止损风险 22 美元超 20 美元上限；至周五高盈利测算 RR 0.65。157/162.85 不是新买单。",
+      "technique_basis": "Pineify 2026-11-15：170 收复 / 158.39 跌破框架；休市不挂单。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.48,
+      "confidence": "中",
+      "recommendation": "watch",
+      "last_close": 679.89,
+      "notes": "1 股 ATR 止损风险 18.61，至周五高 RR 0.48；707.23 仍未收回。"
+    }
+  ],
+  "final_recommendation": "休市无操作",
+  "final_recommendation_detail": "周日美股休市。不预挂周一委托。周五收盘数据下无任何标的同时满足最大风险≤$20 且盈亏比≥1.5；维持空仓，预测盈利基准 0。",
+  "follow_up": [
+    "周一 09:00 北京再出早报；22:30 冬令时开盘前 21:00 给最终建议。",
+    "观察 NVDA 能否日收盘站上 170 或跌破 158.39（Pineify 框架）。",
+    "INTC 能否守住 57.0 / 54.56；SPX 期货语义对应现金 7500 一带（Fundstrat）。",
+    "周二 NVDA 财报前仍禁止买入期权；不在此预挂方向单。",
+    "未采用看跌 Kicker：周五 INTC/NVDA 收盘均在日内区间中部，无收盘缺口确认。"
+  ],
+  "pdt_reminder": "账户<$25,000：5 个交易日内最多 3 次日内交易。近 5 日成交型日内交易 0 次；休市日不计入。",
+  "predicted_profit_baseline": 0,
+  "actual_profit": 0,
+  "cash_usd": 1000,
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-15T01:04:15Z",
+  "status": "market_closed",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
