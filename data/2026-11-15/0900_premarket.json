@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-15",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-15T09:00:00+08:00",
+  "report_type": "market_closed_sunday",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "note": "周日休市，报价截至最近现金交易日 2026-11-13（周五）收盘",
+    "nasdaq_close": 25136.27,
+    "sp500_close": 7561.67,
+    "nq_futures_close": 28034.75,
+    "es_futures_close": 7583.0,
+    "ym_futures_close": 52418.0,
+    "vix_close": 19.3,
+    "us10y_pct": 5.154,
+    "dxy_close": 103.411,
+    "wti_futures_close": 88.56,
+    "tech_sentiment": "weak_oversold_ahead_nvda_earnings"
+  },
+  "events_today": [
+    "纽约证券交易所周日休市，无现金交易时段",
+    "下一现金交易日：2026-11-16（周一）22:30 北京时间开盘（冬令时）",
+    "周一美东 13:30 Empire State 制造业指数（纽约联储）",
+    "周二美东 盘后 NVDA 财年 Q3 财报 — 本周科技主线催化剂"
+  ],
+  "technique_research": [
+    {
+      "name": "周五区间框架（170 / 158.39）",
+      "source": "Pineify / 多日枢轴复盘, 2026-11-15",
+      "principle": "在最近现金收盘上方用前高、前低定义观察区，未收复不卖跌、未放量破位不抄底",
+      "applicable": "filter_only",
+      "match_tickers": ["NVDA"],
+      "notes": "仅用于拒绝挂单，不构成买入价"
+    },
+    {
+      "name": "科技下跌尾声耐心过滤",
+      "source": "Fundstrat Daily Technical Strategy, 2026-11-13",
+      "principle": "趋势仍负斜率时尊重趋势，等待 exhaustion / 板块相对强度信号",
+      "applicable": "yes",
+      "match_tickers": ["QQQ", "NVDA"],
+      "notes": "账户已空仓，与结论一致：不预挂周一买单"
+    },
+    {
+      "name": "财报前空仓纪律",
+      "source": "TradingView MeliusCras, 2026-11-15",
+      "principle": "二元财报前宁可空仓，周三再交易反应而非猜点位",
+      "applicable": "yes",
+      "match_tickers": ["NVDA"],
+      "notes": "NVDA 11/17 盘后，周一、周二不买期权"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市日无交易；NVDA 财报前 IV 偏高，禁止买入期权。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "cash_close": 59.66,
+      "premarket_price": null,
+      "support": [57.0, 54.56],
+      "resistance": [61.34, 68.77],
+      "notes": "周五收 59.66；仍远低于 EMA20 72.02 / EMA50 86.60。无 11/15 公司新稿。",
+      "technique_basis": "McCormick 18 日均线门禁 + 均线压制（Fundstrat 过滤），休市不挂单"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 152.87,
+      "take_profit": 170.0,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.72,
+      "confidence": "低",
+      "recommendation": "watch",
+      "cash_close": 162.85,
+      "notes": "拒绝测算：2 股 ×1 ATR 止损风险约 19.96 美元，至周五高 170 盈亏比 0.72，未达 1.5。170 / 158.39 / 162.85 不是新买单。",
+      "technique_basis": "Yong-BlueMoon 2026-11-15 收复 167 框架 — 仅观察，未采用为委托价"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 663.55,
+      "take_profit": 688.75,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.54,
+      "confidence": "中",
+      "recommendation": "watch",
+      "cash_close": 679.89,
+      "notes": "1 股 ATR 止损测算盈亏比 0.54；低点 671.68 守住部分支撑，但小账户不达标。"
+    }
+  ],
+  "final_recommendation": "空仓观望",
+  "final_recommendation_detail": "周日休市，不设买入/卖出价，不预挂周一委托。没有任何标的同时满足单笔风险 ≤$20 且盈亏比 ≥1.5。",
+  "follow_up": [
+    "周一 09:00 北京时间再出《今晚美股操作早报》",
+    "关注 NVDA 能否收复 167–170 区间（盘后财报前情绪）",
+    "QQQ 关键位：支撑 671.68，阻力 688.75 / SMA200 716.36",
+    "INTC 关注 57.0 与 61.34"
+  ],
+  "pdt_reminder": "账户 <$25,000 时 5 个交易日内最多 3 次日内交易；近 5 日成交型日内 0 次。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-15T01:04:15Z",
+  "email_status": "sent",
+  "status": "market_closed",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}

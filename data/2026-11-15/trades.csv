@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-15,0900,INTC,watch,,,,,0,0,watch,中,周日休市,周一早报重估,0,,,market_closed,强制分析-无委托,omitted-public-repo,2026-11-15T01:04:15Z
+2026-11-15,0900,NVDA,watch,,,152.87,170.00,0,0,watch,低,周日休市,NVDA财报周,0,,0.72,market_closed,RR未达1.5,omitted-public-repo,2026-11-15T01:04:15Z
+2026-11-15,2100,INTC,watch,,,,,0,0,watch,中,周日休市,周一22:30开盘,0,,0.27,market_closed,强制分析行,omitted-public-repo,2026-11-15T13:10:00Z
+2026-11-15,2100,NVDA,watch,,,152.87,170.00,0,0,watch,低,休市+财报周,167结构位,0,,0.72,market_closed,不设买卖价,omitted-public-repo,2026-11-15T13:10:00Z
+2026-11-15,2100,QQQ,watch,,,663.55,688.75,0,0,watch,中,周日休市,681枢轴观察,0,,0.54,market_closed,风控不达标,omitted-public-repo,2026-11-15T13:10:00Z
