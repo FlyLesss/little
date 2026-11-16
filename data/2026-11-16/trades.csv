@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-16,0900,INTC,watch,,,52.43,61.34,0,0,watch,中,NVDA治理+周二财报周,守57/关注盘前量,0,,0.43,premarket_only,强制分析行,omitted-public-repo,
+2026-11-16,0900,NVDA,watch,,,150.01,170.00,0,0,avoid,低,周二NVDA财报,158.39支撑,0,,0.82,premarket_only,2股风险超20上限,omitted-public-repo,
+2026-11-16,0900,QQQ,watch,,,655.65,688.75,0,0,watch,中,科技偏弱,671.68支撑,0,,0.78,premarket_only,,omitted-public-repo,
+2026-11-16,0900,AMD,watch,,,,,0,0,watch,低,半导体内部分化,仅观察,0,,1.04,premarket_only,ATR超限,omitted-public-repo,
