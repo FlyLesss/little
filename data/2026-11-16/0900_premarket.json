@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-16T09:00:00+08:00",
+  "report_type": "premarket_morning",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "nvda_prior_close": 162.85,
+    "qqq_prior_close": 679.89,
+    "intc_prior_close": 59.66,
+    "nq_futures_change_pct": 0.51,
+    "vix_prior_close": 19.3,
+    "us10y_pct": 5.154,
+    "dxy": 103.411,
+    "wti_usd": 88.56,
+    "tech_sentiment": "cautious_nvda_governance_nvda_earnings_week"
+  },
+  "events_today": [
+    "08:30 ET NY Empire State Manufacturing Index",
+    "周二 08:30 零售销售",
+    "周二盘后 NVDA 财报",
+    "NVDA 董事会 / CEO 治理不确定性"
+  ],
+  "final_recommendation": "观望",
+  "predicted_profit_baseline": 0,
+  "status": "plan_only",
+  "email_sent_to": "omitted-public-repo"
+}

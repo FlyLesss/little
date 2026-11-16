@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-16,2100,INTC,观望,,,55.5,61.34,0,0,watch,低,Empire制造业/NVDA财报周,守57.0/诉讼,0,,,plan_only,强制分析行-无合规开仓,omitted-public-repo,
+2026-11-16,2100,NVDA,观望,,,147.44,170.0,0,0,watch,低,治理+周二财报,收复165前不交易,0,,1.05,plan_only,RR<1.5放弃,omitted-public-repo,
+2026-11-16,2100,SOXX,观望,,,133.95,154.37,0,0,watch,低,半导体弱,板块情绪,0,,1.12,plan_only,RR<1.5放弃,omitted-public-repo,
+2026-11-16,2100,QQQ,观望,,,653.13,688.75,0,0,watch,中,AI交易降温,零售销售周二,0,,0.91,plan_only,RR<1.5放弃,omitted-public-repo,
