@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-16",
+  "slot": "2100",
+  "generated_at_beijing": "2026-11-16T21:00:00+08:00",
+  "report_type": "premarket_final",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "nq_futures_price": 27660.25,
+    "nq_futures_change_pct": -1.34,
+    "es_futures_price": 7535.5,
+    "es_futures_change_pct": -0.63,
+    "qqq_premarket_approx": 671.74,
+    "soxx_premarket_approx": 143.59,
+    "vix_reference": 20.58,
+    "vix_prior_close": 19.3,
+    "us10y_pct": 5.154,
+    "dxy": 103.473,
+    "wti_usd": 87.48,
+    "tech_sentiment": "risk_off_ai_semis_weak_ahead_nvda_earnings"
+  },
+  "events_today": [
+    "08:30 ET NY Empire State Manufacturing Index（11月）",
+    "盘前：半导体板块普跌，亚洲芯片股重挫传导",
+    "NVDA 临时 CEO / 董事会治理与 Huang 去留不确定性（FT/Reuters）",
+    "INTC 股东集体诉讼（PC 需求与库存披露，Investing.com 2026-11-16）",
+    "周二 08:30 零售销售、进出口价格；周二盘后 NVDA 财报",
+    "本周：Anthropic 潜在 IPO、FOMC 会议纪要（周三）"
+  ],
+  "technique_research": [
+    {
+      "name": "超卖≠反转（均线压制框架）",
+      "source": "TradingView BullBearInsights, 2026-11-16",
+      "principle": "日线熊市结构下 RSI 超卖可持续；需先收复 165–170 才谈反弹质量",
+      "applicable": "partial",
+      "match_tickers": ["NVDA"],
+      "notes": "盘前约 158 仍低于 EMA20/50，未采用为买单"
+    },
+    {
+      "name": "财报前耐心过滤 / 事件前空仓",
+      "source": "MeliusCras / Fundstrat 框架（记忆+媒体引述）, 2026-11-15",
+      "principle": "大事件前降低方向性敞口，等波动释放后再评估",
+      "applicable": "yes",
+      "match_tickers": ["NVDA", "QQQ", "SOXX"],
+      "notes": "适用于周二 NVDA 财报前"
+    },
+    {
+      "name": "IV crush 过滤器（禁止事件前买期权）",
+      "source": "TradingRiot 2026 / OptionStrat 2026-11-16",
+      "principle": "财报前 IV 极高，买入期权易被波动率坍塌吞噬",
+      "applicable": "yes",
+      "match_tickers": ["NVDA", "QQQ", "SOXX"],
+      "notes": "IV rank 约 90+；仅作禁止期权，不作股票买点"
+    }
+  ],
+  "technique_not_used": [
+    {
+      "name": "看跌 Kicker",
+      "reason": "盘前跳空延续周五跌势，但缺常规交易收盘确认且 premarket 1 分钟成交量为 0，不符合记忆口径"
+    },
+    {
+      "name": "quantsignals 做多盒子突破",
+      "source": "TradingView quantsignals_alpha, 2026-11-16",
+      "reason": "目标 190 为模型路径非可验证价位；失效位 157.5 已被盘前低点 155.6 测试，小账户不适用"
+    },
+    {
+      "name": "Gap & Go",
+      "reason": "当日为下行缺口延续而非惊喜缺口；亚洲芯片拖累"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "NVDA 财报前一日 IV 极高（OptionStrat/Saxo 2026-11-16）；单笔权利金≤$20 无法在合理行权价覆盖预期波动。禁止买入期权。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 55.5,
+      "take_profit": 61.34,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": 56.58,
+      "premarket_high": 57.83,
+      "premarket_low": 56.28,
+      "prior_close": 59.66,
+      "support": [57.0, 55.6, 54.56],
+      "resistance": [59.66, 61.34, 68.77],
+      "notes": "盘前约 -4.5% 至 -7.5%（诉讼+板块拖累）。3 股 ATR 止损风险约 $18.7，至周五高 $61.34 盈亏比仅约 0.77。",
+      "technique_basis": "板块熊市延续（NDTV/TipRanks 2026-11-16）— 诉讼为新增利空，未形成高置信度反弹结构"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 147.44,
+      "take_profit": 170.0,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 1.05,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": 158.44,
+      "premarket_high": 162.97,
+      "premarket_low": 155.6,
+      "prior_close": 162.85,
+      "notes": "若强行 1 股 @158.44、1×ATR 止损 147.44、目标周五高 170，RR≈1.05<1.5。盘前低点已测 155.6，跌破 158.39 不把买单下移。",
+      "technique_basis": "BullBearInsights 2026-11-16 — 超卖观察；收复 165 前不确认反转"
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 133.95,
+      "take_profit": 154.37,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 1.12,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": 143.59,
+      "notes": "2 股方案 RR≈1.12 仍低于 1.5，且半导体情绪弱"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 653.13,
+      "take_profit": 688.75,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.91,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": 671.74,
+      "notes": "1 股 ATR 风险 $18.6，至周五高盈亏比不足"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": 506.5,
+      "notes": "盘前约 -5%，但 1 股 ATR 风险约 $47.9，超出 $20 上限"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": 360.83,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.36,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": 357.39,
+      "notes": "相对抗跌，但至盘前高空间过小，盈亏比不足"
+    }
+  ],
+  "final_recommendation": "观望",
+  "final_recommendation_detail": "空仓。没有任何标的在满足单笔最大风险 ≤$20 的同时达到盈亏比 ≥1.5:1。基准预测盈利 0（非承诺）。",
+  "predicted_profit_baseline": 0,
+  "confidence_overall": "中",
+  "follow_up": [
+    "开盘 30 分钟后观察 NVDA 能否站上 165（BullBearInsights 第一阻力）",
+    "INTC 能否守住 57.0（周五低点）及诉讼进展",
+    "周二 08:30 零售销售 + 周二盘后 NVDA 财报指引",
+    "盘前 1 分钟成交量为 0，无可靠 VWAP，不以盘前价预挂限价"
+  ],
+  "pdt_reminder": "账户<$25,000：5 个交易日内最多 3 次日内交易。近 5 日成交型日内交易 0 次。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-16T13:12:00+00:00",
+  "status": "plan_only",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
