@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-17,2100,INTC,watch,,,56.50,53.21,0,0,watch,低,NVDA减持25%+诉讼,NVDA财报后 재评估,0,,,final_only,强制分析-偏空观察,leehotpot@outlook.com,2026-11-17T13:08:00Z
+2026-11-17,2100,NVDA,avoid,,,,,0,0,avoid,低,盘后财报,Pivot158/R1 161,0,,,final_only,财报前不开仓,leehotpot@outlook.com,2026-11-17T13:08:00Z
+2026-11-17,2100,QQQ,watch,,,,,0,0,watch,低,零售销售等,指数确认,0,,,final_only,R:R不足,leehotpot@outlook.com,2026-11-17T13:08:00Z
+2026-11-17,2100,AMD,watch,,,,,0,0,watch,低,板块轮动,ATR>20,0,,,final_only,1股ATR>20,null,2026-11-17T13:08:00Z
