@@ -1,5 +1,5 @@
 date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
-2026-11-17,0900,INTC,watch,,,55.2,50.5,0,0,watch,中,"零售销售;NVDA盘后财报","53支撑;NVDA指引",0,,,draft,"强制分析-观望",leehotpot@outlook.com,2026-11-17T09:02:00+08:002026-11-17T09:02:00+08:002026-11-17T09:02:00+08:00
-2026-11-17,0900,GOOGL,conditional_long,294.0,301.5,289.5,301.5,3,882.0,conditional_long,中,"13F Berkshire GOOGL;零售销售","开盘确认294",22.5,,1.67,draft,"Gap&Go条件单",leehotpot@outlook.com,2026-11-17T09:02:00+08:002026-11-17T09:02:00+08:00
-2026-11-17,0900,NVDA,avoid,,,,,0,0,avoid,低,NVDA盘后财报,21:00更新,0,,,draft,"日内不做",leehotpot@outlook.com,2026-11-17T09:02:00+08:002026-11-17T09:02:00+08:00
+2026-11-17,0900,INTC,watch,,,55.2,50.5,0,0,watch,中,"零售销售;NVDA盘后财报","53支撑;NVDA指引",0,,,draft,"强制分析-观望",leehotpot@outlook.com,2026-11-17T09:02:00+08:00
+2026-11-17,0900,GOOGL,conditional_long,294.0,301.5,289.5,301.5,3,882.0,conditional_long,中,"13F Berkshire GOOGL;零售销售","开盘确认294",22.5,,1.67,draft,"Gap&Go条件单",leehotpot@outlook.com,2026-11-17T09:02:00+08:00
+2026-11-17,0900,NVDA,avoid,,,,,0,0,avoid,低,NVDA盘后财报,21:00更新,0,,,draft,"日内不做",leehotpot@outlook.com,2026-11-17T09:02:00+08:00
 2026-11-17,0900,QQQ,watch,,,665.0,678.0,0,0,watch,中,零售销售,670/660支撑,0,,,draft,待数据,leehotpot@outlook.com,2026-11-17T09:02:00+08:00
