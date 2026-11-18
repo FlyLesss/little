@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-18,2100,INTC,watch,,,52.42,56.60,0,0,watch,低,住房数据+FOMC纪要+NVDA财报后,守52.42/观察56.6,0,,0.46,final_no_trade,强制分析行-结构止损测算RR不足,leehotpot@outlook.com,2026-11-18T13:12:00Z
+2026-11-18,2100,NVDA,watch,,,150.33,161.68,0,0,watch,低,NVDA Q3 beat+Q4指引130B,等30分钟区间+守150.33,0,,0.20,final_no_trade,Alphio等常规时段;禁Kicker,leehotpot@outlook.com,2026-11-18T13:12:00Z
+2026-11-18,2100,QQQ,watch,,,646.64,665.18,0,0,watch,中,宏观数据日,30分钟突破待确认,0,,0.22,final_no_trade,1xATR风险约20,leehotpot@outlook.com,2026-11-18T13:12:00Z
+2026-11-18,2100,SOXX,watch,,,133.83,145.84,0,0,watch,低,半导体跟涨NVDA,观察成交量,0,,0.21,final_no_trade,,leehotpot@outlook.com,2026-11-18T13:12:00Z
+2026-11-18,2100,AAPL,watch,,,340.59,351.11,0,0,watch,低,无单一催化,相对抗跌仅观察,0,,0.09,final_no_trade,,leehotpot@outlook.com,2026-11-18T13:12:00Z
