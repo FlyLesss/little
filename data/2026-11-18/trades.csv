@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-18,0900,INTC,watch,,,54.43,57.2,0,0,watch,低,住房数据+FOMC纪要+NVDA财报余波,52.42支撑;Anthropic IPO,0,,0.10,premarket_only,强制分析行,omitted-public-repo,
+2026-11-18,0900,NVDA,watch,,,151.61,163.85,0,0,watch,低,NVDA财报已公布;住房数据;FOMC纪要,165收盘确认;155.46缺口,0,,0.19,premarket_only,不达标不参与,omitted-public-repo,
+2026-11-18,0900,QQQ,watch,,,646.7,672.15,0,0,watch,低,宏观数据日,21:00重估,0,,0.32,premarket_only,,omitted-public-repo,
+2026-11-18,0900,SOXX,watch,,,137.27,148.28,0,0,watch,低,半导体跟涨NVDA,2股风险近20,0,,0.13,premarket_only,仅观察,omitted-public-repo,
+2026-11-18,0900,MSFT,watch,,,492.64,527.95,0,0,watch,低,软件板块弱,最高RR0.97,0,,0.97,premarket_only,,omitted-public-repo,
