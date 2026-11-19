@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-19,0900,INTC,watch,,,,,0,0,watch,中,"美东11/19: 08:30 新屋开工/许可; 14:00 FOMC纪要; 盘前零售财报","21:00用有量盘前重估; NVDA常规时段前30分钟区间; FOMC措辞",0,,,plan_only,"强制分析行; 仍低于EMA20/EMA50; 不挂单","leehotpot@outlook.com",
+2026-11-19,0900,NVDA,watch,,,,,0,0,watch,低,"NVDA财报后首个完整常规时段; 08:30 住房数据","守150.33/149.13; 勿追开盘跳空",0,,,plan_only,"2股1xATR止损RR约0.80; Gap-and-Go未确认",,
+2026-11-19,0900,QQQ,watch,,,,,0,0,watch,中,"指数随半导体财报余震","守住653.99前不做指数多",0,,,plan_only,"1股测算RR为负",,
+2026-11-19,0900,AAPL,watch,,,,,0,0,watch,低,"大盘震荡","防御相对强,仍无1.5 RR",0,,,plan_only,"2股至周三高点RR约0.23",,
