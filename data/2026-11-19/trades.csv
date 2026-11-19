@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-19,2100,INTC,watch,,,53.44,57.55,0,0,watch,低,Anthropic IPO+FOMC纪要偏鹰+初请,18A客户叙事能否放量突破,0,,0.12,final_only,强制分析-弱量反弹,leehotpot@outlook.com,2026-11-19T13:10:00Z
+2026-11-19,2100,NVDA,avoid,,,150.43,154.78,0,0,avoid,低,NVDA盘前反弹+AI IPO情绪,观察盘前回吐模式,0,,0.73,final_only,至盘前高RR不足1.5,leehotpot@outlook.com,2026-11-19T13:10:00Z
+2026-11-19,2100,QQQ,watch,,,653.06,675.07,0,0,watch,中,科技股情绪修复,660有量收复,0,,0.18,final_only,无盘前成交量,leehotpot@outlook.com,2026-11-19T13:10:00Z
+2026-11-19,2100,SOXX,watch,,,139.07,147.45,0,0,watch,低,芯片盘前跟涨,同NVDA过滤,0,,0.18,final_only,盈亏比不足,leehotpot@outlook.com,2026-11-19T13:10:00Z
+2026-11-19,2100,ALL,empty,,,,,0,0,观望空仓,中,综合,下一核对点见summary,0,,,final_empty,无合规标的,leehotpot@outlook.com,2026-11-19T13:10:00Z
