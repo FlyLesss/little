@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-20,0900,INTC,观望,,,54.85,59.44,0,0,watch,中,密歇根终值;半导体负面新闻,21:00盘前重估,0,0,0.63,plan_only,强制分析行-不挂单,leehotpot@outlook.com,
+2026-11-20,0900,NVDA,观望,145.87,158.13,133.95,158.13,0,0,avoid,低,AMD出口争议;VIX跳升,守145.71,0,0,1.03,plan_only,RR不足1.5,leehotpot@outlook.com,
+2026-11-20,0900,QQQ,观望,644.02,676.46,624.31,676.46,0,0,watch,低,密歇根终值,Fed讲话,0,0,1.65,plan_only,恐慌收盘不追多,leehotpot@outlook.com,
