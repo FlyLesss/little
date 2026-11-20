@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-20,2100,INTC,观望,,,,,0,0,watch,中,密歇根终值10:00ET;ANT IPO回吐,守住52.42/关注AI抛售,0,0,,plan_only,强制分析行;3股至盘前高RR约0.22,leehotpot@outlook.com,
+2026-11-20,2100,NVDA,观望,,,129.17,144.69,0,0,watch,低,VIX>30;半导体盘前弱,ORB枢轴149.94,0,0,0.30,plan_only,1股1xATR测算;不用周四高凑RR,leehotpot@outlook.com,
+2026-11-20,2100,QQQ,观望,,,613.95,641.82,0,0,watch,低,期货续跌,观察641.82收复,0,0,0.51,plan_only,1股1xATR测算,leehotpot@outlook.com,
+2026-11-20,2100,PORTFOLIO,空仓,,,,,0,0,watch,高,同summary,同summary,0,0,,plan_only,最终建议观望,leehotpot@outlook.com,
