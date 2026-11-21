@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-21",
+  "slot": "weekend_review",
+  "generated_at_beijing": "2026-11-21T09:00:00+08:00",
+  "report_type": "weekend_review",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "final_recommendation": "观望",
+  "final_recommendation_detail": "周六休市：不预挂周一委托。小账户在 VIX>30、ATR 放大环境下无同时满足风险≤$20 且盈亏比≥1.5 的常规股票草案。",
+  "hypothetical_week_pnl_usd": 0,
+  "cash_usd": 1000,
+  "pdt_reminder": "账户<$25,000：5个交易日内最多3次日内成交；本周均为研究空仓，近5日成交型日内交易0次。",
+  "last_week_review": {
+    "period_beijing": "2026-11-17 至 2026-11-20（美东现金交易周）",
+    "recommendation_slots": 9,
+    "all_recommendations": "观望/空仓",
+    "executed_trades": 0,
+    "hypothetical_pnl_usd": 0,
+    "notes": [
+      "11/17–11/20 各档均因盈亏比不足1.5、NVDA 财报后波动、或恐慌收盘不追多而未挂单。",
+      "若违规则在 11/19 盘前追 NVDA 多或 11/20 盘前抄底，均会面临扩大止损与跳空风险；未纳入假设盈亏。"
+    ],
+    "slot_log": [
+      {"date": "2026-11-17", "slot": "2100", "recommendation": "观望", "predicted_profit": 0},
+      {"date": "2026-11-18", "slot": "0900", "recommendation": "观望", "predicted_profit": 0},
+      {"date": "2026-11-18", "slot": "2100", "recommendation": "观望", "predicted_profit": 0},
+      {"date": "2026-11-19", "slot": "0900", "recommendation": "观望", "predicted_profit": 0},
+      {"date": "2026-11-19", "slot": "2100", "recommendation": "观望", "predicted_profit": 0},
+      {"date": "2026-11-20", "slot": "0900", "recommendation": "观望", "predicted_profit": 0},
+      {"date": "2026-11-20", "slot": "2100", "recommendation": "观望", "predicted_profit": 0}
+    ]
+  },
+  "market_close_friday": {
+    "as_of": "2026-11-20 美东常规时段",
+    "price_source_note": "个股 Yahoo 日线 close 字段为空时，采用 1 分钟 RTH 聚合（约90根）作为收盘参考。",
+    "indices": {
+      "sp500": {"close": 6910.39, "day_chg_pct": -3.7},
+      "nasdaq": {"close": 22617.73, "day_chg_pct": -5.28},
+      "vix": {"close": 35.89, "day_chg_pct": 26.2},
+      "us10y_pct": 4.91,
+      "dxy": 103.84,
+      "wti": 83.62,
+      "nq_futures_close": 25291.0,
+      "nq_futures_day_chg_pct": -4.92,
+      "es_futures_close": 6966.75,
+      "es_futures_day_chg_pct": -3.2
+    },
+    "tickers": {
+      "NVDA": {"close": 125.79, "high": 130.87, "low": 124.5, "day_chg_pct": -13.83, "week_chg_pct": -19.09, "ema20": 174.43, "ema50": 195.99, "rsi14": 13.78, "atr14": 12.84},
+      "QQQ": {"close": 610.04, "high": 617.41, "low": 606.23, "day_chg_pct": -5.43, "week_chg_pct": -7.14, "ema20": 674.38, "ema50": 696.66, "rsi14": 31.66, "atr14": 21.13},
+      "INTC": {"close": 51.37, "high": 53.33, "low": 51.1, "day_chg_pct": -7.81, "week_chg_pct": -6.89, "ema20": 65.05, "ema50": 79.93, "rsi14": 37.66, "atr14": 4.27},
+      "SOXX": {"close": 123.38, "high": 125.71, "low": 122.2, "day_chg_pct": -10.56, "week_chg_pct": -12.78},
+      "AAPL": {"close": 342.68, "week_chg_pct": -2.62},
+      "AMD": {"close": 424.26, "week_chg_pct": -15.72},
+      "META": {"close": 561.46},
+      "GOOGL": {"close": 265.68}
+    }
+  },
+  "technique_research": [
+    {
+      "name": "超卖不追空、等收复/破位确认",
+      "source": "Quant Brief (duanjl.com), 2026-11-20",
+      "principle": "VIX 高企 + RSI 极端超卖时，做空盈亏比差；观望收复关键位或跌破52周低再定义方向",
+      "applicable": "yes",
+      "match_tickers": ["NVDA", "QQQ"],
+      "notes": "NVDA 逼近 124.50 低点；收复 145 才视为恐慌吸收。本账户不据此挂单，仅作过滤器。"
+    },
+    {
+      "name": "跌势中反弹减仓、不加新多",
+      "source": "CNBC 援引 Fairlead Strategies / Katie Stockton, 2026-11-20",
+      "principle": "长期上行结构受考验时，不把超卖反弹当新开多信号",
+      "applicable": "yes",
+      "match_tickers": ["QQQ", "SOXX"],
+      "notes": "与本周连续「观望」一致；感恩节短周不因季节性强行做多。"
+    },
+    {
+      "name": "开盘区间 ORB（15–30 分钟）",
+      "source": "BloomSignals / charts.gg, 2026-11-20（继承上周框架）",
+      "principle": "恐慌周等待首半小时区间形成，再评估突破",
+      "applicable": "partial",
+      "match_tickers": ["QQQ", "NVDA"],
+      "notes": "适用周一开盘，但须先满足 R:R；本周不预先给买入价。"
+    }
+  ],
+  "technique_not_adopted": [
+    "EngHadiAI TradingView 2026-11-21：NVDA 看涨 Cypher 115–121 区未到达，不抄底",
+    "Borearis 2026-11-21 枢轴与 Quant Brief 收盘不完全一致，仅作观察位参考",
+    "看跌 Kicker：周五跳空续跌但缺收盘确认与可接受 R:R"
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "VIX 35+、财报后 IV 仍高；仅允许买入 Call/Put 且权利金≤$20，本周短周不建议期权单。禁止卖出期权。"
+  },
+  "next_week_calendar": [
+    {"date": "2026-11-24", "time_et": "全天", "event": "感恩节前夕短周开盘；全球 PMI 初值（周一，来源 Morningstar/CNBC）"},
+    {"date": "2026-11-24", "time_et": "08:30", "event": "美国数据堆叠日（ADP 就业、芝加哥劳工指标等，来源 Newsquawk）"},
+    {"date": "2026-11-24", "time_et": "10:00", "event": "11月消费者信心（共识约 92.0 vs 10月 91.7，Morningstar）"},
+    {"date": "2026-11-24", "time_et": "盘后", "event": "DELL、WDAY、ADSK 等财报（ATLAS/CMC）"},
+    {"date": "2026-11-25", "time_et": "08:30", "event": "初请失业；GDP 初值；耐用品订单；个人收入支出与 PCE（Morningstar/Newsquawk）"},
+    {"date": "2026-11-25", "time_et": "14:00", "event": "美联储褐皮书"},
+    {"date": "2026-11-26", "time_et": "休市", "event": "感恩节 — 美股休市"},
+    {"date": "2026-11-27", "time_et": "13:00", "event": "感恩节后提前收盘（美股 13:00 ET）"}
+  ],
+  "focus_tickers_next_week": [
+    {"ticker": "NVDA", "why": "周跌约19%、RSI~14；治理/AI 叙事与 124.5 结构低点", "levels": [124.5, 145.0, 130.87]},
+    {"ticker": "INTC", "why": "半导体链条承压；周五低 51.10", "levels": [51.1, 53.33, 57.67]},
+    {"ticker": "QQQ", "why": "纳指100 代理；跌破 606 后反弹质量待验", "levels": [606.23, 617.41, 661.75]},
+    {"ticker": "SOXX", "why": "板块 β；与 NVDA/INTC 同向", "levels": [122.2, 125.71]},
+    {"ticker": "DELL", "why": "11/24 盘后财报 — AI 服务器需求风向标", "levels": []},
+    {"ticker": "ADI", "why": "11/24 盘前财报 — 模拟/工业芯片景气", "levels": []}
+  ],
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": 51.37,
+      "support": [51.1, 50.92],
+      "resistance": [53.33, 57.67],
+      "notes": "周五收 51.37，仍远低于 EMA20 65.05。新闻：板块恐慌抛售，无 11/21 新公司稿。",
+      "technique_basis": "Quant Brief 2026-11-20 超卖不抄底 + Borearis 51.88 支撑仅观察"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "2股×1×ATR 风险约 $25.7 > $20；至周五高 R:R<0.5。",
+      "technique_basis": "Quant Brief 2026-11-20：等 145 收复或 124.5 跌破确认"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "technique_basis": "Fairlead 2026-11-20：跌势不追加新多；PCE 周三为核心宏观"
+    }
+  ],
+  "follow_up": [
+    "周一 09:00 用有量盘前重估，不预挂买单",
+    "NVDA 124.50 / 145.00 结构位",
+    "周三 08:30 核心 PCE 与 GDP 初值",
+    "感恩节流动性骤降 — 缩短持仓时间假设",
+    "DELL/ADI 财报对 SOXX 情绪"
+  ],
+  "predicted_profit": 0,
+  "actual_profit": 0,
+  "confidence": "高",
+  "events_today": ["周六休市 — 无现金交易"],
+  "status": "weekend_review",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-21T01:00:00+00:00",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
