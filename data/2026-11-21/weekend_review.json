@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-21",
+  "slot": "0900",
+  "report_type": "weekend_review",
+  "generated_at_beijing": "2026-11-21T09:00:00+08:00",
+  "market_closed_reason": "周六，NYSE/Nasdaq 周末休市",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "week_assumption_pnl_usd": 0,
+  "cash_usd": 1000,
+  "week_recommendations_count": 7,
+  "week_recommendations_all_flat": true,
+  "market_overview_friday_close": {
+    "sp500": 6910.39,
+    "sp500_change_pct": -3.7,
+    "nasdaq": 22617.73,
+    "nasdaq_change_pct": -5.28,
+    "nq_futures": 25126.5,
+    "nq_futures_change_pct_approx": -4.92,
+    "es_futures": 6935.0,
+    "qqq_close": 608.45,
+    "soxx_close": 123.4,
+    "vix": 35.89,
+    "us10y_pct": 4.912,
+    "dxy": 103.81,
+    "wti_usd": 83.41,
+    "tech_sentiment": "panic_risk_off"
+  },
+  "week_performance_watchlist": {
+    "NVDA": -19.09,
+    "QQQ": -7.14,
+    "INTC": -6.89,
+    "SOXX": -12.78,
+    "AMD": -15.72
+  },
+  "intc_mandatory_row": {
+    "ticker": "INTC",
+    "direction": "观望",
+    "friday_close": 51.28,
+    "friday_high": 56.48,
+    "friday_low": 51.1,
+    "ema20": 65.03,
+    "ema50": 79.58,
+    "rsi14": 37.56,
+    "atr14": 4.32,
+    "support": [51.1, 48.5],
+    "resistance": [56.48, 59.44],
+    "news": "无 11/21 公司新稿；四季指引仍为 10/29 财报：营收 150–160 亿美元、非 GAAP EPS 0.25 美元。",
+    "recommendation": "watch",
+    "notes": "周五恐慌下跌中相对抗跌有限；仍远低于均线。休市不挂单。"
+  },
+  "next_week_calendar": [
+    "11/24（一）美东：消费者信心等；盘后 DELL、ADI、WDAY 等",
+    "11/25（二）美东 08:30：PCE、GDP 二读、初请、耐用品；褐皮书",
+    "11/26（三）感恩节全天休市",
+    "11/27（四）美东 13:00 提前收市（黑色星期五）",
+    "11/28（五）FOMC 会议纪要（若日程未变）"
+  ],
+  "next_week_focus": ["NVDA", "QQQ", "INTC", "SOXX", "感恩节流动性骤降后的开盘区间"],
+  "technique_research": [
+    {
+      "name": "超卖不等于抄底",
+      "source": "Quant Brief / Fairlead, 2026-11-20",
+      "applicable": "filter_only",
+      "notes": "RSI 极度超卖但趋势空头；休市不转化为买单"
+    },
+    {
+      "name": "开盘 15–30 分钟区间（ORB）",
+      "source": "BloomSignals, 2026-11-20",
+      "applicable": "defer_to_monday",
+      "notes": "短周首日复盘后再用"
+    }
+  ],
+  "risk_scan": "无任何标的在周五收盘框架下同时满足单笔风险≤$20 与盈亏比≥1.5。NVDA 2 股 1×ATR 风险约 $25.68。",
+  "final_recommendation": "空仓观望",
+  "options_recommendation": "none",
+  "pdt_reminder": "账户<$25,000：5 个交易日内最多 3 次日内交易；本周无成交型日内。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-21T01:00:00+08:00",
+  "status": "market_closed_weekend",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
