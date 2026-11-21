@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-21",
+  "slot": "2100",
+  "generated_at_beijing": "2026-11-21T21:00:00+08:00",
+  "report_type": "final_pre_market",
+  "market_closed": true,
+  "market_closed_reason": "2026-11-21 为周六，美股现金市场周末休市；下一现金交易日为 2026-11-24（一）美东 09:30 / 北京 22:30（冬令时）。",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "predicted_profit_baseline_usd": 0,
+  "market_overview": {
+    "note": "引用最近已完成现金会话（2026-11-20 周五 RTH）收盘价，非实时盘前",
+    "sp500_prior_close": 6910.39,
+    "nasdaq_prior_close": 22617.73,
+    "nq_futures_last": 25126.5,
+    "es_futures_last": 6935.0,
+    "qqq_reference": 608.45,
+    "soxx_reference": 123.4,
+    "vix_prior_close": 35.89,
+    "us10y_pct": 4.912,
+    "dxy": 103.84,
+    "wti_usd": 83.41,
+    "tech_sentiment": "panic_risk_off_oversold"
+  },
+  "events_today": [],
+  "events_follow_up": [
+    "周一 09:00 北京时间再出《今晚美股操作早报》",
+    "感恩节短周：11/26 休市，11/27 美东 13:00 提前收市",
+    "监控 NVDA 125.66 / 124.5、QQQ 606.23、INTC 51.1 是否守住"
+  ],
+  "technique_research": [
+    {
+      "name": "超卖反弹过滤器",
+      "source": "Lord of TA, 2026-11-20",
+      "principle": "RSI(14) 约 15 处于超卖，但收盘价低于 20/50/200 日均线且 MACD 在信号线下",
+      "applicable": "no",
+      "reason": "周末无现金成交，不能把超卖读数直接变成挂单"
+    },
+    {
+      "name": "枢轴守位框架",
+      "source": "Borearis, 2026-11-21",
+      "principle": "跌破枢轴 138 区域偏向下探 127/125.66",
+      "applicable": "observe_only",
+      "reason": "周五收盘 125.53 已远低于枢轴；休市仅观察，下周一等有量区间"
+    },
+    {
+      "name": "IV crush / 事件后波动",
+      "source": "TipRanks / OptionStrat, 2026-11-20",
+      "principle": "恐慌日 VIX 飙升后不宜追买期权",
+      "applicable": "filter_options",
+      "reason": "继续禁止买入期权"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市；VIX 35.89；感恩节短周流动性风险。仅买入期权约束下今日 0 笔。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": null,
+      "afterhours_price_approx": null,
+      "support": [51.1, 48.5],
+      "resistance": [56.48, 59.44],
+      "technique_basis": "Fairlead 2026-11-20：暴跌日不加新多；休市不挂单",
+      "notes": "周五收 51.28（低 51.1，高 56.48）。EMA20 65.03 / EMA50 79.58，RSI 37.56，ATR 4.32。无 11/21 公司新稿。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "flat",
+      "friday_close": 125.53,
+      "friday_low": 124.5,
+      "friday_high": 143.73,
+      "notes": "2 股 1×ATR 止损风险约 25.68 美元，超过 20；至周五高盈亏比约 0.72。124.5 不是新买单。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "flat",
+      "notes": "1 股 1×ATR 风险 21.13 美元，超过 20；至周五高盈亏比约 0.83。"
+    }
+  ],
+  "final_recommendation": "休市 / 空仓",
+  "final_recommendation_detail": "周六非交易日，无买入价、卖出价、止损价与股数。维持空仓；预测盈利基准 0（非收益承诺）。",
+  "follow_up": [
+    "周日 21:00 北京时间仍为休市说明",
+    "周一 09:00 出早报；周一 22:30 冬令时开盘前 21:00 出最终建议",
+    "勿把周五 panic 低点预挂为周末买单"
+  ],
+  "pdt_reminder": "账户<$25,000：5 个交易日内最多 3 次日内交易；本周无成交型日内。",
+  "actual_profit": 0,
+  "status": "market_closed_weekend",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-21T21:04:00+08:00",
+  "email_status": "accepted",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
