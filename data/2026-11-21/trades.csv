@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-21,weekend,NVDA,watch,,,,,0,0,watch,低,周六休市,124.5/145结构位,0,,,weekend_review,2股1xATR风险>20,leehotpot@outlook.com,
+2026-11-21,weekend,INTC,watch,,,51.10,53.33,0,0,watch,中,周六休市,51.1支撑观察,0,,,weekend_review,强制分析行,leehotpot@outlook.com,
+2026-11-21,weekend,QQQ,watch,,,,,0,0,watch,中,周六休市,周三PCE,0,,,weekend_review,1xATR风险>20,leehotpot@outlook.com,
