@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-22,2100,INTC,观望,,,,,0,0,watch,中,周日美股休市,周一09:00再评估,0,0,,closed_market,强制分析：周五收51.28 EMA20下方 无买卖价,omitted-public-repo,
+2026-11-22,2100,NVDA,观望,,,,,0,0,watch,低,周日美股休市,124.5支撑观察,0,0,,closed_market,2股ATR风险25.68超限,omitted-public-repo,
+2026-11-22,2100,QQQ,观望,,,,,0,0,watch,低,周日美股休市,606.23低点,0,0,,closed_market,1股ATR风险21.13超限,omitted-public-repo,

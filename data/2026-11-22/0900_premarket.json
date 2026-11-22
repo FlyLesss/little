@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-22",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-22T09:00:00+08:00",
+  "report_type": "premarket_morning",
+  "market_session": "closed_sunday",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "final_recommendation": "休市，空仓观望",
+  "predicted_profit_baseline_usd": 0,
+  "status": "closed_market",
+  "notes": "周日 09:00 档休市说明；详细数据与 21:00 档共用周五 2026-11-20 收盘。",
+  "email_sent_to": "omitted-public-repo",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
