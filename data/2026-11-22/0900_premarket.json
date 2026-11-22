@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-22",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-22T09:04:00+08:00",
+  "report_type": "market_closed_sunday",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_closed": true,
+  "closed_reason": "2026-11-22 为周日，美股现金市场休市；周六 09:00 已发送周末复盘（data/2026-11-21/weekend_review.json 于 11/21 运行时落盘，本仓库若未同步则以当次邮件为准）。",
+  "final_recommendation": "空仓观望",
+  "predicted_profit_baseline_usd": 0,
+  "market_overview": {
+    "last_cash_session": "2026-11-20",
+    "sp500_close": 6910.39,
+    "sp500_change_pct": -3.7,
+    "nasdaq_composite_close": 22617.73,
+    "nasdaq_change_pct": -5.28,
+    "ndx_100_close": 25028.98,
+    "nq_futures_close": 25126.5,
+    "es_futures_close": 6935.0,
+    "qqq_close": 608.45,
+    "soxx_close": 123.4,
+    "vix_close": 35.89,
+    "us10y_pct": 4.912,
+    "dxy_close": 103.84,
+    "wti_close": 83.98,
+    "tech_sentiment": "deep_oversold_bearish_trend_nvda_weekly_crash",
+    "data_source": "Yahoo Finance v8 chart API, pulled 2026-11-22T01:04Z"
+  },
+  "events_today": [
+    "周日无休市宏观或科技财报日程；下一现金交易日为 2026-11-24（周一，冬令时北京时间 22:30 开盘）。",
+    "感恩节短周：11/26（周三）全美休市；11/27（周五）美东 13:00 提前收盘（CNBC/Morningstar）。",
+    "11/24 盘前/全天：密歇根信心等；盘后 DELL、ADI、Workday 等（日历项，开盘前再核对公司稿）。",
+    "11/25 08:30 美东：PCE、GDP 二读、初请、耐用品；14:00 褐皮书。"
+  ],
+  "technique_research": [
+    {
+      "name": "超卖≠见底 + 趋势空头过滤",
+      "source": "TheStreet / Neil Sethi，2026-11-21",
+      "principle": "纳指/标普 RSI 触及 2025 年 4 月以来最超卖区，但 MACD 仍偏空，需等待反转 K 线或更高低点再谈反弹。",
+      "applicable": "filter_only",
+      "notes": "适用于当前深跌环境，禁止因 RSI 在 25 附近追多。"
+    },
+    {
+      "name": "NVDA 50% 斐波那契 $127 技术反弹区",
+      "source": "Verified Investing，2026-11-20",
+      "principle": "深跌后 $127 为回撤中位观察区，上方阻力约 $142.59；属图表位非估值结论。",
+      "applicable": "partial",
+      "notes": "周五收盘 $125.53 已低于 $127，未形成可执行 rebound 确认，仅观察。"
+    },
+    {
+      "name": "破位通道回抽做空框架",
+      "source": "Capital Street FX，2026-11-22",
+      "principle": "指数跌破上升通道后，倾向在 7250 等区域反弹失败时偏空。",
+      "applicable": "no",
+      "notes": "与本账户仅做多现货/买期权约束不符，且小账户不做指数放空，不采用为委托。"
+    }
+  ],
+  "technique_match_summary": "今日未找到可变成买卖价的高置信度技巧匹配；超卖耐心过滤与财报周波动约束优先，建议以常规风控框架执行（空仓）。",
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市且无合规现货 setups；OptionStrat/隐含波动历史显示事件前后 IV crush 频繁，仍禁止卖出期权，今日不建议买入 Call/Put。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 51.1,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": null,
+      "support": [51.1, 48.0],
+      "resistance": [56.48, 63.0, 90.75],
+      "notes": "强制分析。周五收 51.28（低 51.1，高 56.48，-7.97%）。EMA20 65.05、EMA50 80.87、RSI 28.0、ATR 4.32；仍远低于 90.75 与两条均线。无 11/22 公司新稿。3 股用 1×ATR 止损风险约 12.96，至周五高点盈亏比仅约 1.20，且恐慌周不宜追。不买 Call。",
+      "technique_basis": "Dorsey Wright 2026-11-20：科技股超卖但需等待反转或盘整再行动，未满足。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 124.5,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.72,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "周五收 125.53（低 124.5，高 143.73，-14.0%）。EMA20 174.41、RSI 15.0、ATR 12.84。2 股 1×ATR 止损风险 25.68>20；至周五高点目标属于同日已见高点，不可作为周一追涨依据。124.5/125.53 不是新买单。",
+      "technique_basis": "Verified Investing 2026-11-20 $127 斐波位已被跌破，仅观察。"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 606.23,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.54,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "周五收 608.45（低 606.23）。1 股 1×ATR 风险 21.13>20，盈亏比不足 1.5。707.23 仍未收回。",
+      "technique_basis": "TheStreet 2026-11-21 超卖趋势空头过滤。"
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "周五收 123.40（周跌幅约 -10.5% 级别）。2 股 1×ATR 风险 19.76 但盈亏比约 1.22<1.5，仅观察。"
+    }
+  ],
+  "intc_mandatory_analysis": {
+    "reference_price": 51.28,
+    "support": "51.1（周五低点）、48 区域为下一结构观察",
+    "resistance": "56.48（周五高点）、63+、长期 90.75",
+    "news": "延续 NVDA 财报周与 AI 估值重定价连锁；Intel 10/29 四季疲弱指引仍悬而未解；无 11/22 新 company press release。",
+    "direction": "观望",
+    "rationale": "相对大盘并未领涨反弹，均线空头排列；小账户在波动飙升周（VIX 35.89）不抢跌。"
+  },
+  "pdt_note": "近 5 个交易日均为空仓建议，成交型日内交易 0 次；无 PDT 压力。",
+  "follow_up": [
+    "周一 09:00 北京时间出《今晚操作早报》，用有量盘前价重估；不预挂买单。",
+    "NVDA 关注 124.5 / 127 / 142.59；QQQ 关注 606.23 与 707.23；INTC 关注 51.1 是否守住。",
+    "11/25 PCE 公布前不买期权；感恩节休市 11/26。"
+  ],
+  "risk_disclaimer": "本报告仅为研究参考，不构成投资建议，不承诺达到 +$30 目标。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-22T01:12:00Z"
+}
