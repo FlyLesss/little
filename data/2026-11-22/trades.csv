@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-22,0900,INTC,watch,,,51.10,,0,0,watch,中,周日休市,周一盘前重估,0,,,market_closed,强制分析-均线空头+VIX高企,null,null
+2026-11-22,0900,NVDA,watch,,,124.50,,0,0,watch,低,周日休市,127斐波/142.59阻力,0,,0.72,market_closed,2股ATR风险>20,null,null
+2026-11-22,0900,QQQ,watch,,,606.23,,0,0,watch,低,周日休市,707.23收复观察,0,,0.54,market_closed,1股ATR风险>20,null,null
+2026-11-22,0900,SOXX,watch,,,,,0,0,watch,低,周日休市,半导体恐慌周,0,,,market_closed,盈亏比不足,null,null
