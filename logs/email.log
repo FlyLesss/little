@@ -1,1 +1,2 @@
 2026-11-13T09:02:00+08:00 slot=0900 to=leehotpot@outlook.com subject="[美股Agent] 2026-11-13 09:00 今晚美股操作早报 | 本金$1000 | 目标$30" status=FAILED error=Outlook_MCP_502_UnknownError attempts=2
+2026-11-22T21:00:00+08:00 slot=2100 to=leehotpot@outlook.com subject="[美股Agent] 2026-11-22 21:00 周日休市 | 本金$1000 | 无操作" status=SENT http=202 sent_at_utc=2026-11-22T13:02:29Z
