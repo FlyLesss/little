@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-23",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-23T09:00:00+08:00",
+  "generated_at_utc": "2026-11-23T01:01:00Z",
+  "report_type": "premarket_morning",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "sp500_prior_close": 6910.39,
+    "sp500_change_pct": -3.7,
+    "nasdaq_prior_close": 22617.73,
+    "nasdaq_change_pct": -5.28,
+    "nq_futures_vs_friday_close_pct": 2.8,
+    "es_futures_vs_friday_close_pct": 2.1,
+    "qqq_reference_close": 608.45,
+    "vix": 35.89,
+    "us10y_pct": 4.912,
+    "dxy": 104.066,
+    "wti_usd": 82.19,
+    "soxx_close": 123.4,
+    "tech_sentiment": "oversold_bounce_premarket_thin_volume"
+  },
+  "events_today": [
+    "22:45 北京 / 09:45 ET：标普全球美国综合 PMI 初值",
+    "盘后：HPE、ZM 等（EarningsWatcher/Barchart 日历）",
+    "11/26（周四）感恩节休市；11/27 提前收盘",
+    "11/25（周二）盘前：ADI；盘后：DELL、WDAY、ADSK、HPQ 等"
+  ],
+  "technique_research": [
+    {
+      "name": "开盘区间突破（ORB）等待",
+      "source": "BloomSignals / chartsgg, 2026-11",
+      "principle": "大波动后先等常规交易前 15–30 分钟形成区间，再顺势突破进场",
+      "applicable": "yes_filter_only",
+      "match_tickers": ["QQQ", "NVDA"],
+      "notes": "感恩节短周 + 周五暴跌后跳空反弹，不预挂盘前价"
+    },
+    {
+      "name": "超卖反弹但不等于反转",
+      "source": "Zsigma / JordanMT TradingView, 2026-11-23",
+      "principle": "周线收盘贴近低点时，首要测试前低而非追跳空",
+      "applicable": "partial",
+      "match_tickers": ["NVDA"],
+      "notes": "周五低点 124.50 为无效化线；盘前反弹未确认常规时段"
+    },
+    {
+      "name": "财报隐含波动 / IV crush",
+      "source": "EarningsWatcher / Barchart, 2026-11-23–25",
+      "principle": "事件前 IV 升高；禁止小账户买入期权",
+      "applicable": "yes_filter_only",
+      "match_tickers": ["DELL", "WDAY", "ADI"],
+      "notes": "仅作排除期权，不出卖方策略"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "感恩节周多起财报；IV 偏高。仅允许买入期权且单笔≤$20，今日 0 笔。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 51.1,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": 54.33,
+      "support": [51.1, 52.42],
+      "resistance": [55.19, 56.48, 68.77],
+      "notes": "强制分析：盘前约 54.33，仍远低于 EMA20/EMA50。周五低点 51.1 守住；无 11/23 公司新稿。不买 Call。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 124.5,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "盘前约 143.64；用当日高点测算最高 RR 约 0.31，不达标"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": 606.23,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "notes": "盘前约 639.05；用周五高凑比例 RR 仍 <1.5（不采用）"
+    }
+  ],
+  "final_recommendation": "watch_empty",
+  "recommendation": "观望",
+  "confidence": "中",
+  "predicted_profit_baseline": 0,
+  "pdt_day_trades_last_5_sessions": 0,
+  "follow_up": [
+    "21:00 用有量盘前价重估",
+    "NVDA 测试 124.50；QQQ 守住 606.23",
+    "跌破 124.50 不把买单下移"
+  ],
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-23T01:14:00Z",
+  "status": "sent",
+  "disclaimer": "不构成投资建议，不承诺收益"
+}
