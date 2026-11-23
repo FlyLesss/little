@@ -1,0 +1,7 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-23,0900,INTC,watch,,,51.10,55.72,0,0,watch,中,感恩节短周+HPE/ZM盘后,守住51.1与56.5,0,,,premarket_only,强制分析行-盘前反弹无量,leehotpot@outlook.com,
+2026-11-23,0900,NVDA,watch,,143.64,140.25,144.69,0,0,watch,低,期货大幅反弹,124.5/128.31结构,0,,0.31,premarket_only,不追跳空,leehotpot@outlook.com,
+2026-11-23,0900,QQQ,watch,,639.05,631.06,645.52,0,0,watch,中,恐慌后救济反弹,643.28阻力,0,,0.81,premarket_only,1xATR风险>20,leehotpot@outlook.com,
+2026-11-23,0900,AMD,watch,,472.41,,,0,0,watch,低,半导体分化,ATR超限,0,,,premarket_only,仅观察,leehotpot@outlook.com,
+2026-11-23,0900,AAPL,watch,,353.03,348.14,354.34,0,0,watch,低,,,0,,0.27,premarket_only,,leehotpot@outlook.com,
+2026-11-23,0900,TQQQ,watch,,47.54,,,0,0,watch_only,低,,,0,,0.61,premarket_only,杠杆仅观察,leehotpot@outlook.com,
