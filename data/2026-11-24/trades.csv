@@ -1,0 +1,7 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-24,0900,INTC,watch,,,56.66,59.76,0,0,watch,中,达拉斯联储+盘后A/KEYS/ZM,21:00有量盘前重估,0,,0.35,premarket_only,强制分析行-低于EMA20,null,null
+2026-11-24,0900,NVDA,watch,,,156.93,171.50,0,0,watch,低,感恩节短周量缩,守156.93/124.5,0,,0.48,premarket_only,周一已反弹31%不追,null,null
+2026-11-24,0900,QQQ,watch,,,641.95,657.50,0,0,watch,中,ORB框架待确认,662企稳+放量,0,,0.52,premarket_only,仍低于EMA20,null,null
+2026-11-24,0900,AMD,watch,,,432.01,477.38,0,0,watch,低,相对强弱,RR1.36未达标不采用,0,,1.36,premarket_rejected,远端高点目标,null,null
+2026-11-24,0900,AAPL,watch,,,345.44,352.60,0,0,watch,低,防御板块,RR0.68,null,null,0.68,premarket_only,,null,null
+2026-11-24,0900,TQQQ,watch,,,47.31,50.44,0,0,watch_only,低,杠杆ETF,仅观察,0,,0.50,premarket_only,风险合规但RR不足,null,null
