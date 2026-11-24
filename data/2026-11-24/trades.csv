@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-24,2100,INTC,观望,,,51.29,58.40,0,0,watch,中,感恩节短周+财报,守住55.27/56.66,0,,0.50,plan_only,强制行_RR不足,leehotpot@outlook.com,
+2026-11-24,2100,NVDA,观望,,,141.73,164.40,0,0,avoid,低,黄仁勋复职回吐,守住156.93,0,,0.45,plan_only,2股ATR风险>20,leehotpot@outlook.com,
+2026-11-24,2100,QQQ,观望,,,615.78,654.00,0,0,watch,中,消费者信心10:00,收复650/662,0,,0.59,plan_only,1股ATR>20,leehotpot@outlook.com,
+2026-11-24,2100,SOXX,观望,,,123.27,140.37,0,0,watch,低,芯片回吐,仅观察,0,,0.59,plan_only,2股风险21.6,leehotpot@outlook.com,
+2026-11-24,2100,OVERALL,空仓,,,,,0,0,empty,中,,ORB开盘后确认,0,0,,final,,leehotpot@outlook.com,

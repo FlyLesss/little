@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-24",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-24T09:00:00+08:00",
+  "report_type": "premarket_morning",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "nasdaq_prior_close": 24089.56,
+    "nasdaq_change_pct": 6.51,
+    "sp500_prior_close": 7237.17,
+    "sp500_change_pct": 4.73,
+    "nq_futures_note": "周一现金段约26858.5，夜盘相对周一收窄",
+    "qqq_reference": 651.03,
+    "vix_prior_close": 26.65,
+    "us10y_pct": 4.918,
+    "dxy": 104.26,
+    "wti_usd": 80.39,
+    "tech_sentiment": "nvda_led_rebound_profit_taking_risk_thanksgiving_thin_liquidity"
+  },
+  "events_today": [
+    "感恩节短周：11/26 休市，11/27 美东13:00提前收市",
+    "盘前/日内：ADI、BBY、MDT 等财报（BMO）；DELL、WDAY、HPQ 等（AMC）",
+    "美东10:00 密歇根11月消费者信心终值",
+    "周三美东08:30 10月PCE（本周核心宏观）",
+    "NVDA：黄仁勋复任CEO后周一暴涨31%，盘前回吐引发芯片回落"
+  ],
+  "technique_research": [
+    {
+      "name": "感恩节成交量萎缩+ORB三过滤",
+      "source": "Investing.com / FBS, 2026-11-24",
+      "principle": "假期短周不追跳空；首15–30分钟区间需放量实体突破才顺势",
+      "applicable": "partial",
+      "match_tickers": ["QQQ", "NVDA"],
+      "notes": "周一已大涨，盘前缩量；仅作开盘后框架，不作盘前挂单"
+    },
+    {
+      "name": "先防守关键位",
+      "source": "KindlyAnson 2026-11-24",
+      "principle": "SPY守720/710，QQQ守650/640；未站稳662不看延伸",
+      "applicable": "yes",
+      "match_tickers": ["QQQ"],
+      "notes": "周一QQQ收651已站上650，但660–662仍为压力，与盘前回落一致"
+    },
+    {
+      "name": "财报前IV过滤",
+      "source": "TipRanks / OptionPremium, 2026-11-24",
+      "principle": "ADI/DELL等事件前后IV偏高，买入期权面临IV crush",
+      "applicable": "yes",
+      "match_tickers": ["QQQ", "SOXX"],
+      "notes": "仅禁止买期权，不卖期权"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "感恩节短周+多只股票财报；ADI隐含波动约55%。禁止买入期权。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": null,
+      "support": [56.66, 54.85],
+      "resistance": [59.76, 62.0],
+      "notes": "周一收59.66（+5.5%），仍远低于EMA20 64.53。盘前尚未有Yahoo有量分钟，21:00重估。",
+      "technique_basis": "KindlyAnson防守框架；未用Kicker（盘前无量确认）"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "avoid",
+      "notes": "周一收165.05（+31.3%），盘前预期回吐。2股1×ATR止损风险约31美元>20。",
+      "technique_basis": "Previct 2026-11-24：芯片盘后期货回落，不宜追隔夜大涨"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "notes": "周一收651守住640/650叙事，但662为压力。1股ATR风险24.1>20。",
+      "technique_basis": "KindlyAnson 650/640；ORB等待（BloomSignals）"
+    }
+  ],
+  "final_recommendation": "观望",
+  "final_recommendation_detail": "无任何标的同时满足最大风险≤$20且盈亏比≥1.5（止损按1×ATR，目标仅用盘前/当日已出现高点）。维持空仓。",
+  "follow_up": [
+    "21:00用Yahoo有量盘前价重估",
+    "NVDA是否守住周一低156.93",
+    "QQQ能否放量收复662",
+    "周三PCE前不买期权"
+  ],
+  "pdt_reminder": "账户<$25,000时5个交易日内最多3次日内交易；近期无成交，仍须避免第4次日内交易。",
+  "email_sent_to": "omitted-public-repo",
+  "email_sent_at": "2026-11-24T01:14:00Z",
+  "status": "premarket_morning",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
