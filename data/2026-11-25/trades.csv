@@ -1,0 +1,6 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-25,2100,INTC,watch,,,52.04,53.95,0,0,watch,中,PCE/GDP 08:30,守52.04/板块企稳,0,,0.38,final_no_trade,强制分析行,leehotpot@outlook.com,
+2026-11-25,2100,NVDA,watch,,,130.50,152.50,0,0,avoid,低,芯片盘前续跌,150.50/165.05收盘门禁,0,,0.36,final_no_trade,1股ATR测算未达标,leehotpot@outlook.com,
+2026-11-25,2100,QQQ,watch,,,595.14,631.00,0,0,watch,中,PCE日,618-631区间,0,,0.47,final_no_trade,1股ATR>20,leehotpot@outlook.com,
+2026-11-25,2100,MSFT,watch,,,462.34,492.67,0,0,watch,低,宏观日,RR最高0.74,0,,0.74,final_no_trade,,leehotpot@outlook.com,
+2026-11-25,2100,AAPL,watch,,,342.85,353.18,0,0,watch,低,相对抗跌,仅观察,0,,0.27,final_no_trade,,leehotpot@outlook.com,

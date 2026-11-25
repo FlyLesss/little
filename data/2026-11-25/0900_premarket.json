@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-25",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-25T09:00:00+08:00",
+  "report_type": "premarket_morning",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_overview": {
+    "nasdaq_prior_close": 23733.54,
+    "nasdaq_change_pct_prior": -1.49,
+    "sp500_prior_close": 7201.09,
+    "qqq_prior_close": 638.1,
+    "vix": 26.36,
+    "us10y_pct": 4.918,
+    "tech_sentiment": "post_monday_nvda_relief_rally_fading"
+  },
+  "events_today": [
+    "08:30 ET GDP 修正 + 10 月 PCE",
+    "11/26 感恩节休市",
+    "DE/LI 等盘前财报"
+  ],
+  "final_recommendation": "观望",
+  "final_recommendation_detail": "周二 RTH 大跌后无标的同时满足风险≤20 且 R:R≥1.5；21:00 盘前重估。",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_status": "sent_http_202_per_memory",
+  "status": "premarket_no_trade",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
