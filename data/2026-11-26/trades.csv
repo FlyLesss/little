@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-26,0900,MARKET,none,,,,,0,0,market_closed,高,Thanksgiving full close NYSE/Nasdaq,2026-11-27 early close 13:00 ET,0,,,holiday,No cash session,leehotpot@outlook.com,
+2026-11-26,0900,INTC,watch,,,,,0,0,watch,低,Exchange closed,INTC 49.15/54.49 levels for Fri half-day,0,,,holiday_mandatory_row,EMA20~63.49; no premarket quote,leehotpot@outlook.com,
+2026-11-26,0900,NVDA,watch,,,,,0,0,watch,低,Exchange closed,NVDA 141.17-150.37,0,,,holiday,ATR risk >20 on 2 shares,leehotpot@outlook.com,
+2026-11-26,0900,QQQ,watch,,,,,0,0,watch,低,Exchange closed,QQQ 607.76-634.89,0,,,holiday,1-share ATR risk ~24.4,leehotpot@outlook.com,
