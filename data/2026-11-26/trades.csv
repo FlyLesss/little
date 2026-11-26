@@ -1,0 +1,4 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-26,2100,INTC,watch,,,,,0,0,watch,低,感恩节现货休市,11/27半日市守49.15,0,,,holiday_no_trade,强制分析行-参考11/25收盘54.47,leehotpot@outlook.com,2026-11-26T13:02:00Z
+2026-11-26,2100,NVDA,watch,,,,,0,0,watch,低,感恩节现货休市,141.17/150.37,0,,,holiday_no_trade,休市不挂单,leehotpot@outlook.com,2026-11-26T13:02:00Z
+2026-11-26,2100,QQQ,watch,,,,,0,0,watch,低,感恩节现货休市,607.76支撑,0,,,holiday_no_trade,休市不挂单,leehotpot@outlook.com,2026-11-26T13:02:00Z

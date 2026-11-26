@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-26",
+  "slot": "2100",
+  "generated_at_beijing": "2026-11-26T21:00:00+08:00",
+  "generated_at_utc": "2026-11-26T13:01:00Z",
+  "report_type": "holiday_closed_final",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_status": "US_equity_closed_thanksgiving",
+  "market_overview": {
+    "holiday": "Thanksgiving — US cash equities closed",
+    "next_session_beijing": "2026-11-28 00:30 起可跟踪盘前；现货 22:30 冬令时开盘（11/27 半日市）",
+    "last_cash_session_date": "2026-11-25",
+    "nasdaq_close": 23585.8,
+    "sp500_close": 7182.78,
+    "nq_futures_utc_ref": 26302.25,
+    "es_futures_utc_ref": 7249.75,
+    "qqq_close": 633.93,
+    "soxx_close": 127.98,
+    "vix_last_cash_close": 28.29,
+    "us10y_pct_ref": 4.848,
+    "dxy_ref": 103.735,
+    "nvda_close": 149.3,
+    "intc_close": 54.47,
+    "tech_sentiment": "prior_session_oversold_bounce_fade; holiday_no_executable_cash"
+  },
+  "events_today": [
+    "2026-11-26 美股现货：感恩节休市（NYSE/Nasdaq）",
+    "期货仍在部分时段交易；现货无盘前/常规时段",
+    "2026-11-27 美东 09:30–13:00 黑色星期五提前收盘"
+  ],
+  "technique_research": [
+    {
+      "name": "假期低量假突破过滤",
+      "source": "StickyTrades, 2025-11-24",
+      "principle": "半日市与假期周突破需周一/次日放量确认",
+      "applicable": "yes",
+      "adopted": true,
+      "notes": "今日无法执行，延续空仓"
+    },
+    {
+      "name": "感恩节流动性与限价单",
+      "source": "Longbridge Daily Lesson / Schaeffers Research, 2026-11-25",
+      "principle": "低量 widening spread；禁用市价单、缩小仓位",
+      "applicable": "yes",
+      "adopted": true,
+      "notes": "支持休市日与明日半日市保守"
+    },
+    {
+      "name": "dip buyers in limbo",
+      "source": "investinglive, 2026-11-26",
+      "principle": "休市至周五参与者缺失，技术突破可信度下降",
+      "applicable": "partial",
+      "adopted": false,
+      "notes": "与空仓结论一致，但未转化为价位"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市日无现货日内单；周五半日市流动性风险高，不买期权，禁止卖期权。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "events_today": "现货休市；参考 11/25 收盘",
+      "follow_up": "11/27 半日市能否守住 49.15",
+      "notes": "收 54.47，低 49.15，高 55.0；EMA20≈62.73，EMA50≈76.99，ATR14≈4.83，RSI14≈52.8。无当日新闻成交确认。3 股若以收盘买入、止损 49.15、目标仅 11/25 高 55.0：风险≈$15.96，盈利≈$1.59，RR≈0.10，不达标。",
+      "technique_basis": "假期低量过滤（StickyTrades, 2025-11-24）— 休市不挂单"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "参考 11/25 收 149.30；2 股 1×ATR 止损风险>20 美元。休市无可执行入场。",
+      "technique_basis": "investinglive 2026-11-26 假期流动性 — 不追突破"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "11/25 收 633.93，低 607.74；1 股 ATR 风险约 23.32>20。",
+      "technique_basis": "Longbridge 2026-11-25 黑五量能 — 明日再评"
+    }
+  ],
+  "final_recommendation": "休市，空仓",
+  "final_recommendation_detail": "感恩节现货市场关闭，不提供买入价/卖出价/止损/股数。预测盈利基准 0。",
+  "predicted_profit_baseline": 0,
+  "confidence_overall": "高（休市事实）",
+  "follow_up": [
+    "2026-11-27 半日市：仅在开盘后 15–30 分钟有量区间再考虑 ORB 框架",
+    "NVDA 141.17 / 150.37 / 156.93",
+    "QQQ 607.76 / 650",
+    "INTC 49.15 / 55.0",
+    "今日未找到可变成委托的高置信度技巧匹配，建议以常规风控框架执行"
+  ],
+  "pdt_reminder": "账户<$25,000：5 个交易日内最多 3 次日内交易；本周无成交，仍是 0 次。",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-26T13:02:00Z",
+  "status": "holiday_no_trade",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}

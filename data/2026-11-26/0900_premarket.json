@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-26",
+  "slot": "0900",
+  "generated_at_beijing": "2026-11-26T09:00:00+08:00",
+  "report_type": "holiday_closed",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_status": "US_equity_closed_thanksgiving",
+  "market_overview": {
+    "holiday": "Thanksgiving Day — NYSE/Nasdaq closed (Nasdaq ETA2026-69)",
+    "next_session": "2026-11-27 Black Friday early close 13:00 ET",
+    "last_cash_session": "2026-11-25",
+    "nasdaq_prior_close": 23585.8,
+    "sp500_prior_close": 7182.78,
+    "nq_futures_ref": 26302.25,
+    "es_futures_ref": 7249.75,
+    "qqq_last_close": 633.93,
+    "vix_last_cash_close": 28.29,
+    "us10y_pct": 4.848,
+    "dxy": 103.735,
+    "tech_sentiment": "holiday_no_cash_session; reference_prior_session_defensive_chop"
+  },
+  "events_today": [
+    "2026-11-26（美东）感恩节：美股现货全日休市",
+    "2026-11-27 美东 13:00 提前收盘（黑色星期五半日市）",
+    "期货盘仍可能交易，但本 Agent 不对休市日给出可执行现货日内单"
+  ],
+  "technique_research": [
+    {
+      "name": "假期低量假突破过滤",
+      "source": "StickyTrades, 2025-11-24",
+      "principle": "感恩周成交量显著下降时，单日突破需等下周一放量确认， holiday 信号不当触发",
+      "applicable": "yes",
+      "match_tickers": [],
+      "notes": "今日无现货交易，技巧仅作周五半日市前瞻"
+    },
+    {
+      "name": "感恩节假期流动性警示",
+      "source": "Schwab Quant Brief / investinglive, 2026-11-26",
+      "principle": "休市及半日市减少参与者，点差与滑点上升，应缩小仓位、用限价单",
+      "applicable": "yes",
+      "match_tickers": [],
+      "notes": "直接支持今日空仓、不挂单"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "现货休市日不提供期权建议；周五半日市流动性更薄，仍禁止卖出期权，不买高 IV 单腿。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "premarket_price_approx": null,
+      "support": [49.15, 52.0],
+      "resistance": [55.0, 59.66],
+      "notes": "上一完整交易日收 54.47（低 49.15，高 55.0）；仍远低于 EMA20≈62.73。休市无盘前报价。",
+      "technique_basis": "假期低量过滤（StickyTrades）— 不适用开仓，仅观察"
+    }
+  ],
+  "final_recommendation": "休市，空仓",
+  "final_recommendation_detail": "感恩节现货市场关闭，不生成买入/卖出委托。预测盈利基准 0。",
+  "follow_up": [
+    "11/27 半日市开盘前再评估：要求有量确认再考虑 ORB",
+    "NVDA 关键位 141.17 / 150.37；QQQ 607.76",
+    "INTC 守位 49.15"
+  ],
+  "pdt_reminder": "休市日不计日内交易次数；近 5 日成交型日内交易 0 次。",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-26T01:02:00Z",
+  "status": "holiday_no_trade",
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
