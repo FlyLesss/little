@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-27,2100,NVDA,观望,,,,,0,0,观望,低,黑五半日市;无重大宏观数据,核对150.50/152.50与149支撑,0,,,plan_only,媒体盘前约155.52但RR不足;Yahoo盘前无量,leehotpot@outlook.com,2026-11-27T13:12:00Z
+2026-11-27,2100,QQQ,观望,,,,,0,0,观望,低,黑五半日市,期货反弹但现金盘前无量,0,,,plan_only,1股ATR风险>20,leehotpot@outlook.com,2026-11-27T13:12:00Z
+2026-11-27,2100,INTC,观望,,,,,0,0,观望,低,黑五半日市,53.05/57.03区间,0,,,plan_only,强制行;仍低于均线簇;不买Call,leehotpot@outlook.com,2026-11-27T13:12:00Z
+2026-11-27,2100,ALL,空仓,,,,,0,0,观望,中,同上,半日市ORB待09:45后有量再评估,0,,,plan_only,无任何标的RR>=1.5且风险<=20,leehotpot@outlook.com,2026-11-27T13:12:00Z
