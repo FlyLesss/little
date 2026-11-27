@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-27",
+  "slot": "2100",
+  "timezone": "Asia/Shanghai",
+  "generated_at_utc": "2026-11-27T13:08:00Z",
+  "account_capital_usd": 1000,
+  "daily_profit_target_usd": 30,
+  "max_daily_loss_usd": 30,
+  "recommendation": "观望",
+  "status": "plan_only",
+  "predicted_profit_usd": 0,
+  "actual_profit_usd": null,
+  "confidence": "中",
+  "pdt_note": "近5个交易日成交型日内交易 0 次；今日仍为研究建议，不占用 PDT 次数。",
+  "market_overview": {
+    "session_note": "黑五半日市：美东 09:30–13:00 现货交易，债券 14:00 收盘；11/26 感恩节现货休市。",
+    "nq_futures": {
+      "last": 26688.75,
+      "previous_close": 26100.25,
+      "change_pct_approx": 2.25,
+      "source": "Yahoo NQ=F 13:03 UTC"
+    },
+    "es_futures": {
+      "last": 7310.25,
+      "previous_close": 7195.75,
+      "change_pct_approx": 1.59,
+      "source": "Yahoo ES=F 13:03 UTC"
+    },
+    "last_cash_indices": {
+      "nasdaq_composite": 23585.8,
+      "sp500": 7182.78,
+      "as_of_date": "2026-11-25",
+      "source": "Yahoo ^IXIC / ^GSPC"
+    },
+    "vix": {
+      "field_last": 25.45,
+      "note": "Yahoo 字段读数，成交量为 0，非 09:30 后正式现金 VIX"
+    },
+    "ten_year_yield_pct": 4.848,
+    "dxy": 103.797,
+    "wti_futures": 84.99,
+    "tech_sentiment": "期货与媒体盘前显示 AI/半导体反弹；半日市成交量预计偏低，价差易放大。"
+  },
+  "events_today": [
+    "无重大美股宏观数据日程（Yahoo/CNBC 黑五短市说明）",
+    "美东仅交易至 13:00；假期后首个完整交易日为 12/1 附近（视交易所日历）"
+  ],
+  "follow_up": [
+    "半日市收盘后核对：NVDA 能否守住 150.50/152.50，或回落至 149–150.60 支撑（investinglive 2026-11-25）",
+    "INTC 能否守住 53.05（hsgfx 2026-11-27 R1/S1 框架）并放量突破 57.03",
+    "如有成交回报再记入 actual_profit；未核实成交不写事实",
+    "下周一 09:00 再出早报；141.17 / 149.30 / 49.16 不是新买单"
+  ],
+  "techniques": {
+    "adopted": [
+      {
+        "name": "15分钟开盘区间突破（ORB）",
+        "source": "Chart Guys，2026-11-20",
+        "applicability": "半日市须等 09:45 后有量突破且相对成交量≥2；当前 Yahoo 盘前 1 分钟成交量为 0，不满足前置条件，仅作开盘后框架。"
+      },
+      {
+        "name": "假期低量/价差过滤",
+        "source": "Schaeffers Research，2026-11-25",
+        "applicability": "黑五半日市禁用市价单，限价单为主；不强制定价进场。"
+      },
+      {
+        "name": "NVDA 150.50 / 165.05 收盘门禁",
+        "source": "virDeStatera TradingView，2026-11-25 更新",
+        "applicability": "盘前跳空不等于收盘确认；今日若无法放量收于关键位之上，不做追涨。"
+      },
+      {
+        "name": "隐含波动率环境",
+        "source": "Schaeffers，2026-11-25",
+        "applicability": "假期 IV 可能偏低但流动性更差；继续禁止买入期权与卖方期权。"
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Gap-and-Go / Kicker",
+        "reason": "盘前缺口方向与 Yahoo 可核实成交量不一致；媒体盘前高点距入场价过近，盈亏比<1.5。"
+      }
+    ]
+  },
+  "option_recommendation": "不买期权",
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周三收 149.30（低 141.17，高 150.37）。媒体盘前约 155.52（TECHi/Reuters 2026-11-27），Yahoo 尚无 11/27 有量盘前分钟。EMA20 169.65，RSI 37.45，ATR 15.83。若按媒体价 155.52 做多、止损 150.50、目标仅用盘前约 155.80，2 股风险约 10.04、盈利约 0.56，RR≈0.06。理由：investinglive 指 152.25–152.50 为即时阻力；半日市低量 ORB 未满足。",
+      "premarket_ref": 155.52,
+      "wed_close": 149.3
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周三收 633.93（低 607.76）。期货反弹约 +2% 但现金盘前无量确认。1 股 1×ATR 风险约 23.32>20。",
+      "wed_close": 633.93
+    },
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "强制分析：周三收 54.47（低 49.16，高 55.0）。媒体盘前约 56.86（TokenPost 2026-11-27），仍低于 EMA20 62.74、EMA50 77.95；关键支撑 53.05、阻力 57.03（hsgfx 2026-11-27）。2 股若入场 56.86、1×ATR 止损至 52.03、目标仅用盘前约 57.03，RR≈0.04。无公司 11/27 新稿；不买 Call。",
+      "premarket_ref": 56.86,
+      "wed_close": 54.47
+    },
+    {
+      "ticker": "SOXX",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周三收 127.98。半导体板块盘前跟涨但无可核实日内高点目标，RR 最高约 0.10。"
+    },
+    {
+      "ticker": "AAPL",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "周三收 355.58，相对抗跌；盘前跟涨但至盘前高点 RR 约 0.12。"
+    },
+    {
+      "ticker": "AMD",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "1 股 ATR 风险 52.47>20，不符合小账户硬门槛。"
+    },
+    {
+      "ticker": "MSFT",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "盘前跟涨；至盘前高点 RR 约 0.12<1.5。"
+    },
+    {
+      "ticker": "TQQQ",
+      "direction": "观察",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "notes": "杠杆 ETF；即使 1 股止损距离亦难在半日市满足 RR≥1.5，仅观察。"
+    }
+  ],
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-27T13:12:00Z",
+  "disclaimer": "本报告仅为研究与风险教育参考，不构成投资建议，不承诺收益，实盘可能亏损。"
+}
