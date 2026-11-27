@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-27,0900,INTC,观望,,,49.16,55.0,0,0,watch,低,黑五半日市13:00 ET提前收盘;无大型科技财报,守49.16与枢轴144/152(NVDA联动),0,,0.10,plan_only,强制分析行:收盘54.47 EMA20下方;3股测算RR0.10,leehotpot@outlook.com,2026-11-27T01:15:00Z
+2026-11-27,0900,NVDA,观望,,,141.17,150.37,0,0,watch,低,同上,21:00盘前重估;守143.52,0,,0.13,plan_only,2股止损前低风险16.26不满足RR1.5,leehotpot@outlook.com,2026-11-27T01:15:00Z
+2026-11-27,0900,QQQ,观望,,,607.74,634.89,0,0,watch,低,同上,低流动性慎追,0,,,plan_only,1股ATR风险超20,leehotpot@outlook.com,2026-11-27T01:15:00Z
+2026-11-27,0900,MSFT,观望,,,472.88,493.44,0,0,watch,低,同上,仅观察,0,,0.21,plan_only,,leehotpot@outlook.com,2026-11-27T01:15:00Z
