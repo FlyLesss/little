@@ -1,0 +1,2 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-28,0900,WEEKEND,,,,,,0,0,watch,,Black Friday half session 2026-11-27; weekend closed,Monday liquidity check; MRVL CRM SNOW earnings week,0,0,,plan_only,No trades; all last-week slots were watch or market closed,leehotpot@outlook.com,2026-11-28T01:08:00+00:00
