@@ -1,0 +1,5 @@
+date,slot,ticker,direction,entry_price,exit_price,stop_loss,take_profit,shares,position_size,recommendation,confidence,events_today,follow_up,predicted_profit,actual_profit,risk_reward,status,notes,email_sent_to,email_sent_at
+2026-11-28,0900,INTC,watch,,,54.55,58.38,0,0,watch,中,周六休市周末复盘,周一ISM与均线压力,0,0,,weekend_review,强制分析-仍低于EMA20,leehotpot@outlook.com,2026-11-28T09:10:00+08:00
+2026-11-28,2100,INTC,watch,,,,,0,0,watch,中,周六现货休市,周一盘前重估,0,0,,closed_no_orders,强制分析行,leehotpot@outlook.com,2026-11-28T21:10:00+08:00
+2026-11-28,2100,NVDA,watch,,,,,0,0,watch,低,周六现货休市,141.17/145.39支撑,0,0,0.10,closed_no_orders,休市不设价,leehotpot@outlook.com,2026-11-28T21:10:00+08:00
+2026-11-28,2100,QQQ,watch,,,,,0,0,watch,低,周六现货休市,636.72/707.23,0,0,0.02,closed_no_orders,1股ATR>20,leehotpot@outlook.com,2026-11-28T21:10:00+08:00
