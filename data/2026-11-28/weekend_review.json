@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-28",
+  "slot": "0900",
+  "report_type": "weekend_review",
+  "generated_at_beijing": "2026-11-28T09:00:00+08:00",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "market_status": "closed_weekend",
+  "last_cash_session": "2026-11-27",
+  "last_session_note": "Black Friday 半日市（美东 09:30–13:00）；2026-11-26 感恩节全日休市",
+  "market_overview": {
+    "sp500_close": 7297.49,
+    "sp500_change_pct_day": 1.6,
+    "nasdaq_close": 24129.5,
+    "nasdaq_change_pct_day": 2.31,
+    "nq_futures_close": 26765.0,
+    "nq_futures_change_pct_day": 2.55,
+    "es_futures_close": 7308.25,
+    "qqq_close": 650.99,
+    "qqq_change_pct_day": 2.69,
+    "soxx_close": 134.07,
+    "vix_close": 23.81,
+    "vix_change_pct_day": -11.16,
+    "us10y_pct": 4.936,
+    "dxy": 104.014,
+    "wti_usd": 83.08,
+    "tech_sentiment": "black_friday_short_session_rebound_low_liquidity",
+    "week_context": "感恩节短交易周结束；黑五尾盘科技反弹但量能偏薄，不宜将单日反弹等同于趋势反转"
+  },
+  "week_performance": {
+    "period": "2026-11-20 cash close → 2026-11-27 Black Friday close",
+    "nvda_pct": 19.88,
+    "qqq_pct": 6.99,
+    "intc_pct": 11.93,
+    "soxx_pct": 8.65,
+    "aapl_pct": 4.04,
+    "notes": "周初自超卖反抽，黑五半日市收涨；11/26 无现货收盘"
+  },
+  "last_week_recommendations_review": [
+    {
+      "period": "2026-11-23 至 2026-11-27（含短周休市档）",
+      "slots_count": 10,
+      "all_recommendations": "观望或休市空仓",
+      "trades_executed": 0,
+      "hypothetical_pnl_usd": 0,
+      "cash_usd": 1000,
+      "pdt_day_trades_5d": 0,
+      "notes": "全程未挂单；若强行按盘前高点追单，黑五低流动性下盈亏比与滑点均不符合风控，不计入假设盈利"
+    }
+  ],
+  "technique_research": [
+    {
+      "name": "假期后首日常规时段流动性回归",
+      "source": "MarketCFD, 2026-11-10",
+      "principle": "半日市与休市造成价格发现缺口，周一全天成交量回归后再用限价单，避免把周五稀薄盘口的大阳线当真突破",
+      "applicable": "yes",
+      "match_tickers": ["QQQ", "NVDA", "SOXX"],
+      "notes": "适用于 2026-11-30 开盘前后，不预挂黑五收盘价买单"
+    },
+    {
+      "name": "感恩节后短周量价规律",
+      "source": "8813.cn 双栖财经, 2026-11-23",
+      "principle": "短交易周成交量天然偏低，同样订单对价格的推动更大，涨跌幅易失真",
+      "applicable": "yes",
+      "match_tickers": ["QQQ", "NQ"],
+      "notes": "与本周实际走势一致；下周初需看放量确认"
+    },
+    {
+      "name": "开盘区间突破（ORB）四过滤",
+      "source": "Chart Guys ORB 框架 + 自动化记忆 2026-11-20",
+      "principle": "09:45 美东后有量区间突破才顺势，半日市不强行套用",
+      "applicable": "partial",
+      "match_tickers": ["NVDA", "QQQ"],
+      "notes": "仅适用于 11/30 起常规全日市；黑五已结束，不在周末生成入场价"
+    },
+    {
+      "name": "财报隐含波动 / IV crush",
+      "source": "ApexVol 2026-11-27; TiltRadar 2026-11-27",
+      "principle": "MRVL ±8.4%、CRM ±7.2%、SNOW ±10.2% 事件波动已计价；公告后 IV 快速塌陷",
+      "applicable": "yes",
+      "match_tickers": ["MRVL", "CRM", "SNOW"],
+      "notes": "账户仅允许买入期权且权利金≤$20；财报前不买期权，本条只作排除滤镜"
+    },
+    {
+      "name": "纳指短线枢轴",
+      "source": "Borearis, 2026-11-28",
+      "principle": "30 分钟图守住 26393.7 可看 27241.2，跌破则 26019.2",
+      "applicable": "partial",
+      "match_tickers": ["QQQ", "NQ"],
+      "notes": "第三方点位与 Yahoo 期货收盘 26765 不完全一致，仅作观察，不写成限价单"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "下周 MRVL/CRM/SNOW 密集财报，IV 偏高且存在 IV crush；小账户禁止卖期权、财报前不买 Call/Put。本周期权建议 0 笔。"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": 57.4,
+      "support": [54.55, 49.16],
+      "resistance": [58.37, 63.0],
+      "technique_basis": "黑五反弹 +5.38%（来源：Yahoo 2026-11-27），但仍低于 EMA20≈63.01；半日市量能不宜追多。适用：8813.cn 短周低量过滤（2026-11-23）",
+      "notes": "无 11/28 公司新稿；四季指引仍为 10/29 公布口径。关键位：周五低 54.55、高 58.37。"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.1,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "黑五收 150.49（+0.80%）；1×ATR 止损下 2 股至当日高盈亏比≈0.10，风险>20。跌破 145.39/141.17 不把买单下移。",
+      "technique_basis": "MarketCFD 周一流动性回归（2026-11-10）；不采用 Gap-and-Go（无量确认）"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.02,
+      "confidence": "中",
+      "recommendation": "watch",
+      "notes": "收 650.99（+2.69%），仍低于 EMA20≈667；1 股 ATR 风险约 22>20。"
+    },
+    {
+      "ticker": "MRVL",
+      "direction": "观望（财报催化剂）",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "12/1 盘后财报 + 电话会 16:30 ET；预期波动±8.4%（ApexVol 2026-11-27）。小账户财报日不盲追。"
+    },
+    {
+      "ticker": "CRM",
+      "direction": "观望（财报催化剂）",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "12/2 盘后；事件波动约±7.2%。不买期权。"
+    }
+  ],
+  "final_recommendation": "观望",
+  "final_recommendation_detail": "周末休市，不预挂周一委托。黑五反弹后任何标的在 1×ATR 止损框架下均未同时满足风险≤$20 且盈亏比≥1.5。周一 09:00 再用有量盘前重估。",
+  "next_week_calendar": [
+    "2026-11-30（一）美东 09:45 起关注 ISM 制造业指数（共识约 55，前值 55.5）",
+    "2026-12-01（二）08:30 ET：无大型科技宏观；盘后 MRVL、OKTA、NTAP、MDB 等（Marvell 电话 16:30 ET）",
+    "2026-12-02（三）08:15–08:30 ET：海外大行财报盘前；盘后 CRM、SNOW（电话 17:00 ET）",
+    "2026-12-03（四）08:30 ET 初请失业金；科技线关注数据波动",
+    "2026-12-04（五）常规全日市；美东 08:30 若有就业相关数据以 BLS 日程为准",
+    "NYSE：12/24 提前收盘 13:00 ET；12/25 圣诞节休市"
+  ],
+  "next_week_focus_tickers": ["NVDA", "INTC", "QQQ", "SOXX", "MRVL", "CRM", "SNOW", "AMD", "AAPL"],
+  "follow_up": [
+    "周一开盘首小时成交量是否明显高于黑五半日市",
+    "NVDA 能否守住黑五低 145.39 与 11/25 低 141.17",
+    "QQQ 能否放量站回 EMA20 一带（约 667）",
+    "INTC 能否守住 54.55 并尝试突破 58.37",
+    "MRVL 财报后 SOXX 联动，但仍遵守不卖期权、不买高 IV 期权"
+  ],
+  "pdt_reminder": "账户<$25,000 时 5 个交易日内最多 3 次日内交易；近 5 日成交型日内交易 0 次。",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-28T01:08:00+00:00",
+  "status": "weekend_review",
+  "predicted_profit": 0,
+  "actual_profit": 0,
+  "risk_disclaimer": "仅供研究参考，不构成投资建议，不承诺收益，可能产生亏损。"
+}
