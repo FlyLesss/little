@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-28",
+  "slot": "2100",
+  "generated_at_utc": "2026-11-28T13:08:00Z",
+  "generated_at_beijing": "2026-11-28T21:08:00+08:00",
+  "report_type": "weekend_closed_final",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "final_recommendation": "closed_flat",
+  "predicted_profit_baseline_usd": 0,
+  "actual_profit_usd": 0,
+  "pdt_day_trades_last_5_days": 0,
+  "market_closed_reason": "Saturday — NYSE/Nasdaq cash closed",
+  "market_overview": {
+    "nasdaq_prior_close": 24129.5,
+    "nasdaq_change_pct": 2.31,
+    "sp500_prior_close": 7297.49,
+    "sp500_change_pct": 1.6,
+    "nq_futures_close": 26765.0,
+    "nq_futures_change_pct": 2.55,
+    "es_futures_close": 7308.25,
+    "es_futures_change_pct": 1.56,
+    "ym_futures_close": 50821.0,
+    "qqq_reference": 650.99,
+    "soxx_reference": 134.07,
+    "vix": 23.81,
+    "vix_change_pct": -11.16,
+    "us10y_pct": 4.936,
+    "dxy": 104.01,
+    "wti_usd": 83.08,
+    "tech_sentiment": "half_day_rebound_still_below_key_moving_averages"
+  },
+  "events_today": [
+    "周六现货休市，无财报与宏观公布",
+    "上一现货日 2026-11-27 为黑五半日市（13:00 ET 收市）",
+    "下一现货交易日 2026-11-30 周一，北京 22:30 开盘（冬令时）"
+  ],
+  "technique_research": [
+    {
+      "name": "Below SMA20 do not chase bounce",
+      "source": "Quant Brief, 2026-11-28",
+      "principle": "NVDA 低于20日线约11%，半日量能0.40x",
+      "applicable": "yes",
+      "match_tickers": ["NVDA"],
+      "notes": "休市不挂单"
+    },
+    {
+      "name": "Bear flag / weak bounce",
+      "source": "StockDips.AI, 2026-11-27",
+      "principle": "跌破50/200日均线后反弹缺确认",
+      "applicable": "watch_only",
+      "match_tickers": ["NVDA"],
+      "notes": "阻力169-170仅观察"
+    },
+    {
+      "name": "MU rebound needs 720 reclaim",
+      "source": "TradingView khsifat36, 2026-11-28",
+      "principle": "单日阳线非趋势反转",
+      "applicable": "no",
+      "match_tickers": ["MU"],
+      "notes": "MU ATR 69.9，1股风险超限"
+    },
+    {
+      "name": "MSFT low-volume pullback",
+      "source": "Blockchain.News, 2026-11-28",
+      "principle": "需收复502.64-509.28",
+      "applicable": "no",
+      "match_tickers": ["MSFT"],
+      "notes": "周末无盘前确认"
+    }
+  ],
+  "options_recommendation": {
+    "recommendation": "none",
+    "reason": "休市；不买期权；下周事件前IV管理延续过滤"
+  },
+  "candidates": [
+    {
+      "ticker": "INTC",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": null,
+      "confidence": "中",
+      "recommendation": "watch",
+      "premarket_price_approx": null,
+      "support": [54.55, 52.42],
+      "resistance": [58.38, 62.23, 90.75],
+      "notes": "强制分析：周五收57.40（高58.38，低54.55）；EMA20 62.23，EMA50 77.13，RSI 51.45，ATR 4.75；黑五半日反弹但仍低于均线簇；无11/28公司新稿；不买Call",
+      "technique_basis": "休市日仅维护技术位；8813.cn 2026-11-23 低量假突破过滤"
+    },
+    {
+      "ticker": "NVDA",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.1,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "测算（非委托）：收150.49，1股1×ATR止损风险15.35，至半日高151.98 RR≈0.10；2股风险30.70>20",
+      "technique_basis": "Quant Brief 2026-11-28  sidelines below SMA20"
+    },
+    {
+      "ticker": "QQQ",
+      "direction": "观望",
+      "entry_price": null,
+      "exit_price": null,
+      "stop_loss": null,
+      "take_profit": null,
+      "shares": 0,
+      "position_size": 0,
+      "predicted_profit": 0,
+      "risk_usd": 0,
+      "risk_reward": 0.02,
+      "confidence": "低",
+      "recommendation": "watch",
+      "notes": "1股ATR风险23.32>20；至半日高651.34 RR≈0.02"
+    }
+  ],
+  "follow_up": [
+    "周一 09:00 出早报，用有量盘前重估",
+    "NVDA：145.39 / 141.17 / 169 EMA20",
+    "QQQ：636.72 / 707.23",
+    "INTC：54.55 / 58.38 / 90.75",
+    "11/30 ISM；12/2 CRM/SNOW 盘后",
+    "今日未找到可变成买卖价的高置信度技巧"
+  ],
+  "status": "closed_no_orders",
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-28T21:10:00+08:00",
+  "email_status": "accepted_http_202"
+}

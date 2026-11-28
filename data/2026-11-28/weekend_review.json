@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-28",
+  "slot": "0900",
+  "generated_at_utc": "2026-11-28T01:08:00Z",
+  "generated_at_beijing": "2026-11-28T09:08:00+08:00",
+  "report_type": "weekend_review",
+  "account_principal_usd": 1000,
+  "daily_target_profit_usd": 30,
+  "max_daily_loss_usd": 30,
+  "final_recommendation": "watch_flat",
+  "predicted_profit_baseline_usd": 0,
+  "actual_profit_usd": 0,
+  "pdt_day_trades_last_5_days": 0,
+  "last_week_slots_reviewed": 10,
+  "last_week_hypothetical_pnl_usd": 0,
+  "market_closed_reason": "Saturday — NYSE/Nasdaq cash closed",
+  "last_cash_session_date": "2026-11-27",
+  "last_cash_session_note": "Black Friday early close 13:00 ET",
+  "market_overview": {
+    "nasdaq_close": 24129.5,
+    "nasdaq_change_pct": 2.31,
+    "sp500_close": 7297.49,
+    "sp500_change_pct": 1.6,
+    "nq_futures_close": 26765.0,
+    "nq_futures_change_pct": 2.55,
+    "es_futures_close": 7308.25,
+    "vix": 23.81,
+    "us10y_pct": 4.936,
+    "dxy": 104.01,
+    "wti_usd": 83.08,
+    "tech_sentiment": "thanksgiving_week_rebound_offering_vix_compression"
+  },
+  "week_performance": {
+    "from_date": "2026-11-20",
+    "nvda_pct": 19.88,
+    "qqq_pct": 6.99,
+    "intc_pct": 11.93,
+    "soxx_pct": 8.65,
+    "aapl_pct": 4.04
+  },
+  "friday_closes": {
+    "NVDA": { "close": 150.49, "high": 151.98, "low": 145.39 },
+    "QQQ": { "close": 650.99, "high": 651.34, "low": 636.72 },
+    "INTC": { "close": 57.4, "high": 58.38, "low": 54.55 },
+    "SOXX": { "close": 134.07, "high": 134.86, "low": 128.01 }
+  },
+  "technicals_post_friday": {
+    "NVDA": { "ema20": 167.82, "ema50": 189.83, "rsi14": 35.8, "atr14": 15.35 },
+    "INTC": { "ema20": 62.23, "ema50": 77.13, "rsi14": 51.45, "atr14": 4.75 },
+    "QQQ": { "ema20": 664.09, "ema50": 689.14, "rsi14": 48.77, "atr14": 23.32 }
+  },
+  "technique_research": [
+    {
+      "name": "Monday liquidity return after holiday week",
+      "source": "MarketCFD, 2026-11-10",
+      "applicable": "framework_only",
+      "notes": "短周后周一量能回升前不追半日反弹"
+    },
+    {
+      "name": "Thanksgiving low-volume trap filter",
+      "source": "8813.cn, 2026-11-23",
+      "applicable": "yes",
+      "notes": "黑五半日市量能偏低，间隙突破易假"
+    },
+    {
+      "name": "IV crush filter",
+      "source": "ApexVol/TiltRadar, 2026-11-27",
+      "applicable": "options_ban_only",
+      "notes": "仅排除买期权"
+    }
+  ],
+  "next_week_calendar": [
+    "2026-11-30 Mon: ISM Manufacturing",
+    "2026-12-01 Tue after-hours: MRVL and peers",
+    "2026-12-02 Wed after-hours: CRM, SNOW",
+    "2026-12-03 Thu: weekly jobless claims"
+  ],
+  "next_cash_session": {
+    "date": "2026-11-30",
+    "beijing_open": "22:30",
+    "timezone": "US_EST_winter"
+  },
+  "options_recommendation": { "recommendation": "none", "reason": "休市；下周财报前不买期权" },
+  "candidates": [],
+  "follow_up": [
+    "NVDA watch 145.39 / 141.17 / EMA20 ~168",
+    "QQQ watch 636.72 / 707.23",
+    "INTC watch 54.55 / 58.38 / 90.75",
+    "Saturday 21:00 remains closed — no orders"
+  ],
+  "email_sent_to": "leehotpot@outlook.com",
+  "email_sent_at": "2026-11-28T09:10:00+08:00",
+  "email_status": "accepted_http_202"
+}
